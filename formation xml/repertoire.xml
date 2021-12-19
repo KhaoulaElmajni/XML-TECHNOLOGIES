@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="repertoire.xsd" maj="2021-11-03">
+    <contact type="ami">
+        <nom>elmajni</nom>
+        <prenom>khaoula</prenom>
+        <email>elmajnikhaoula99@gmail.com</email>
+        <téléphone type="mobile">(+212) 639 127 097</téléphone>
+    </contact>
+    <contact type="prof">
+        <nom>elmajni</nom>
+        <prenom>khaoula</prenom>
+        <email>elmajnikhaoula99@gmail.com</email>
+        <téléphone type="bureau">(+212) 639 127 097</téléphone>
+    </contact>
+    <contact type="ami">
+        <nom>elmajni</nom>
+        <prenom>khaoula</prenom>
+        <email>elmajnikhaoula99@gmail.com</email>
+        <téléphone type="domestique">(+212) 639 127 097</téléphone>
+    </contact>
+    <contact type="prof">
+        <nom>elmajni</nom>
+        <prenom>khaoula</prenom>
+        <email>elmajnikhaoula99@gmail.com</email>
+        <téléphone type="domestique">(+212) 639 127 097</téléphone>
+    </contact>
+</repertoire>

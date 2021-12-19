@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<meteo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="meteo.xsd">
+    <mesure date="2021-11-03">
+        <ville nom="Casa" temperature="22"/>
+        <ville nom="Casa" temperature="32"/>
+        <ville nom="Casa" temperature="12"/>
+        <ville nom="Casa" temperature="17"/>
+    </mesure>
+    <mesure date="2021-11-02">
+        <ville nom="Casa" temperature="18"/>
+        <ville nom="Casa" temperature="30"/>
+        <ville nom="Casa" temperature="12"/>
+        <ville nom="Casa" temperature="09"/>
+    </mesure>
+    <mesure date="2021-11-01">
+        <ville nom="Casa" temperature="00"/>
+        <ville nom="Casa" temperature="34"/>
+        <ville nom="Casa" temperature="17"/>
+        <ville nom="Casa" temperature="15"/>
+    </mesure>
+</meteo>

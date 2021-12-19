@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="repertoire">
+    <xsd:complexType>
+        <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+            <xsd:element name="contact">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="nom" type="type_token"></xsd:element>
+                        <xsd:element name="prenom" type="type_token" minOccurs="0"/>
+                        <xsd:element name="email" type="xsd:string"/>
+                        <xsd:element name="téléphone" type="type_telephone" maxOccurs="10">
+                            
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute name="type" use="required">
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:enumeration value="ami"/>
+                                <xsd:enumeration value="prof"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:attribute>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="maj" type="xsd:date" use="optional" default="2021-01-01"/>
+    </xsd:complexType>
+</xsd:element>
+<!-- declaration globale-->
+<xsd:simpleType name="type_token">
+    <xsd:restriction base="xsd:string">
+        <xsd:minLength value="2"></xsd:minLength>
+    </xsd:restriction>
+</xsd:simpleType>
+<xsd:complexType name="type_telephone">
+    <xsd:simpleContent>
+        <xsd:extension base="tel_format">
+            <xsd:attribute name="type" >
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="mobile"></xsd:enumeration>
+                        <xsd:enumeration value="bureau"></xsd:enumeration>
+                        <xsd:enumeration value="domestique"></xsd:enumeration>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:extension>
+    </xsd:simpleContent>
+</xsd:complexType>
+<xsd:simpleType name="tel_format">
+    <xsd:restriction base="xsd:string">
+        <!--en  utilisant les expressions réguliéres -->
+        <xsd:pattern value="\(\+212\) *[1-9][0-9]{2}( *\d{3}){2}"></xsd:pattern>
+    </xsd:restriction>
+</xsd:simpleType>
+</xsd:schema>

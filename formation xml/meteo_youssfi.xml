@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<meteo >
+    <mesure date="2006-1-1">
+        <ville nom="Casa" temperature="22"/>
+        <ville nom="sB" temperature="32"/>
+        <ville nom="tanger" temperature="12"/>
+        <ville nom="media" temperature="17"/>
+        <ville nom="settat" temperature="32"/>
+        <ville nom="nadour" temperature="12"/>
+        <ville nom="tetouane" temperature="17"/>
+    </mesure>
+    <mesure date="2021-11-02">
+        <ville nom="Casa" temperature="18"/>
+        <ville nom="Casa" temperature="30"/>
+        <ville nom="Casa" temperature="12"/>
+        <ville nom="Casa" temperature="09"/>
+    </mesure>
+    <mesure date="2021-11-01">
+        <ville nom="Casa" temperature="00"/>
+        <ville nom="Casa" temperature="34"/>
+        <ville nom="Casa" temperature="17"/>
+        <ville nom="Casa" temperature="15"/>
+    </mesure>
+</meteo>

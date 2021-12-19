@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000">
+    <desc></desc>
+    <g alignment-baseline="baseline"></g>
+   <g id="logo">
+       <rect x="100" y="100" width="200" height="150" fill="pink" stroke="blue" 
+           stroke-dasharray="12" rx="20" ry="20"></rect>
+       <circle r="50" cx="100" cy="100" stroke="blue" stroke-dasharray="20" 
+           fill="red" fill-opacity="0.5"></circle>
+   </g>
+    <symbol id="logo1">
+        <rect x="200" y="200" width="200" height="150" fill="pink" stroke="blue" 
+            stroke-dasharray="12" rx="20" ry="20"></rect>
+        <circle r="50" cx="200" cy="200" stroke="blue" stroke-dasharray="20" 
+            fill="red" fill-opacity="0.5"></circle>
+    </symbol>
+    
+    <g id="logo2">
+        <use xlink:href="#logo" x="300" y="250"></use>
+        <use xlink:href="#logo" x="400" y="400"></use>
+    </g>
+    <use xlink:href="#logo2"> 
+        <animateTransform attributeName="transform" type="rotate" dur="3s" from="0,100,100" 
+            to="360,500,500" repeatCount="indefinite"></animateTransform>
+        <animateTransform attributeName="transform" from="1" type="scale" to="0" dur="3s" 
+            repeatCount="indefinite" additive="sum"></animateTransform>
+    </use>
+    
+    <use xlink:href="#logo2"> 
+        <animateTransform attributeName="transform" type="rotate" dur="3s" from="0,100,100" 
+            to="360,100,100" repeatCount="indefinite"></animateTransform>
+        <animateTransform attributeName="transform" values="1;2;0;1" type="scale"  dur="3s" 
+            repeatCount="indefinite" additive="sum"></animateTransform>
+    </use>
+</svg>
+
+

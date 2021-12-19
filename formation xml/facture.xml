@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<facture>
+    <produit id="p1">
+        <designation>produit 1</designation>
+        <prix>23.5</prix>
+        <quantite>63</quantite>
+    </produit>
+    <produit id="p2">
+        <designation>produit 2</designation>
+        <prix>203.5</prix>
+        <quantite>32</quantite>
+    </produit>
+    <produit id="p3">
+        <designation>produit 3</designation>
+        <prix>35.5</prix>
+        <quantite>100</quantite>
+    </produit>
+    <produit id="p4">
+        <designation>produit 4</designation>
+        <prix>42.5</prix>
+        <quantite>70</quantite>
+    </produit>
+    <produit id="p5">
+        <designation>produit 5</designation>
+        <prix>425</prix>
+        <quantite>800</quantite>
+    </produit>
+    <produit id="p6">
+        <designation>produit 6</designation>
+        <prix>80.5</prix>
+        <quantite>450</quantite>
+    </produit>
+    <produit id="p7">
+        <designation>produit 7</designation>
+        <prix>4.25</prix>
+        <quantite>690</quantite>
+    </produit>
+</facture>
