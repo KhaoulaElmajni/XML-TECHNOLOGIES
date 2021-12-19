@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT monde (pays)*>
+
+<!ELEMENT pays (nomP,capitale,population,religions,ville*,frontiere*)>
+<!ELEMENT nomP (#PCDATA)>
+<!ELEMENT capitale (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+
+<!ELEMENT religion (musulman,cretien,juif,autre)>
+<!ELEMENT musulmans (#PCDATA)>
+<!ELEMENT cretien (#PCDATA)>
+<!ELEMENT juif (#PCDATA)>
+<!ELEMENT autre (#PCDATA)>
+
+<!ELEMENT ville (nom,longitude,latitude)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT frontiere EMPTY>
+
+<!ATTLIST pays continent (Afrique | Asie | Europe  | Amérique | Australie) #REQUIRED>
+
+<!ATTLIST pays code ID #REQUIRED>
+
+<!ATTLIST population annee CDATA #REQUIRED>
+
+<!ATTLIST frontiere pays IDREF #REQUIRED>
+
+<!ATTLIST frontiere longueur CDATA #REQUIRED>

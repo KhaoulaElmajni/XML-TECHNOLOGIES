@@ -1,0 +1,5413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monde>
+   <pays continent="europe" code="AL">
+      <nom>Albania</nom>
+      <capitale>Tirana Tirane</capitale>
+      <population annnee="2011">2821977</population>
+      <religions>
+         <musulmans pourcentage="58.8">1 659 322</musulmans>
+         <cretien pourcentage="16.900000000000002">476 914</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Tirana</nom>
+         <logitude>19.82</logitude>
+         <latitude>41.33</latitude>
+      </ville>
+      <ville>
+         <nom>Shkodër</nom>
+         <logitude>19.5</logitude>
+         <latitude>42.07</latitude>
+      </ville>
+      <ville>
+         <nom>Durrës</nom>
+         <logitude>19.45</logitude>
+         <latitude>41.32</latitude>
+      </ville>
+      <ville>
+         <nom>Vlorë</nom>
+         <logitude>19.49</logitude>
+         <latitude>40.47</latitude>
+      </ville>
+      <ville>
+         <nom>Elbasan</nom>
+         <logitude>20.07</logitude>
+         <latitude>41.1</latitude>
+      </ville>
+      <ville>
+         <nom>Korçë</nom>
+         <logitude>20.77</logitude>
+         <latitude>40.62</latitude>
+      </ville>
+      <frontiere pays="GR" longueur="282"/>
+      <frontiere pays="MK" longueur="151"/>
+      <frontiere pays="MNE" longueur="172"/>
+      <frontiere pays="KOS" longueur="112"/>
+   </pays>
+   <pays continent="europe" code="GR">
+      <nom>Greece</nom>
+      <capitale>Athina Athens</capitale>
+      <population annnee="2011">10816286</population>
+      <religions>
+         <musulmans pourcentage="2">216 326</musulmans>
+         <cretien pourcentage="93.3">10 091 595</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="AL" longueur="282"/>
+      <frontiere pays="MK" longueur="228"/>
+      <frontiere pays="BG" longueur="494"/>
+      <frontiere pays="TR" longueur="206"/>
+   </pays>
+   <pays continent="europe" code="CY">
+      <nom>Cyprus</nom>
+      <capitale>Lefkosia Nicosia</capitale>
+      <population annnee="2011">1133803</population>
+      <religions>
+         <musulmans pourcentage="25.3">286 852</musulmans>
+         <cretien pourcentage="74.6">845 817</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Lefkosia</nom>
+         <logitude>33.37</logitude>
+         <latitude>35.17</latitude>
+      </ville>
+      <ville>
+         <nom>Larnaka</nom>
+         <logitude>33.63</logitude>
+         <latitude>34.92</latitude>
+      </ville>
+      <ville>
+         <nom>Lemesos</nom>
+         <logitude>33.03</logitude>
+         <latitude>34.67</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="MK">
+      <nom>North Macedonia</nom>
+      <capitale>Skopje</capitale>
+      <population annnee="2011">2059794</population>
+      <religions>
+         <musulmans pourcentage="33.3">685 911</musulmans>
+         <cretien pourcentage="65">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Skopje</nom>
+         <logitude>21.43</logitude>
+         <latitude>42</latitude>
+      </ville>
+      <ville>
+         <nom>Kumanovo</nom>
+         <logitude>21.72</logitude>
+         <latitude>42.14</latitude>
+      </ville>
+      <frontiere pays="AL" longueur="151"/>
+      <frontiere pays="GR" longueur="228"/>
+      <frontiere pays="SRB" longueur="62"/>
+      <frontiere pays="KOS" longueur="159"/>
+      <frontiere pays="BG" longueur="148"/>
+   </pays>
+   <pays continent="europe" code="SRB">
+      <nom>Serbia</nom>
+      <capitale>Beograd Belgrade</capitale>
+      <population annnee="2011">7120666</population>
+      <religions>
+         <musulmans pourcentage="3">213 620</musulmans>
+         <cretien pourcentage="90.9">6 472 686</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Beograd</nom>
+         <logitude>20.47</logitude>
+         <latitude>44.82</latitude>
+      </ville>
+      <ville>
+         <nom>Novi Sad</nom>
+         <logitude>19.85</logitude>
+         <latitude>45.25</latitude>
+      </ville>
+      <ville>
+         <nom>Niš</nom>
+         <logitude>21.9</logitude>
+         <latitude>43.32</latitude>
+      </ville>
+      <frontiere pays="H" longueur="151"/>
+      <frontiere pays="RO" longueur="476"/>
+      <frontiere pays="BG" longueur="318"/>
+      <frontiere pays="MK" longueur="62"/>
+      <frontiere pays="HR" longueur="241"/>
+      <frontiere pays="BIH" longueur="357"/>
+      <frontiere pays="MNE" longueur="124"/>
+      <frontiere pays="KOS" longueur="352"/>
+   </pays>
+   <pays continent="europe" code="MNE">
+      <nom>Montenegro</nom>
+      <capitale>Podgorica</capitale>
+      <population annnee="2011">620029</population>
+      <religions>
+         <musulmans pourcentage="19.1">118 426</musulmans>
+         <cretien pourcentage="75.6">468 742</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Podgorica</nom>
+         <logitude>19.26</logitude>
+         <latitude>42.44</latitude>
+      </ville>
+      <frontiere pays="HR" longueur="25"/>
+      <frontiere pays="SRB" longueur="124"/>
+      <frontiere pays="BIH" longueur="249"/>
+      <frontiere pays="AL" longueur="172"/>
+      <frontiere pays="KOS" longueur="79"/>
+   </pays>
+   <pays continent="europe" code="KOS">
+      <nom>Kosovo</nom>
+      <capitale>Prishtine Pristina</capitale>
+      <population annnee="2011">1733872</population>
+      <religions>
+         <musulmans pourcentage="95.6">1 657 582</musulmans>
+         <cretien pourcentage="3.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Prishtine</nom>
+         <logitude>21.17</logitude>
+         <latitude>42.67</latitude>
+      </ville>
+      <frontiere pays="MNE" longueur="79"/>
+      <frontiere pays="SRB" longueur="352"/>
+      <frontiere pays="MK" longueur="159"/>
+      <frontiere pays="AL" longueur="112"/>
+   </pays>
+   <pays continent="europe" code="AND">
+      <nom>Andorra</nom>
+      <capitale>Andorra la Vella</capitale>
+      <population annnee="2011">78115</population>
+      <religions>
+         <musulmans pourcentage="3">2 343</musulmans>
+         <cretien pourcentage="92.19999999999999">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Andorra la Vella</nom>
+         <logitude>1.5</logitude>
+         <latitude>42.5</latitude>
+      </ville>
+      <frontiere pays="F" longueur="60"/>
+      <frontiere pays="E" longueur="65"/>
+   </pays>
+   <pays continent="europe" code="F">
+      <nom>France</nom>
+      <capitale>Paris</capitale>
+      <population annnee="2015">64300821</population>
+      <religions>
+         <musulmans pourcentage="9">5 787 074</musulmans>
+         <cretien pourcentage="60.9">39 159 200</cretien>
+         <juif pourcentage="0.8">514 407</juif>
+         <autre pourcentage="0.8999999999999999">578 707</autre>
+      </religions>
+      <frontiere pays="AND" longueur="60"/>
+      <frontiere pays="E" longueur="623"/>
+      <frontiere pays="D" longueur="451"/>
+      <frontiere pays="I" longueur="488"/>
+      <frontiere pays="CH" longueur="573"/>
+      <frontiere pays="B" longueur="620"/>
+      <frontiere pays="L" longueur="73"/>
+      <frontiere pays="MC" longueur="4.4"/>
+   </pays>
+   <pays continent="europe" code="E">
+      <nom>Spain</nom>
+      <capitale>Madrid</capitale>
+      <population annnee="2011">46815916</population>
+      <religions>
+         <musulmans pourcentage="4.1">1 919 453</musulmans>
+         <cretien pourcentage="73.5">34 409 698</cretien>
+         <juif pourcentage="0.14">65 542</juif>
+         <autre pourcentage="0.35">163 856</autre>
+      </religions>
+      <frontiere pays="AND" longueur="65"/>
+      <frontiere pays="F" longueur="623"/>
+      <frontiere pays="GBZ" longueur="1.2"/>
+      <frontiere pays="P" longueur="1214"/>
+   </pays>
+   <pays continent="europe" code="CZ">
+      <nom>Czech Republic Czechia</nom>
+      <capitale>Praha Prague</capitale>
+      <population annnee="2011">10562214</population>
+      <religions>
+         <musulmans pourcentage="0.2">21 124</musulmans>
+         <cretien pourcentage="11.100000000000001">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="A" longueur="362"/>
+      <frontiere pays="D" longueur="646"/>
+      <frontiere pays="SK" longueur="215"/>
+      <frontiere pays="PL" longueur="658"/>
+   </pays>
+   <pays continent="europe" code="SK">
+      <nom>Slovakia</nom>
+      <capitale>Bratislava</capitale>
+      <population annnee="2011">5397036</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="75.60000000000001">4 080 159</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="A" longueur="91"/>
+      <frontiere pays="CZ" longueur="215"/>
+      <frontiere pays="H" longueur="515"/>
+      <frontiere pays="PL" longueur="444"/>
+      <frontiere pays="UA" longueur="90"/>
+   </pays>
+   <pays continent="europe" code="D">
+      <nom>Germany</nom>
+      <capitale>Berlin</capitale>
+      <population annnee="2016">82521653</population>
+      <religions>
+         <musulmans pourcentage="6.5">5 363 907</musulmans>
+         <cretien pourcentage="58">47 862 559</cretien>
+         <juif pourcentage="0.25">206 304</juif>
+         <autre pourcentage="0.6">495 130</autre>
+      </religions>
+      <frontiere pays="F" longueur="451"/>
+      <frontiere pays="A" longueur="784"/>
+      <frontiere pays="CZ" longueur="646"/>
+      <frontiere pays="CH" longueur="334"/>
+      <frontiere pays="PL" longueur="456"/>
+      <frontiere pays="B" longueur="167"/>
+      <frontiere pays="L" longueur="138"/>
+      <frontiere pays="NL" longueur="577"/>
+      <frontiere pays="DK" longueur="68"/>
+   </pays>
+   <pays continent="europe" code="H">
+      <nom>Hungary</nom>
+      <capitale>Budapest</capitale>
+      <population annnee="2011">9937628</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="52.9">5 257 006</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="SRB" longueur="151"/>
+      <frontiere pays="A" longueur="366"/>
+      <frontiere pays="SK" longueur="515"/>
+      <frontiere pays="SLO" longueur="102"/>
+      <frontiere pays="UA" longueur="103"/>
+      <frontiere pays="HR" longueur="329"/>
+      <frontiere pays="RO" longueur="443"/>
+   </pays>
+   <pays continent="europe" code="I">
+      <nom>Italy</nom>
+      <capitale>Roma Rome</capitale>
+      <population annnee="2011">59433744</population>
+      <religions>
+         <musulmans pourcentage="3.7">2 199 049</musulmans>
+         <cretien pourcentage="76.5">45 466 815</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.9">534 904</autre>
+      </religions>
+      <frontiere pays="F" longueur="488"/>
+      <frontiere pays="A" longueur="430"/>
+      <frontiere pays="SLO" longueur="235"/>
+      <frontiere pays="CH" longueur="740"/>
+      <frontiere pays="V" longueur="3.2"/>
+      <frontiere pays="RSM" longueur="39"/>
+   </pays>
+   <pays continent="europe" code="CH">
+      <nom>Switzerland</nom>
+      <capitale>Bern</capitale>
+      <population annnee="2013">8139631</population>
+      <religions>
+         <musulmans pourcentage="5.1">415 121</musulmans>
+         <cretien pourcentage="66.7">5 429 135</cretien>
+         <juif pourcentage="0.2">16 279</juif>
+         <autre pourcentage="1.1">89 536</autre>
+      </religions>
+      <frontiere pays="F" longueur="573"/>
+      <frontiere pays="A" longueur="164"/>
+      <frontiere pays="D" longueur="334"/>
+      <frontiere pays="I" longueur="740"/>
+      <frontiere pays="FL" longueur="41"/>
+   </pays>
+   <pays continent="europe" code="FL">
+      <nom>Liechtenstein</nom>
+      <capitale>Vaduz</capitale>
+      <population annnee="2010">36149</population>
+      <religions>
+         <musulmans pourcentage="5.4">1 952</musulmans>
+         <cretien pourcentage="85.5">30 908</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Vaduz</nom>
+         <logitude>9.52</logitude>
+         <latitude>47.14</latitude>
+      </ville>
+      <frontiere pays="A" longueur="37"/>
+      <frontiere pays="CH" longueur="41"/>
+   </pays>
+   <pays continent="europe" code="A">
+      <nom>Austria</nom>
+      <capitale>Wien Vienna</capitale>
+      <population annnee="2013">8499759</population>
+      <religions>
+         <musulmans pourcentage="8.0">679 981</musulmans>
+         <cretien pourcentage="64.6">5 490 844</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.3">25 499</autre>
+      </religions>
+      <frontiere pays="CZ" longueur="362"/>
+      <frontiere pays="D" longueur="784"/>
+      <frontiere pays="H" longueur="366"/>
+      <frontiere pays="I" longueur="430"/>
+      <frontiere pays="FL" longueur="37"/>
+      <frontiere pays="SK" longueur="91"/>
+      <frontiere pays="SLO" longueur="324"/>
+      <frontiere pays="CH" longueur="164"/>
+   </pays>
+   <pays continent="europe" code="EST">
+      <nom>Estonia</nom>
+      <capitale>Tallinn</capitale>
+      <population annnee="2011">1294455</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="27.5">355 976</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.4">5 178</autre>
+      </religions>
+      <ville>
+         <nom>Tallinn</nom>
+         <logitude>24.75</logitude>
+         <latitude>59.44</latitude>
+      </ville>
+      <ville>
+         <nom>Tartu</nom>
+         <logitude>26.72</logitude>
+         <latitude>58.38</latitude>
+      </ville>
+      <frontiere pays="LV" longueur="267"/>
+      <frontiere pays="R" longueur="290"/>
+   </pays>
+   <pays continent="europe" code="LV">
+      <nom>Latvia</nom>
+      <capitale>Rīga</capitale>
+      <population annnee="2013">2201196</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="74.80000000000001">1 646 494</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Rīga</nom>
+         <logitude>24.11</logitude>
+         <latitude>56.95</latitude>
+      </ville>
+      <frontiere pays="BY" longueur="141"/>
+      <frontiere pays="LT" longueur="453"/>
+      <frontiere pays="R" longueur="217"/>
+      <frontiere pays="EST" longueur="267"/>
+   </pays>
+   <pays continent="europe" code="LT">
+      <nom>Lithuania</nom>
+      <capitale>Vilnius</capitale>
+      <population annnee="2013">2979310</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="82.9">2 469 847</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Vilnius</nom>
+         <logitude>25.28</logitude>
+         <latitude>54.68</latitude>
+      </ville>
+      <ville>
+         <nom>Kaunas</nom>
+         <logitude>23.89</logitude>
+         <latitude>54.9</latitude>
+      </ville>
+      <ville>
+         <nom>Klaipeda</nom>
+         <logitude>21.13</logitude>
+         <latitude>55.71</latitude>
+      </ville>
+      <frontiere pays="BY" longueur="502"/>
+      <frontiere pays="LV" longueur="453"/>
+      <frontiere pays="PL" longueur="91"/>
+      <frontiere pays="R" longueur="227"/>
+   </pays>
+   <pays continent="europe" code="BY">
+      <nom>Belarus</nom>
+      <capitale>Minsk</capitale>
+      <population annnee="2013">9460692</population>
+      <religions>
+         <musulmans pourcentage="0.2">18 921</musulmans>
+         <cretien pourcentage="55.9">5 288 526</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="LV" longueur="141"/>
+      <frontiere pays="LT" longueur="502"/>
+      <frontiere pays="PL" longueur="605"/>
+      <frontiere pays="UA" longueur="891"/>
+      <frontiere pays="R" longueur="959"/>
+   </pays>
+   <pays continent="europe" code="PL">
+      <nom>Poland</nom>
+      <capitale>Warszawa Warsaw</capitale>
+      <population annnee="2012">38533789</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="87.60000000000001">33 755 599</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.3">115 601</autre>
+      </religions>
+      <frontiere pays="CZ" longueur="658"/>
+      <frontiere pays="D" longueur="456"/>
+      <frontiere pays="SK" longueur="444"/>
+      <frontiere pays="BY" longueur="605"/>
+      <frontiere pays="LT" longueur="91"/>
+      <frontiere pays="UA" longueur="428"/>
+      <frontiere pays="R" longueur="206"/>
+   </pays>
+   <pays continent="europe" code="UA">
+      <nom>Ukraine</nom>
+      <capitale>Kyïv Kiev</capitale>
+      <population annnee="2012">45633637</population>
+      <religions>
+         <musulmans pourcentage="1.1">501 970</musulmans>
+         <cretien pourcentage="79.7">36 370 009</cretien>
+         <juif pourcentage="0.2">91 267</juif>
+         <autre pourcentage="0.2">91 267</autre>
+      </religions>
+      <frontiere pays="H" longueur="103"/>
+      <frontiere pays="SK" longueur="90"/>
+      <frontiere pays="BY" longueur="891"/>
+      <frontiere pays="PL" longueur="428"/>
+      <frontiere pays="R" longueur="1576"/>
+      <frontiere pays="RO" longueur="531"/>
+      <frontiere pays="MD" longueur="939"/>
+   </pays>
+   <pays continent="europe asia" code="R">
+      <nom>Russia</nom>
+      <capitale>Moskva Moscow</capitale>
+      <population annnee="2014">143666931</population>
+      <religions>
+         <musulmans pourcentage="6.5">9 338 351</musulmans>
+         <cretien pourcentage="43.00000000000001">61 776 781</cretien>
+         <juif pourcentage="0.1">143 667</juif>
+         <autre pourcentage="0.5">718 335</autre>
+      </religions>
+      <frontiere pays="BY" longueur="959"/>
+      <frontiere pays="LV" longueur="217"/>
+      <frontiere pays="LT" longueur="227"/>
+      <frontiere pays="PL" longueur="206"/>
+      <frontiere pays="UA" longueur="1576"/>
+      <frontiere pays="EST" longueur="290"/>
+      <frontiere pays="SF" longueur="1313"/>
+      <frontiere pays="N" longueur="167"/>
+      <frontiere pays="CN" longueur="3645"/>
+      <frontiere pays="GE" longueur="723"/>
+      <frontiere pays="AZ" longueur="284"/>
+      <frontiere pays="KZ" longueur="6846"/>
+      <frontiere pays="KP" longueur="19"/>
+      <frontiere pays="MNG" longueur="3441"/>
+   </pays>
+   <pays continent="europe" code="B">
+      <nom>Belgium</nom>
+      <capitale>Bruxelles Brussel Brussels</capitale>
+      <population annnee="2013">11099554</population>
+      <religions>
+         <musulmans pourcentage="6.8">754 770</musulmans>
+         <cretien pourcentage="56.6">6 282 348</cretien>
+         <juif pourcentage="0.4">44 398</juif>
+         <autre pourcentage="0.3">33 299</autre>
+      </religions>
+      <frontiere pays="F" longueur="620"/>
+      <frontiere pays="D" longueur="167"/>
+      <frontiere pays="L" longueur="148"/>
+      <frontiere pays="NL" longueur="450"/>
+   </pays>
+   <pays continent="europe" code="L">
+      <nom>Luxembourg</nom>
+      <capitale>Luxembourg</capitale>
+      <population annnee="2012">524853</population>
+      <religions>
+         <musulmans pourcentage="2.3">12 072</musulmans>
+         <cretien pourcentage="72.4">NaN</cretien>
+         <juif pourcentage="0.6">3 149</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Luxembourg</nom>
+         <logitude>6.13</logitude>
+         <latitude>49.61</latitude>
+      </ville>
+      <frontiere pays="F" longueur="73"/>
+      <frontiere pays="D" longueur="138"/>
+      <frontiere pays="B" longueur="148"/>
+   </pays>
+   <pays continent="europe" code="NL">
+      <nom>Netherlands</nom>
+      <capitale>Amsterdam</capitale>
+      <population annnee="2014">16843181</population>
+      <religions>
+         <musulmans pourcentage="5.1">859 002</musulmans>
+         <cretien pourcentage="38.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.3">387 393</autre>
+      </religions>
+      <frontiere pays="D" longueur="577"/>
+      <frontiere pays="B" longueur="450"/>
+   </pays>
+   <pays continent="europe" code="SLO">
+      <nom>Slovenia</nom>
+      <capitale>Ljubljana</capitale>
+      <population annnee="2013">2058821</population>
+      <religions>
+         <musulmans pourcentage="2.4">49 412</musulmans>
+         <cretien pourcentage="60.9">1 253 822</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Ljubljana</nom>
+         <logitude>14.51</logitude>
+         <latitude>46.06</latitude>
+      </ville>
+      <ville>
+         <nom>Maribor</nom>
+         <logitude>15.65</logitude>
+         <latitude>46.55</latitude>
+      </ville>
+      <frontiere pays="A" longueur="324"/>
+      <frontiere pays="H" longueur="102"/>
+      <frontiere pays="I" longueur="235"/>
+      <frontiere pays="HR" longueur="546"/>
+   </pays>
+   <pays continent="europe" code="HR">
+      <nom>Croatia</nom>
+      <capitale>Zagreb</capitale>
+      <population annnee="2011">4290612</population>
+      <religions>
+         <musulmans pourcentage="1.5">64 359</musulmans>
+         <cretien pourcentage="91">3 904 457</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Zagreb</nom>
+         <logitude>15.98</logitude>
+         <latitude>45.82</latitude>
+      </ville>
+      <ville>
+         <nom>Split</nom>
+         <logitude>16.45</logitude>
+         <latitude>43.51</latitude>
+      </ville>
+      <ville>
+         <nom>Rijeka</nom>
+         <logitude>14.42</logitude>
+         <latitude>45.32</latitude>
+      </ville>
+      <ville>
+         <nom>Osijek</nom>
+         <logitude>18.68</logitude>
+         <latitude>45.56</latitude>
+      </ville>
+      <ville>
+         <nom>Zadar</nom>
+         <logitude>15.23</logitude>
+         <latitude>44.11</latitude>
+      </ville>
+      <frontiere pays="SRB" longueur="241"/>
+      <frontiere pays="MNE" longueur="25"/>
+      <frontiere pays="H" longueur="329"/>
+      <frontiere pays="SLO" longueur="546"/>
+      <frontiere pays="BIH" longueur="932"/>
+   </pays>
+   <pays continent="europe" code="BIH">
+      <nom>Bosnia and Herzegovina</nom>
+      <capitale>Sarajevo</capitale>
+      <population annnee="2013">3791622</population>
+      <religions>
+         <musulmans pourcentage="50.7">1 922 352</musulmans>
+         <cretien pourcentage="49.9">1 892 020</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="SRB" longueur="357"/>
+      <frontiere pays="MNE" longueur="249"/>
+      <frontiere pays="HR" longueur="932"/>
+   </pays>
+   <pays continent="europe" code="BG">
+      <nom>Bulgaria</nom>
+      <capitale>Sofia</capitale>
+      <population annnee="2011">7351234</population>
+      <religions>
+         <musulmans pourcentage="7.8">573 396</musulmans>
+         <cretien pourcentage="61">4 484 253</cretien>
+         <juif pourcentage="0.8">58 810</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Sofia</nom>
+         <logitude>23.33</logitude>
+         <latitude>42.7</latitude>
+      </ville>
+      <ville>
+         <nom>Plovdiv</nom>
+         <logitude>24.75</logitude>
+         <latitude>42.15</latitude>
+      </ville>
+      <ville>
+         <nom>Varna</nom>
+         <logitude>27.92</logitude>
+         <latitude>43.22</latitude>
+      </ville>
+      <ville>
+         <nom>Burgas</nom>
+         <logitude>27.47</logitude>
+         <latitude>42.5</latitude>
+      </ville>
+      <ville>
+         <nom>Ruse</nom>
+         <logitude>25.95</logitude>
+         <latitude>43.82</latitude>
+      </ville>
+      <ville>
+         <nom>Stara Zagora</nom>
+         <logitude>25.65</logitude>
+         <latitude>42.43</latitude>
+      </ville>
+      <frontiere pays="GR" longueur="494"/>
+      <frontiere pays="MK" longueur="148"/>
+      <frontiere pays="SRB" longueur="318"/>
+      <frontiere pays="RO" longueur="608"/>
+      <frontiere pays="TR" longueur="240"/>
+   </pays>
+   <pays continent="europe" code="RO">
+      <nom>Romania</nom>
+      <capitale>Bucureşti Bucarest Bucharest</capitale>
+      <population annnee="2011">20121641</population>
+      <religions>
+         <musulmans pourcentage="0.3">60 365</musulmans>
+         <cretien pourcentage="97.6">19 638 722</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="SRB" longueur="476"/>
+      <frontiere pays="H" longueur="443"/>
+      <frontiere pays="UA" longueur="531"/>
+      <frontiere pays="BG" longueur="608"/>
+      <frontiere pays="MD" longueur="450"/>
+   </pays>
+   <pays continent="europe" code="DK">
+      <nom>Denmark</nom>
+      <capitale>Copenhagen København Kopenhagen</capitale>
+      <population annnee="2015">5678348</population>
+      <religions>
+         <musulmans pourcentage="5.5">312 309</musulmans>
+         <cretien pourcentage="77.7">4 412 077</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="D" longueur="68"/>
+   </pays>
+   <pays continent="europe" code="IS">
+      <nom>Iceland</nom>
+      <capitale>Reykjavik</capitale>
+      <population annnee="2015">332529</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="77.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Reykjavik</nom>
+         <logitude>-21.93</logitude>
+         <latitude>64.13</latitude>
+      </ville>
+      <ville>
+         <nom>Keflavik</nom>
+         <logitude>-22.57</logitude>
+         <latitude>64.02</latitude>
+      </ville>
+      <ville>
+         <nom>Hafnarfjordur</nom>
+         <logitude>-21.95</logitude>
+         <latitude>64.07</latitude>
+      </ville>
+      <ville>
+         <nom>Akureyri</nom>
+         <logitude>-18.1</logitude>
+         <latitude>65.68</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="FO">
+      <nom>Faroe Islands</nom>
+      <capitale>Tórshavn</capitale>
+      <population annnee="2011">48346</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="92">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.2">97</autre>
+      </religions>
+      <ville>
+         <nom>Tórshavn</nom>
+         <logitude>-7</logitude>
+         <latitude>62</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="IRL">
+      <nom>Ireland</nom>
+      <capitale>Dublin</capitale>
+      <population annnee="2011">4588252</population>
+      <religions>
+         <musulmans pourcentage="1.3">59 647</musulmans>
+         <cretien pourcentage="83.8">3 844 955</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.3">13 765</autre>
+      </religions>
+      <ville>
+         <nom>Dublin</nom>
+         <logitude>-6.26</logitude>
+         <latitude>53.35</latitude>
+      </ville>
+      <ville>
+         <nom>Cork</nom>
+         <logitude>-8.47</logitude>
+         <latitude>51.9</latitude>
+      </ville>
+      <ville>
+         <nom>Galway</nom>
+         <logitude>-9.05</logitude>
+         <latitude>53.27</latitude>
+      </ville>
+      <ville>
+         <nom>Limerick</nom>
+         <logitude>-8.62</logitude>
+         <latitude>52.67</latitude>
+      </ville>
+      <frontiere pays="GB" longueur="360"/>
+   </pays>
+   <pays continent="europe" code="SF">
+      <nom>Finland</nom>
+      <capitale>Helsinki</capitale>
+      <population annnee="2017">5513130</population>
+      <religions>
+         <musulmans pourcentage="2.7">148 855</musulmans>
+         <cretien pourcentage="70.89999999999999">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="R" longueur="1313"/>
+      <frontiere pays="N" longueur="729"/>
+      <frontiere pays="S" longueur="586"/>
+   </pays>
+   <pays continent="europe" code="N">
+      <nom>Norway</nom>
+      <capitale>Oslo</capitale>
+      <population annnee="2013">5051275</population>
+      <religions>
+         <musulmans pourcentage="3.2">161 641</musulmans>
+         <cretien pourcentage="73.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="R" longueur="167"/>
+      <frontiere pays="SF" longueur="729"/>
+      <frontiere pays="S" longueur="1619"/>
+   </pays>
+   <pays continent="europe" code="S">
+      <nom>Sweden</nom>
+      <capitale>Stockholm</capitale>
+      <population annnee="2012">9555893</population>
+      <religions>
+         <musulmans pourcentage="8.1">774 027</musulmans>
+         <cretien pourcentage="67.5">6 450 228</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="SF" longueur="586"/>
+      <frontiere pays="N" longueur="1619"/>
+   </pays>
+   <pays continent="europe" code="MC">
+      <nom>Monaco</nom>
+      <capitale>Monaco Monaco-Ville</capitale>
+      <population annnee="2010">36845</population>
+      <religions>
+         <musulmans pourcentage="0.9">332</musulmans>
+         <cretien pourcentage="82.10000000000001">30 250</cretien>
+         <juif pourcentage="2.5">921</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Monaco</nom>
+         <logitude>7.42</logitude>
+         <latitude>43.73</latitude>
+      </ville>
+      <frontiere pays="F" longueur="4.4"/>
+   </pays>
+   <pays continent="europe" code="V">
+      <nom>Vatican City</nom>
+      <capitale>Vatican City</capitale>
+      <population annnee="2018">826</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="100">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Vatican City</nom>
+         <logitude>12.45</logitude>
+         <latitude>41.9</latitude>
+      </ville>
+      <frontiere pays="I" longueur="3.2"/>
+   </pays>
+   <pays continent="africa" code="CEU">
+      <nom>Ceuta</nom>
+      <capitale>Ceuta</capitale>
+      <population annnee="2011">82376</population>
+      <religions>
+         <musulmans pourcentage="28">23 065</musulmans>
+         <cretien pourcentage="68">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Ceuta</nom>
+         <logitude>-5.3</logitude>
+         <latitude>35.9</latitude>
+      </ville>
+      <frontiere pays="MA" longueur="6.3"/>
+   </pays>
+   <pays continent="africa" code="MEL">
+      <nom>Melilla</nom>
+      <capitale>Melilla</capitale>
+      <population annnee="2011">78476</population>
+      <religions>
+         <musulmans pourcentage="50">39 238</musulmans>
+         <cretien pourcentage="40">NaN</cretien>
+         <juif pourcentage="1">785</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Melilla</nom>
+         <logitude>-2.95</logitude>
+         <latitude>35.3</latitude>
+      </ville>
+      <frontiere pays="MA" longueur="9.6"/>
+   </pays>
+   <pays continent="europe" code="RSM">
+      <nom>San Marino</nom>
+      <capitale>San Marino</capitale>
+      <population annnee="2012">32440</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="98.3">NaN</cretien>
+         <juif pourcentage="0.1">32</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>San Marino</nom>
+         <logitude>12.45</logitude>
+         <latitude>43.93</latitude>
+      </ville>
+      <frontiere pays="I" longueur="39"/>
+   </pays>
+   <pays continent="europe" code="M">
+      <nom>Malta</nom>
+      <capitale>Valletta</capitale>
+      <population annnee="2018">475800</population>
+      <religions>
+         <musulmans pourcentage="1">4 758</musulmans>
+         <cretien pourcentage="97.10000000000001">462 002</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Valletta</nom>
+         <logitude>14.51</logitude>
+         <latitude>35.9</latitude>
+      </ville>
+      <ville>
+         <nom>Victoria</nom>
+         <logitude>14.24</logitude>
+         <latitude>36.04</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="GBM">
+      <nom>Isle of Man</nom>
+      <capitale>Douglas</capitale>
+      <population annnee="2011">84497</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="100">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Douglas</nom>
+         <logitude>-4.6</logitude>
+         <latitude>54.15</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="MD">
+      <nom>Moldova</nom>
+      <capitale>Chişinău</capitale>
+      <population annnee="2012">3473900</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95.55000000000001">3 319 312</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Chişinău</nom>
+         <logitude>28.92</logitude>
+         <latitude>47</latitude>
+      </ville>
+      <ville>
+         <nom>Tiraspol</nom>
+         <logitude>29.63</logitude>
+         <latitude>46.85</latitude>
+      </ville>
+      <ville>
+         <nom>Bălţi</nom>
+         <logitude>27.92</logitude>
+         <latitude>47.77</latitude>
+      </ville>
+      <frontiere pays="UA" longueur="939"/>
+      <frontiere pays="RO" longueur="450"/>
+   </pays>
+   <pays continent="europe" code="P">
+      <nom>Portugal</nom>
+      <capitale>Lisboa</capitale>
+      <population annnee="2011">10561614</population>
+      <religions>
+         <musulmans pourcentage="0.6">63 370</musulmans>
+         <cretien pourcentage="85">8 977 371</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.8">84 493</autre>
+      </religions>
+      <frontiere pays="E" longueur="1214"/>
+   </pays>
+   <pays continent="europe" code="SVA">
+      <nom>Svalbard</nom>
+      <capitale>Longyearbyen</capitale>
+      <population annnee="2016">2667</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="85">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Longyearbyen</nom>
+         <logitude>15.33</logitude>
+         <latitude>78.13</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="GB">
+      <nom>United Kingdom</nom>
+      <capitale>London</capitale>
+      <population annnee="2013">64105654</population>
+      <religions>
+         <musulmans pourcentage="4.4">2 820 649</musulmans>
+         <cretien pourcentage="50.7">32 501 567</cretien>
+         <juif pourcentage="0.4">256 423</juif>
+         <autre pourcentage="2.4">1 538 536</autre>
+      </religions>
+      <frontiere pays="IRL" longueur="360"/>
+   </pays>
+   <pays continent="europe" code="GBZ">
+      <nom>Gibraltar</nom>
+      <capitale>Gibraltar</capitale>
+      <population annnee="2012">32577</population>
+      <religions>
+         <musulmans pourcentage="3.6">1 173</musulmans>
+         <cretien pourcentage="79.8">NaN</cretien>
+         <juif pourcentage="2.4">782</juif>
+         <autre pourcentage="2">652</autre>
+      </religions>
+      <ville>
+         <nom>Gibraltar</nom>
+         <logitude>-5.25</logitude>
+         <latitude>36.12</latitude>
+      </ville>
+      <frontiere pays="E" longueur="1.2"/>
+   </pays>
+   <pays continent="europe" code="GBG">
+      <nom>Guernsey</nom>
+      <capitale>Saint Peter Port</capitale>
+      <population annnee="2017">64540</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Saint Peter Port</nom>
+         <logitude>-2.6</logitude>
+         <latitude>49.6</latitude>
+      </ville>
+   </pays>
+   <pays continent="europe" code="GBJ">
+      <nom>Jersey</nom>
+      <capitale>Saint Helier</capitale>
+      <population annnee="2011">97857</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="50">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Saint Helier</nom>
+         <logitude>-2.1</logitude>
+         <latitude>49.2</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia" code="ARM">
+      <nom>Armenia</nom>
+      <capitale>Yerevan</capitale>
+      <population annnee="2013">3026879</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="94.1">2 848 293</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.2">36 323</autre>
+      </religions>
+      <ville>
+         <nom>Yerevan</nom>
+         <logitude>44.52</logitude>
+         <latitude>40.18</latitude>
+      </ville>
+      <frontiere pays="TR" longueur="268"/>
+      <frontiere pays="IR" longueur="35"/>
+      <frontiere pays="GE" longueur="164"/>
+      <frontiere pays="AZ" longueur="787"/>
+   </pays>
+   <pays continent="asia" code="GE">
+      <nom>Georgia</nom>
+      <capitale>Tbilisi</capitale>
+      <population annnee="2014">4010000</population>
+      <religions>
+         <musulmans pourcentage="10.7">429 070</musulmans>
+         <cretien pourcentage="86.8">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.3">12 030</autre>
+      </religions>
+      <ville>
+         <nom>Tbilisi</nom>
+         <logitude>44.78</logitude>
+         <latitude>41.72</latitude>
+      </ville>
+      <ville>
+         <nom>Kutaisi</nom>
+         <logitude>42.7</logitude>
+         <latitude>42.25</latitude>
+      </ville>
+      <ville>
+         <nom>Batumi</nom>
+         <logitude>41.64</logitude>
+         <latitude>41.65</latitude>
+      </ville>
+      <frontiere pays="R" longueur="723"/>
+      <frontiere pays="TR" longueur="252"/>
+      <frontiere pays="ARM" longueur="164"/>
+      <frontiere pays="AZ" longueur="322"/>
+   </pays>
+   <pays continent="asia" code="AZ">
+      <nom>Azerbaijan</nom>
+      <capitale>Baku</capitale>
+      <population annnee="2013">9356500</population>
+      <religions>
+         <musulmans pourcentage="96.9">9 066 448</musulmans>
+         <cretien pourcentage="3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Baku</nom>
+         <logitude>49.88</logitude>
+         <latitude>40.4</latitude>
+      </ville>
+      <ville>
+         <nom>Ganja</nom>
+         <logitude>46.36</logitude>
+         <latitude>40.68</latitude>
+      </ville>
+      <ville>
+         <nom>Sumgayit</nom>
+         <logitude>49.67</logitude>
+         <latitude>40.59</latitude>
+      </ville>
+      <frontiere pays="R" longueur="284"/>
+      <frontiere pays="TR" longueur="9"/>
+      <frontiere pays="IR" longueur="611"/>
+      <frontiere pays="ARM" longueur="787"/>
+      <frontiere pays="GE" longueur="322"/>
+   </pays>
+   <pays continent="europe asia" code="TR">
+      <nom>Turkey</nom>
+      <capitale>Ankara</capitale>
+      <population annnee="2012">75627384</population>
+      <religions>
+         <musulmans pourcentage="98.3">74 341 718</musulmans>
+         <cretien pourcentage="0.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="GR" longueur="206"/>
+      <frontiere pays="BG" longueur="240"/>
+      <frontiere pays="IR" longueur="499"/>
+      <frontiere pays="ARM" longueur="268"/>
+      <frontiere pays="GE" longueur="252"/>
+      <frontiere pays="AZ" longueur="9"/>
+      <frontiere pays="IRQ" longueur="331"/>
+      <frontiere pays="SYR" longueur="822"/>
+   </pays>
+   <pays continent="asia" code="RL">
+      <nom>Lebanon</nom>
+      <capitale>Bayrūt Beirut</capitale>
+      <population annnee="2010">4341092</population>
+      <religions>
+         <musulmans pourcentage="55.9">2 426 670</musulmans>
+         <cretien pourcentage="37.6">1 632 250</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="5.7">247 442</autre>
+      </religions>
+      <ville>
+         <nom>Bayrūt</nom>
+         <logitude>35.51</logitude>
+         <latitude>33.89</latitude>
+      </ville>
+      <frontiere pays="IL" longueur="79"/>
+      <frontiere pays="SYR" longueur="375"/>
+   </pays>
+   <pays continent="asia" code="WB">
+      <nom>West Bank</nom>
+      <capitale>Ramallah</capitale>
+      <population annnee="2017">2881687</population>
+      <religions>
+         <musulmans pourcentage="82">2 362 983</musulmans>
+         <cretien pourcentage="2">NaN</cretien>
+         <juif pourcentage="13">374 619</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Ramallah</nom>
+         <logitude>35.2</logitude>
+         <latitude>31.9</latitude>
+      </ville>
+      <ville>
+         <nom>Nablus</nom>
+         <logitude>35.3</logitude>
+         <latitude>32.2</latitude>
+      </ville>
+      <ville>
+         <nom>Al Khalil</nom>
+         <logitude>35.07</logitude>
+         <latitude>31.53</latitude>
+      </ville>
+      <frontiere pays="IL" longueur="307"/>
+      <frontiere pays="JOR" longueur="97"/>
+   </pays>
+   <pays continent="asia" code="GAZA">
+      <nom>Gaza Strip</nom>
+      <capitale/>
+      <population annnee="2017">1899291</population>
+      <religions>
+         <musulmans pourcentage="99.8">1 895 492</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Gaza</nom>
+         <logitude>34.5</logitude>
+         <latitude>31.5</latitude>
+      </ville>
+      <frontiere pays="IL" longueur="51"/>
+      <frontiere pays="ET" longueur="11"/>
+   </pays>
+   <pays continent="asia" code="IL">
+      <nom>Israel</nom>
+      <capitale>Yerushalayim Jerusalem</capitale>
+      <population annnee="2010">7420368</population>
+      <religions>
+         <musulmans pourcentage="17.8">1 320 826</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="74.3">5 513 333</juif>
+         <autre pourcentage="3.5">259 713</autre>
+      </religions>
+      <frontiere pays="GAZA" longueur="51"/>
+      <frontiere pays="ET" longueur="255"/>
+      <frontiere pays="JOR" longueur="238"/>
+      <frontiere pays="SYR" longueur="76"/>
+      <frontiere pays="RL" longueur="79"/>
+      <frontiere pays="WB" longueur="307"/>
+   </pays>
+   <pays continent="asia" code="SYR">
+      <nom>Syria</nom>
+      <capitale>Dimashq Damascus Damaskus</capitale>
+      <population annnee="2019">17070135</population>
+      <religions>
+         <musulmans pourcentage="87">14 851 017</musulmans>
+         <cretien pourcentage="9.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3">512 104</autre>
+      </religions>
+      <frontiere pays="TR" longueur="822"/>
+      <frontiere pays="IL" longueur="76"/>
+      <frontiere pays="IRQ" longueur="605"/>
+      <frontiere pays="JOR" longueur="375"/>
+      <frontiere pays="RL" longueur="375"/>
+   </pays>
+   <pays continent="asia" code="JOR">
+      <nom>Jordan</nom>
+      <capitale>Amman</capitale>
+      <population annnee="2015">9131712</population>
+      <religions>
+         <musulmans pourcentage="97.2">8 876 024</musulmans>
+         <cretien pourcentage="2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1">91 317</autre>
+      </religions>
+      <ville>
+         <nom>Amman</nom>
+         <logitude>35.93</logitude>
+         <latitude>31.95</latitude>
+      </ville>
+      <ville>
+         <nom>Zarqa</nom>
+         <logitude>36.1</logitude>
+         <latitude>32.08</latitude>
+      </ville>
+      <ville>
+         <nom>Irbid</nom>
+         <logitude>35.85</logitude>
+         <latitude>32.55</latitude>
+      </ville>
+      <frontiere pays="IL" longueur="238"/>
+      <frontiere pays="IRQ" longueur="181"/>
+      <frontiere pays="SA" longueur="728"/>
+      <frontiere pays="SYR" longueur="375"/>
+      <frontiere pays="WB" longueur="97"/>
+   </pays>
+   <pays continent="asia" code="SA">
+      <nom>Saudi Arabia</nom>
+      <capitale>Riyadh</capitale>
+      <population annnee="2010">27136977</population>
+      <religions>
+         <musulmans pourcentage="100">27 136 977</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="IRQ" longueur="814"/>
+      <frontiere pays="JOR" longueur="728"/>
+      <frontiere pays="KWT" longueur="222"/>
+      <frontiere pays="OM" longueur="676"/>
+      <frontiere pays="UAE" longueur="457"/>
+      <frontiere pays="YE" longueur="1458"/>
+      <frontiere pays="Q" longueur="60"/>
+   </pays>
+   <pays continent="asia" code="BRN">
+      <nom>Bahrain</nom>
+      <capitale>Al Manāmah Manama</capitale>
+      <population annnee="2010">1234571</population>
+      <religions>
+         <musulmans pourcentage="70.3">867 903</musulmans>
+         <cretien pourcentage="14">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="12.3">151 852</autre>
+      </religions>
+      <ville>
+         <nom>Al Manāmah</nom>
+         <logitude>50.58</logitude>
+         <latitude>26.22</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia" code="Q">
+      <nom>Qatar</nom>
+      <capitale>Doha</capitale>
+      <population annnee="2015">2404776</population>
+      <religions>
+         <musulmans pourcentage="67.7">1 628 033</musulmans>
+         <cretien pourcentage="12.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="16.900000000000002">406 407</autre>
+      </religions>
+      <ville>
+         <nom>Doha</nom>
+         <logitude>51.53</logitude>
+         <latitude>25.29</latitude>
+      </ville>
+      <ville>
+         <nom>Al Rayyan</nom>
+         <logitude>51.37</logitude>
+         <latitude>25.32</latitude>
+      </ville>
+      <frontiere pays="SA" longueur="60"/>
+   </pays>
+   <pays continent="asia" code="UAE">
+      <nom>United Arab Emirates</nom>
+      <capitale>Abu Dhabi</capitale>
+      <population annnee="2016">9121167</population>
+      <religions>
+         <musulmans pourcentage="76">6 932 087</musulmans>
+         <cretien pourcentage="12">1 094 540</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="9.2">839 147</autre>
+      </religions>
+      <ville>
+         <nom>Abu Dhabi</nom>
+         <logitude>54.37</logitude>
+         <latitude>24.47</latitude>
+      </ville>
+      <ville>
+         <nom>Al Ain</nom>
+         <logitude>55.74</logitude>
+         <latitude>24.21</latitude>
+      </ville>
+      <ville>
+         <nom>Dubai</nom>
+         <logitude>55.33</logitude>
+         <latitude>24.95</latitude>
+      </ville>
+      <ville>
+         <nom>Al Sharjah</nom>
+         <logitude>55.39</logitude>
+         <latitude>25.36</latitude>
+      </ville>
+      <frontiere pays="SA" longueur="457"/>
+      <frontiere pays="OM" longueur="410"/>
+   </pays>
+   <pays continent="asia" code="OM">
+      <nom>Oman</nom>
+      <capitale>Muscat Maskat</capitale>
+      <population annnee="2019">4992364</population>
+      <religions>
+         <musulmans pourcentage="85.9">4 288 441</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="12.8">639 023</autre>
+      </religions>
+      <ville>
+         <nom>Muscat</nom>
+         <logitude>58.58</logitude>
+         <latitude>23.6</latitude>
+      </ville>
+      <ville>
+         <nom>As Seeb</nom>
+         <logitude>58.18</logitude>
+         <latitude>23.68</latitude>
+      </ville>
+      <frontiere pays="SA" longueur="676"/>
+      <frontiere pays="UAE" longueur="410"/>
+      <frontiere pays="YE" longueur="288"/>
+   </pays>
+   <pays continent="asia" code="YE">
+      <nom>Yemen</nom>
+      <capitale>Sanaa</capitale>
+      <population annnee="2012">24527000</population>
+      <religions>
+         <musulmans pourcentage="99.1">24 306 257</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.6">147 162</autre>
+      </religions>
+      <ville>
+         <nom>Sanaa</nom>
+         <logitude>44.21</logitude>
+         <latitude>15.35</latitude>
+      </ville>
+      <ville>
+         <nom>Aden</nom>
+         <logitude>45.03</logitude>
+         <latitude>12.8</latitude>
+      </ville>
+      <ville>
+         <nom>Taizz</nom>
+         <logitude>44.02</logitude>
+         <latitude>13.58</latitude>
+      </ville>
+      <ville>
+         <nom>al Hudaydah</nom>
+         <logitude>42.95</logitude>
+         <latitude>14.8</latitude>
+      </ville>
+      <frontiere pays="SA" longueur="1458"/>
+      <frontiere pays="OM" longueur="288"/>
+   </pays>
+   <pays continent="asia" code="KWT">
+      <nom>Kuwait</nom>
+      <capitale>Al Kuwayt Kuwait City Kuwait</capitale>
+      <population annnee="2010">2991580</population>
+      <religions>
+         <musulmans pourcentage="74.36">2 224 539</musulmans>
+         <cretien pourcentage="12.5">373 948</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="8">239 326</autre>
+      </religions>
+      <ville>
+         <nom>Al Kuwayt</nom>
+         <logitude>47.98</logitude>
+         <latitude>29.37</latitude>
+      </ville>
+      <frontiere pays="IRQ" longueur="242"/>
+      <frontiere pays="SA" longueur="222"/>
+   </pays>
+   <pays continent="asia" code="IRQ">
+      <nom>Iraq</nom>
+      <capitale>Baghdad</capitale>
+      <population annnee="2011">33330512</population>
+      <religions>
+         <musulmans pourcentage="97">32 330 597</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.4">799 932</autre>
+      </religions>
+      <frontiere pays="TR" longueur="331"/>
+      <frontiere pays="IR" longueur="1458"/>
+      <frontiere pays="JOR" longueur="181"/>
+      <frontiere pays="KWT" longueur="242"/>
+      <frontiere pays="SA" longueur="814"/>
+      <frontiere pays="SYR" longueur="605"/>
+   </pays>
+   <pays continent="asia" code="IR">
+      <nom>Iran</nom>
+      <capitale>Tehran</capitale>
+      <population annnee="2016">79926270</population>
+      <religions>
+         <musulmans pourcentage="99.4">79 446 712</musulmans>
+         <cretien pourcentage="0.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="TR" longueur="499"/>
+      <frontiere pays="AFG" longueur="936"/>
+      <frontiere pays="PK" longueur="909"/>
+      <frontiere pays="TM" longueur="992"/>
+      <frontiere pays="ARM" longueur="35"/>
+      <frontiere pays="AZ" longueur="611"/>
+      <frontiere pays="IRQ" longueur="1458"/>
+   </pays>
+   <pays continent="asia" code="AFG">
+      <nom>Afghanistan</nom>
+      <capitale>Kabul</capitale>
+      <population annnee="2013">26023100</population>
+      <religions>
+         <musulmans pourcentage="99">25 762 869</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Kabul</nom>
+         <logitude>69.17</logitude>
+         <latitude>34.53</latitude>
+      </ville>
+      <ville>
+         <nom>Herat</nom>
+         <logitude>62.2</logitude>
+         <latitude>34.34</latitude>
+      </ville>
+      <ville>
+         <nom>Kandahar</nom>
+         <logitude>65.72</logitude>
+         <latitude>31.62</latitude>
+      </ville>
+      <ville>
+         <nom>Mazar-i-Sharif</nom>
+         <logitude>67.12</logitude>
+         <latitude>36.7</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="76"/>
+      <frontiere pays="IR" longueur="936"/>
+      <frontiere pays="PK" longueur="2430"/>
+      <frontiere pays="TJ" longueur="1206"/>
+      <frontiere pays="TM" longueur="744"/>
+      <frontiere pays="UZ" longueur="137"/>
+   </pays>
+   <pays continent="asia" code="TM">
+      <nom>Turkmenistan</nom>
+      <capitale>Ashgabat</capitale>
+      <population annnee="2005">6550000</population>
+      <religions>
+         <musulmans pourcentage="91">5 960 500</musulmans>
+         <cretien pourcentage="6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="AFG" longueur="744"/>
+      <frontiere pays="IR" longueur="992"/>
+      <frontiere pays="UZ" longueur="1621"/>
+      <frontiere pays="KZ" longueur="379"/>
+   </pays>
+   <pays continent="asia" code="UZ">
+      <nom>Uzbekistan</nom>
+      <capitale>Toshkent Tashkent</capitale>
+      <population annnee="2017">32120500</population>
+      <religions>
+         <musulmans pourcentage="88">28 266 040</musulmans>
+         <cretien pourcentage="9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="AFG" longueur="137"/>
+      <frontiere pays="TJ" longueur="1161"/>
+      <frontiere pays="TM" longueur="1621"/>
+      <frontiere pays="KZ" longueur="2203"/>
+      <frontiere pays="KG" longueur="1099"/>
+   </pays>
+   <pays continent="asia" code="TJ">
+      <nom>Tajikistan</nom>
+      <capitale>Dushanbe</capitale>
+      <population annnee="2014">8161100</population>
+      <religions>
+         <musulmans pourcentage="98">7 997 878</musulmans>
+         <cretien pourcentage="0.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="AFG" longueur="1206"/>
+      <frontiere pays="CN" longueur="414"/>
+      <frontiere pays="UZ" longueur="1161"/>
+      <frontiere pays="KG" longueur="870"/>
+   </pays>
+   <pays continent="asia" code="KG">
+      <nom>Kyrgyzstan</nom>
+      <capitale>Bishkek</capitale>
+      <population annnee="2018">6256700</population>
+      <religions>
+         <musulmans pourcentage="87.6">5 480 869</musulmans>
+         <cretien pourcentage="11.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Bishkek</nom>
+         <logitude>74.61</logitude>
+         <latitude>42.87</latitude>
+      </ville>
+      <ville>
+         <nom>Osh</nom>
+         <logitude>72.8</logitude>
+         <latitude>40.53</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="858"/>
+      <frontiere pays="TJ" longueur="870"/>
+      <frontiere pays="UZ" longueur="1099"/>
+      <frontiere pays="KZ" longueur="1051"/>
+   </pays>
+   <pays continent="europe asia" code="KZ">
+      <nom>Kazakhstan</nom>
+      <capitale>Nur-Sultan Astana Aqmola Zelinograd Akmolinsk</capitale>
+      <population annnee="2014">17165239</population>
+      <religions>
+         <musulmans pourcentage="70.2">12 049 998</musulmans>
+         <cretien pourcentage="26">4 462 961</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.1">17 165</autre>
+      </religions>
+      <frontiere pays="R" longueur="6846"/>
+      <frontiere pays="CN" longueur="1533"/>
+      <frontiere pays="TM" longueur="379"/>
+      <frontiere pays="UZ" longueur="2203"/>
+      <frontiere pays="KG" longueur="1051"/>
+   </pays>
+   <pays continent="asia" code="MNG">
+      <nom>Mongolia</nom>
+      <capitale>Ulaanbaatar Ulan Bator</capitale>
+      <population annnee="2010">2754685</population>
+      <religions>
+         <musulmans pourcentage="3">82 641</musulmans>
+         <cretien pourcentage="2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="53.5">1 473 756</autre>
+      </religions>
+      <ville>
+         <nom>Ulaanbaatar</nom>
+         <logitude>106.92</logitude>
+         <latitude>47.92</latitude>
+      </ville>
+      <frontiere pays="R" longueur="3441"/>
+      <frontiere pays="CN" longueur="4673"/>
+   </pays>
+   <pays continent="asia" code="MV">
+      <nom>Maldives</nom>
+      <capitale>Male</capitale>
+      <population annnee="2014">402071</population>
+      <religions>
+         <musulmans pourcentage="98">394 030</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Male</nom>
+         <logitude>73.51</logitude>
+         <latitude>4.18</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia" code="PK">
+      <nom>Pakistan</nom>
+      <capitale>Islamabad Islāmābād</capitale>
+      <population annnee="2017">207776954</population>
+      <religions>
+         <musulmans pourcentage="97">201 543 645</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="AFG" longueur="2430"/>
+      <frontiere pays="CN" longueur="523"/>
+      <frontiere pays="IR" longueur="909"/>
+      <frontiere pays="IND" longueur="2912"/>
+   </pays>
+   <pays continent="asia" code="IND">
+      <nom>India</nom>
+      <capitale>Delhi</capitale>
+      <population annnee="2011">1210854977</population>
+      <religions>
+         <musulmans pourcentage="14.2">171 941 407</musulmans>
+         <cretien pourcentage="2.5">30 271 375</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="83.30000000000001">1 008 642 196</autre>
+      </religions>
+      <frontiere pays="CN" longueur="3380"/>
+      <frontiere pays="PK" longueur="2912"/>
+      <frontiere pays="BD" longueur="4053"/>
+      <frontiere pays="MYA" longueur="1463"/>
+      <frontiere pays="BHT" longueur="605"/>
+      <frontiere pays="NEP" longueur="1690"/>
+   </pays>
+   <pays continent="asia" code="NEP">
+      <nom>Nepal</nom>
+      <capitale>Kathmandu</capitale>
+      <population annnee="2011">26494504</population>
+      <religions>
+         <musulmans pourcentage="4.4">1 165 758</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="91.7">24 295 460</autre>
+      </religions>
+      <ville>
+         <nom>Kathmandu</nom>
+         <logitude>85.33</logitude>
+         <latitude>27.7</latitude>
+      </ville>
+      <ville>
+         <nom>Pokhara</nom>
+         <logitude>83.97</logitude>
+         <latitude>28.26</latitude>
+      </ville>
+      <ville>
+         <nom>Lalitpur</nom>
+         <logitude>85.32</logitude>
+         <latitude>27.67</latitude>
+      </ville>
+      <ville>
+         <nom>Biratnagar</nom>
+         <logitude>87.28</logitude>
+         <latitude>26.45</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="1236"/>
+      <frontiere pays="IND" longueur="1690"/>
+   </pays>
+   <pays continent="asia" code="BHT">
+      <nom>Bhutan</nom>
+      <capitale>Thimphu</capitale>
+      <population annnee="2017">727145</population>
+      <religions>
+         <musulmans pourcentage="1">7 271</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="97.9">711 875</autre>
+      </religions>
+      <ville>
+         <nom>Thimphu</nom>
+         <logitude>89.64</logitude>
+         <latitude>27.47</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="470"/>
+      <frontiere pays="IND" longueur="605"/>
+   </pays>
+   <pays continent="asia" code="BD">
+      <nom>Bangladesh</nom>
+      <capitale>Dhaka</capitale>
+      <population annnee="2011">149772364</population>
+      <religions>
+         <musulmans pourcentage="89.5">134 046 266</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="9.5">14 228 375</autre>
+      </religions>
+      <frontiere pays="MYA" longueur="193"/>
+      <frontiere pays="IND" longueur="4053"/>
+   </pays>
+   <pays continent="asia" code="MYA">
+      <nom>Myanmar Burma</nom>
+      <capitale>Nay Pyi Taw Naypyitaw Naypyidaw</capitale>
+      <population annnee="2014">51419420</population>
+      <religions>
+         <musulmans pourcentage="4.3">2 211 035</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="94.60000000000001">48 642 771</autre>
+      </religions>
+      <frontiere pays="CN" longueur="2185"/>
+      <frontiere pays="BD" longueur="193"/>
+      <frontiere pays="IND" longueur="1463"/>
+      <frontiere pays="LAO" longueur="235"/>
+      <frontiere pays="THA" longueur="1800"/>
+   </pays>
+   <pays continent="asia" code="CL">
+      <nom>Sri Lanka</nom>
+      <capitale>Sri Jayawardhanapura Sri Jayewardenepura Kotte</capitale>
+      <population annnee="2012">20263723</population>
+      <religions>
+         <musulmans pourcentage="9.7">1 965 581</musulmans>
+         <cretien pourcentage="7.3999999999999995">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="82.8">16 778 363</autre>
+      </religions>
+      <ville>
+         <nom>Sri Jayawardhanapura</nom>
+         <logitude>79.89</logitude>
+         <latitude>6.91</latitude>
+      </ville>
+      <ville>
+         <nom>Colombo</nom>
+         <logitude>79.84</logitude>
+         <latitude>6.93</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia" code="CN">
+      <nom>China</nom>
+      <capitale>Beijing</capitale>
+      <population annnee="2017">1427647786</population>
+      <religions>
+         <musulmans pourcentage="1.7">24 270 012</musulmans>
+         <cretien pourcentage="2.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="16.9">241 272 476</autre>
+      </religions>
+      <frontiere pays="R" longueur="3645"/>
+      <frontiere pays="AFG" longueur="76"/>
+      <frontiere pays="PK" longueur="523"/>
+      <frontiere pays="TJ" longueur="414"/>
+      <frontiere pays="MYA" longueur="2185"/>
+      <frontiere pays="IND" longueur="3380"/>
+      <frontiere pays="NEP" longueur="1236"/>
+      <frontiere pays="BHT" longueur="470"/>
+      <frontiere pays="LAO" longueur="423"/>
+      <frontiere pays="VN" longueur="1281"/>
+      <frontiere pays="KZ" longueur="1533"/>
+      <frontiere pays="KP" longueur="1416"/>
+      <frontiere pays="KG" longueur="858"/>
+      <frontiere pays="MNG" longueur="4673"/>
+      <frontiere pays="MACX" longueur="0.34"/>
+      <frontiere pays="HK" longueur="30"/>
+   </pays>
+   <pays continent="asia" code="RC">
+      <nom>Taiwan</nom>
+      <capitale>Taipei</capitale>
+      <population annnee="2017">23571227</population>
+      <religions>
+         <musulmans pourcentage="0.2">47 142</musulmans>
+         <cretien pourcentage="4.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="68.7">16 193 433</autre>
+      </religions>
+      <ville>
+         <nom>Taipei</nom>
+         <logitude>121.63</logitude>
+         <latitude>25.03</latitude>
+      </ville>
+      <ville>
+         <nom>New Taipei</nom>
+         <logitude>121.45</logitude>
+         <latitude>25.01</latitude>
+      </ville>
+      <ville>
+         <nom>Taoyuan</nom>
+         <logitude>121.31</logitude>
+         <latitude>24.99</latitude>
+      </ville>
+      <ville>
+         <nom>Jhongli</nom>
+         <logitude>121.22</logitude>
+         <latitude>24.96</latitude>
+      </ville>
+      <ville>
+         <nom>Keelung</nom>
+         <logitude>121.73</logitude>
+         <latitude>25.13</latitude>
+      </ville>
+      <ville>
+         <nom>Hsinchu</nom>
+         <logitude>120.98</logitude>
+         <latitude>24.82</latitude>
+      </ville>
+      <ville>
+         <nom>Taichung</nom>
+         <logitude>120.67</logitude>
+         <latitude>24.15</latitude>
+      </ville>
+      <ville>
+         <nom>Changhua</nom>
+         <logitude>120.53</logitude>
+         <latitude>24.07</latitude>
+      </ville>
+      <ville>
+         <nom>Hualien</nom>
+         <logitude>121.61</logitude>
+         <latitude>23.97</latitude>
+      </ville>
+      <ville>
+         <nom>Chiayi</nom>
+         <logitude>120.45</logitude>
+         <latitude>23.48</latitude>
+      </ville>
+      <ville>
+         <nom>Tainan</nom>
+         <logitude>120.18</logitude>
+         <latitude>22.98</latitude>
+      </ville>
+      <ville>
+         <nom>Pingtung</nom>
+         <logitude>120.49</logitude>
+         <latitude>22.68</latitude>
+      </ville>
+      <ville>
+         <nom>Kaohsiung</nom>
+         <logitude>120.27</logitude>
+         <latitude>22.63</latitude>
+      </ville>
+      <ville>
+         <nom>Taitung</nom>
+         <logitude>121.14</logitude>
+         <latitude>22.76</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia" code="HK">
+      <nom>Hong Kong</nom>
+      <capitale>Hong Kong</capitale>
+      <population annnee="2016">7336585</population>
+      <religions>
+         <musulmans pourcentage="4.2">308 137</musulmans>
+         <cretien pourcentage="12">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="29.499999999999996">2 164 293</autre>
+      </religions>
+      <ville>
+         <nom>Hong Kong</nom>
+         <logitude>114.2</logitude>
+         <latitude>22.3</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="30"/>
+   </pays>
+   <pays continent="asia" code="MACX">
+      <nom>Macao</nom>
+      <capitale>Macao</capitale>
+      <population annnee="2016">650834</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="7.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="16.8">109 340</autre>
+      </religions>
+      <ville>
+         <nom>Macao</nom>
+         <logitude>113.55</logitude>
+         <latitude>22.17</latitude>
+      </ville>
+      <ville>
+         <nom>Taipa-Coloane</nom>
+         <logitude>113.55</logitude>
+         <latitude>22.17</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="0.34"/>
+   </pays>
+   <pays continent="asia" code="KP">
+      <nom>North Korea</nom>
+      <capitale>Pyongyang</capitale>
+      <population annnee="2010">24500520</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="35.7">8 746 686</autre>
+      </religions>
+      <ville>
+         <nom>Pyongyang</nom>
+         <logitude>125.74</logitude>
+         <latitude>39.02</latitude>
+      </ville>
+      <ville>
+         <nom>Hamhung-Hungnam</nom>
+         <logitude>127.53</logitude>
+         <latitude>39.92</latitude>
+      </ville>
+      <ville>
+         <nom>Chongjin</nom>
+         <logitude>129.77</logitude>
+         <latitude>41.78</latitude>
+      </ville>
+      <ville>
+         <nom>Nampho</nom>
+         <logitude>125.4</logitude>
+         <latitude>38.73</latitude>
+      </ville>
+      <ville>
+         <nom>Sunchon</nom>
+         <logitude>125.93</logitude>
+         <latitude>39.42</latitude>
+      </ville>
+      <ville>
+         <nom>Sinuiju</nom>
+         <logitude>124.4</logitude>
+         <latitude>40.1</latitude>
+      </ville>
+      <ville>
+         <nom>Tanchon</nom>
+         <logitude>128.91</logitude>
+         <latitude>40.46</latitude>
+      </ville>
+      <ville>
+         <nom>Wonsan</nom>
+         <logitude>127.45</logitude>
+         <latitude>39.15</latitude>
+      </ville>
+      <ville>
+         <nom>Tokchon</nom>
+         <logitude>126.33</logitude>
+         <latitude>39.75</latitude>
+      </ville>
+      <ville>
+         <nom>Kanggye</nom>
+         <logitude>126.6</logitude>
+         <latitude>40.97</latitude>
+      </ville>
+      <ville>
+         <nom>Haeju</nom>
+         <logitude>125.72</logitude>
+         <latitude>38.05</latitude>
+      </ville>
+      <ville>
+         <nom>Anju</nom>
+         <logitude>125.66</logitude>
+         <latitude>39.62</latitude>
+      </ville>
+      <ville>
+         <nom>Kim Chaek</nom>
+         <logitude>129.2</logitude>
+         <latitude>40.67</latitude>
+      </ville>
+      <ville>
+         <nom>Kusong</nom>
+         <logitude>125.17</logitude>
+         <latitude>39.97</latitude>
+      </ville>
+      <ville>
+         <nom>Huichon</nom>
+         <logitude>126.28</logitude>
+         <latitude>40.17</latitude>
+      </ville>
+      <ville>
+         <nom>Sinpho</nom>
+         <logitude>128.25</logitude>
+         <latitude>40.08</latitude>
+      </ville>
+      <ville>
+         <nom>Kaesong</nom>
+         <logitude>126.55</logitude>
+         <latitude>37.97</latitude>
+      </ville>
+      <ville>
+         <nom>Kaechon</nom>
+         <logitude>125.91</logitude>
+         <latitude>39.7</latitude>
+      </ville>
+      <ville>
+         <nom>Sariwon</nom>
+         <logitude>125.75</logitude>
+         <latitude>38.51</latitude>
+      </ville>
+      <frontiere pays="R" longueur="19"/>
+      <frontiere pays="CN" longueur="1416"/>
+      <frontiere pays="ROK" longueur="238"/>
+   </pays>
+   <pays continent="asia" code="ROK">
+      <nom>South Korea</nom>
+      <capitale>Seoul</capitale>
+      <population annnee="2015">51269554</population>
+      <religions>
+         <musulmans pourcentage="0.1">51 270</musulmans>
+         <cretien pourcentage="27.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="15.5">7 946 781</autre>
+      </religions>
+      <ville>
+         <nom>Seoul</nom>
+         <logitude>126.97</logitude>
+         <latitude>37.57</latitude>
+      </ville>
+      <ville>
+         <nom>Busan</nom>
+         <logitude>129.07</logitude>
+         <latitude>35.17</latitude>
+      </ville>
+      <ville>
+         <nom>Daegu</nom>
+         <logitude>128.6</logitude>
+         <latitude>35.87</latitude>
+      </ville>
+      <ville>
+         <nom>Incheon</nom>
+         <logitude>126.63</logitude>
+         <latitude>37.48</latitude>
+      </ville>
+      <ville>
+         <nom>Gwangju</nom>
+         <logitude>126.92</logitude>
+         <latitude>35.17</latitude>
+      </ville>
+      <ville>
+         <nom>Daejeon</nom>
+         <logitude>127.39</logitude>
+         <latitude>36.35</latitude>
+      </ville>
+      <ville>
+         <nom>Ulsan</nom>
+         <logitude>129.32</logitude>
+         <latitude>35.55</latitude>
+      </ville>
+      <ville>
+         <nom>Suwon</nom>
+         <logitude>127.02</logitude>
+         <latitude>37.27</latitude>
+      </ville>
+      <ville>
+         <nom>Seongnam</nom>
+         <logitude>127.15</logitude>
+         <latitude>37.43</latitude>
+      </ville>
+      <ville>
+         <nom>Jeonju</nom>
+         <logitude>127.15</logitude>
+         <latitude>35.82</latitude>
+      </ville>
+      <ville>
+         <nom>Changwon</nom>
+         <logitude>128.66</logitude>
+         <latitude>35.27</latitude>
+      </ville>
+      <ville>
+         <nom>Cheongju</nom>
+         <logitude>127.48</logitude>
+         <latitude>36.63</latitude>
+      </ville>
+      <ville>
+         <nom>Jinju</nom>
+         <logitude>128.08</logitude>
+         <latitude>35.2</latitude>
+      </ville>
+      <ville>
+         <nom>Mokpo</nom>
+         <logitude>126.38</logitude>
+         <latitude>34.76</latitude>
+      </ville>
+      <ville>
+         <nom>Jeju</nom>
+         <logitude>126.52</logitude>
+         <latitude>33.51</latitude>
+      </ville>
+      <ville>
+         <nom>Gunsan</nom>
+         <logitude>126.72</logitude>
+         <latitude>35.98</latitude>
+      </ville>
+      <ville>
+         <nom>Chuncheon</nom>
+         <logitude>127.73</logitude>
+         <latitude>37.87</latitude>
+      </ville>
+      <ville>
+         <nom>Yeosu</nom>
+         <logitude>127.73</logitude>
+         <latitude>34.73</latitude>
+      </ville>
+      <ville>
+         <nom>Goyang</nom>
+         <logitude>126.8</logitude>
+         <latitude>37.65</latitude>
+      </ville>
+      <ville>
+         <nom>Yongin</nom>
+         <logitude>127.2</logitude>
+         <latitude>37.23</latitude>
+      </ville>
+      <ville>
+         <nom>Bucheon</nom>
+         <logitude>126.78</logitude>
+         <latitude>37.5</latitude>
+      </ville>
+      <ville>
+         <nom>Ansan</nom>
+         <logitude>126.83</logitude>
+         <latitude>37.32</latitude>
+      </ville>
+      <ville>
+         <nom>Anyang</nom>
+         <logitude>126.93</logitude>
+         <latitude>37.38</latitude>
+      </ville>
+      <frontiere pays="KP" longueur="238"/>
+   </pays>
+   <pays continent="asia" code="J">
+      <nom>Japan</nom>
+      <capitale>Tokyo</capitale>
+      <population annnee="2015">127094745</population>
+      <religions>
+         <musulmans pourcentage="0.1">127 095</musulmans>
+         <cretien pourcentage="1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="39.300000000000004">49 948 235</autre>
+      </religions>
+   </pays>
+   <pays continent="asia" code="RP">
+      <nom>Philippines</nom>
+      <capitale>Manila</capitale>
+      <population annnee="2015">100981437</population>
+      <religions>
+         <musulmans pourcentage="5.6">5 654 960</musulmans>
+         <cretien pourcentage="91.39999999999999">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2">2 019 629</autre>
+      </religions>
+   </pays>
+   <pays continent="asia" code="VN">
+      <nom>Vietnam</nom>
+      <capitale>Hanoi</capitale>
+      <population annnee="2012">88772900</population>
+      <religions>
+         <musulmans pourcentage="0.1">88 773</musulmans>
+         <cretien pourcentage="8.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="63.699999999999996">56 548 337</autre>
+      </religions>
+      <frontiere pays="CN" longueur="1281"/>
+      <frontiere pays="LAO" longueur="2130"/>
+      <frontiere pays="K" longueur="1228"/>
+   </pays>
+   <pays continent="asia" code="K">
+      <nom>Cambodia</nom>
+      <capitale>Phnom Penh</capitale>
+      <population annnee="2019">15288489</population>
+      <religions>
+         <musulmans pourcentage="1.6">244 616</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="92.2">14 095 987</autre>
+      </religions>
+      <ville>
+         <nom>Phnom Penh</nom>
+         <logitude>104.92</logitude>
+         <latitude>11.55</latitude>
+      </ville>
+      <ville>
+         <nom>Battambang</nom>
+         <logitude>103.2</logitude>
+         <latitude>13.09</latitude>
+      </ville>
+      <ville>
+         <nom>Siem Reap</nom>
+         <logitude>103.86</logitude>
+         <latitude>13.36</latitude>
+      </ville>
+      <frontiere pays="LAO" longueur="541"/>
+      <frontiere pays="THA" longueur="803"/>
+      <frontiere pays="VN" longueur="1228"/>
+   </pays>
+   <pays continent="asia" code="LAO">
+      <nom>Laos</nom>
+      <capitale>Vientiane Viangchan</capitale>
+      <population annnee="2012">6514432</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="97.9">6 377 629</autre>
+      </religions>
+      <ville>
+         <nom>Vientiane</nom>
+         <logitude>102.6</logitude>
+         <latitude>17.97</latitude>
+      </ville>
+      <frontiere pays="CN" longueur="423"/>
+      <frontiere pays="MYA" longueur="235"/>
+      <frontiere pays="THA" longueur="1754"/>
+      <frontiere pays="K" longueur="541"/>
+      <frontiere pays="VN" longueur="2130"/>
+   </pays>
+   <pays continent="asia" code="THA">
+      <nom>Thailand</nom>
+      <capitale>Bangkok Khrung Thep</capitale>
+      <population annnee="2010">65981659</population>
+      <religions>
+         <musulmans pourcentage="3.8">2 507 303</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="95.69999999999999">63 144 448</autre>
+      </religions>
+      <ville>
+         <nom>Chiang Mai</nom>
+         <logitude>99</logitude>
+         <latitude>18.8</latitude>
+      </ville>
+      <ville>
+         <nom>Nakhon Ratchasima</nom>
+         <logitude>102.1</logitude>
+         <latitude>14.98</latitude>
+      </ville>
+      <ville>
+         <nom>Nakhon Sawan</nom>
+         <logitude>100.14</logitude>
+         <latitude>15.7</latitude>
+      </ville>
+      <ville>
+         <nom>Bangkok</nom>
+         <logitude>100.47</logitude>
+         <latitude>13.75</latitude>
+      </ville>
+      <ville>
+         <nom>Nonthaburi</nom>
+         <logitude>100.52</logitude>
+         <latitude>13.85</latitude>
+      </ville>
+      <ville>
+         <nom>Khon Kaen</nom>
+         <logitude>102.83</logitude>
+         <latitude>16.43</latitude>
+      </ville>
+      <ville>
+         <nom>Nakhon Si Thammarat</nom>
+         <logitude>99.96</logitude>
+         <latitude>8.44</latitude>
+      </ville>
+      <ville>
+         <nom>Songkhla</nom>
+         <logitude>100.6</logitude>
+         <latitude>7.21</latitude>
+      </ville>
+      <ville>
+         <nom>Samut Prakan</nom>
+         <logitude>100.6</logitude>
+         <latitude>13.6</latitude>
+      </ville>
+      <ville>
+         <nom>Chon Buri</nom>
+         <logitude>100.98</logitude>
+         <latitude>13.36</latitude>
+      </ville>
+      <ville>
+         <nom>Phuket</nom>
+         <logitude>98.4</logitude>
+         <latitude>7.89</latitude>
+      </ville>
+      <frontiere pays="MYA" longueur="1800"/>
+      <frontiere pays="MAL" longueur="506"/>
+      <frontiere pays="LAO" longueur="1754"/>
+      <frontiere pays="K" longueur="803"/>
+   </pays>
+   <pays continent="asia" code="MAL">
+      <nom>Malaysia</nom>
+      <capitale>Kuala Lumpur</capitale>
+      <population annnee="2010">27565821</population>
+      <religions>
+         <musulmans pourcentage="61.3">16 897 848</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="35.3">9 730 735</autre>
+      </religions>
+      <frontiere pays="BRU" longueur="381"/>
+      <frontiere pays="THA" longueur="506"/>
+      <frontiere pays="RI" longueur="1782"/>
+   </pays>
+   <pays continent="asia" code="BRU">
+      <nom>Brunei</nom>
+      <capitale>Bandar Seri Begawan</capitale>
+      <population annnee="2011">393372</population>
+      <religions>
+         <musulmans pourcentage="67">263 559</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="23">90 476</autre>
+      </religions>
+      <ville>
+         <nom>Bandar Seri Begawan</nom>
+         <logitude>114.94</logitude>
+         <latitude>4.89</latitude>
+      </ville>
+      <frontiere pays="MAL" longueur="381"/>
+   </pays>
+   <pays continent="asia" code="SGP">
+      <nom>Singapore</nom>
+      <capitale>Singapore</capitale>
+      <population annnee="2010">5076700</population>
+      <religions>
+         <musulmans pourcentage="14">710 738</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="67">3 401 389</autre>
+      </religions>
+      <ville>
+         <nom>Singapore</nom>
+         <logitude>103.8</logitude>
+         <latitude>1.3</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia australia" code="RI">
+      <nom>Indonesia</nom>
+      <capitale>Jakarta</capitale>
+      <population annnee="2014">252124458</population>
+      <religions>
+         <musulmans pourcentage="87">219 348 278</musulmans>
+         <cretien pourcentage="10">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3">7 563 734</autre>
+      </religions>
+      <frontiere pays="MAL" longueur="1782"/>
+      <frontiere pays="PNG" longueur="820"/>
+      <frontiere pays="TL" longueur="228"/>
+   </pays>
+   <pays continent="asia" code="TL">
+      <nom>Timor-Leste</nom>
+      <capitale>Dili</capitale>
+      <population annnee="2010">1066582</population>
+      <religions>
+         <musulmans pourcentage="1">10 666</musulmans>
+         <cretien pourcentage="99">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Dili</nom>
+         <logitude>125.6</logitude>
+         <latitude>-8.6</latitude>
+      </ville>
+      <frontiere pays="RI" longueur="228"/>
+   </pays>
+   <pays continent="australia" code="PNG">
+      <nom>Papua New Guinea</nom>
+      <capitale>Port Moresby</capitale>
+      <population annnee="2011">7275324</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="96.4">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.3">21 826</autre>
+      </religions>
+      <frontiere pays="RI" longueur="820"/>
+   </pays>
+   <pays continent="australia" code="SOL">
+      <nom>Solomon Islands</nom>
+      <capitale>Honiara</capitale>
+      <population annnee="2009">515870</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="93">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Honiara</nom>
+         <logitude>159.95</logitude>
+         <latitude>-9.43</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="VU">
+      <nom>Vanuatu</nom>
+      <capitale>Port Vila</capitale>
+      <population annnee="2010">236299</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="83">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Port Vila</nom>
+         <logitude>168.3</logitude>
+         <latitude>-17.75</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="NCL">
+      <nom>New Caledonia</nom>
+      <capitale>Noumea</capitale>
+      <population annnee="2019">271407</population>
+      <religions>
+         <musulmans pourcentage="2.6">7 057</musulmans>
+         <cretien pourcentage="90">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Noumea</nom>
+         <logitude>166.46</logitude>
+         <latitude>-22.28</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="AUS">
+      <nom>Australia</nom>
+      <capitale>Canberra</capitale>
+      <population annnee="2013">23135281</population>
+      <religions>
+         <musulmans pourcentage="2.6">601 517</musulmans>
+         <cretien pourcentage="48">11 104 935</cretien>
+         <juif pourcentage="0.4">92 541</juif>
+         <autre pourcentage="4.8">1 110 493</autre>
+      </religions>
+   </pays>
+   <pays continent="australia" code="XMAS">
+      <nom>Christmas Island</nom>
+      <capitale>Flying Fish Cove</capitale>
+      <population annnee="2016">1843</population>
+      <religions>
+         <musulmans pourcentage="19.4">358</musulmans>
+         <cretien pourcentage="15.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="18.3">337</autre>
+      </religions>
+      <ville>
+         <nom>Flying Fish Cove</nom>
+         <logitude>105.43</logitude>
+         <latitude>-10.25</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="COCO">
+      <nom>Cocos Islands</nom>
+      <capitale>West Island</capitale>
+      <population annnee="2016">544</population>
+      <religions>
+         <musulmans pourcentage="75">408</musulmans>
+         <cretien pourcentage="5.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>West Island</nom>
+         <logitude>96.50</logitude>
+         <latitude>-12.10</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="NORF">
+      <nom>Norfolk Island</nom>
+      <capitale>Kingston</capitale>
+      <population annnee="2016">1748</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="59.4">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Kingston</nom>
+         <logitude>168</logitude>
+         <latitude>-29</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="NZ">
+      <nom>New Zealand</nom>
+      <capitale>Wellington</capitale>
+      <population annnee="2013">4242048</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="51.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.9000000000000004">123 019</autre>
+      </religions>
+      <ville>
+         <nom>Wellington</nom>
+         <logitude>174.78</logitude>
+         <latitude>-41.29</latitude>
+      </ville>
+      <ville>
+         <nom>Auckland</nom>
+         <logitude>174.74</logitude>
+         <latitude>-36.84</latitude>
+      </ville>
+      <ville>
+         <nom>Hamilton</nom>
+         <logitude>175.28</logitude>
+         <latitude>-37.78</latitude>
+      </ville>
+      <ville>
+         <nom>Christchurch</nom>
+         <logitude>172.62</logitude>
+         <latitude>-43.53</latitude>
+      </ville>
+      <ville>
+         <nom>Dunedin</nom>
+         <logitude>170.5</logitude>
+         <latitude>-45.87</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="PAL">
+      <nom>Palau</nom>
+      <capitale>Ngerulmud</capitale>
+      <population annnee="2012">17501</population>
+      <religions>
+         <musulmans pourcentage="3">525</musulmans>
+         <cretien pourcentage="87.19999999999999">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.6">455</autre>
+      </religions>
+      <ville>
+         <nom>Koror</nom>
+         <logitude>134.48</logitude>
+         <latitude>7.36</latitude>
+      </ville>
+      <ville>
+         <nom>Ngerulmud</nom>
+         <logitude>134.61</logitude>
+         <latitude>7.50</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="NMIS">
+      <nom>Northern Mariana Islands</nom>
+      <capitale>Saipan</capitale>
+      <population annnee="2010">53883</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="80.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="10.6">5 712</autre>
+      </religions>
+      <ville>
+         <nom>Saipan</nom>
+         <logitude>145.76</logitude>
+         <latitude>15.18</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="GUAM">
+      <nom>Guam</nom>
+      <capitale>Hagåtña Agana</capitale>
+      <population annnee="2010">159358</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="92.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.1">1 753</autre>
+      </religions>
+      <ville>
+         <nom>Hagåtña</nom>
+         <logitude>144.75</logitude>
+         <latitude>13.48</latitude>
+      </ville>
+      <ville>
+         <nom>Dededo</nom>
+         <logitude>144.83</logitude>
+         <latitude>13.52</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="FSM">
+      <nom>Micronesia</nom>
+      <capitale>Palikir</capitale>
+      <population annnee="2010">102843</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95.80000000000001">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.5">1 543</autre>
+      </religions>
+      <ville>
+         <nom>Palikir</nom>
+         <logitude>158.2</logitude>
+         <latitude>7</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="MH">
+      <nom>Marshall Islands</nom>
+      <capitale>Majuro</capitale>
+      <population annnee="2011">53158</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="88.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="11.799999999999999">6 273</autre>
+      </religions>
+      <ville>
+         <nom>Majuro</nom>
+         <logitude>171.27</logitude>
+         <latitude>7.07</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="NAU">
+      <nom>Nauru</nom>
+      <capitale>Yaren</capitale>
+      <population annnee="2010">10025</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="93.4">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Yaren</nom>
+         <logitude>166.92</logitude>
+         <latitude>-0.55</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="KIR">
+      <nom>Kiribati</nom>
+      <capitale>Tarawa</capitale>
+      <population annnee="2015">110136</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="90.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="7.4">8 150</autre>
+      </religions>
+      <ville>
+         <nom>Tarawa</nom>
+         <logitude>173</logitude>
+         <latitude>1.43</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="TUV">
+      <nom>Tuvalu</nom>
+      <capitale>Funafuti</capitale>
+      <population annnee="2017">11192</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="92.4">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="4.3">481</autre>
+      </religions>
+      <ville>
+         <nom>Funafuti</nom>
+         <logitude>179.2</logitude>
+         <latitude>-8.52</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="TOK">
+      <nom>Tokelau</nom>
+      <capitale>Fakaofo</capitale>
+      <population annnee="2016">1499</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Fakaofo</nom>
+         <logitude>-171.21</logitude>
+         <latitude>-9.37</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="WS">
+      <nom>Samoa</nom>
+      <capitale>Apia</capitale>
+      <population annnee="2016">194320</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="73.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="18.499999999999996">35 949</autre>
+      </religions>
+      <ville>
+         <nom>Apia</nom>
+         <logitude>-171.75</logitude>
+         <latitude>-13.83</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="AMSA">
+      <nom>American Samoa</nom>
+      <capitale>Pago Pago</capitale>
+      <population annnee="2010">55519</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="77">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="23">12 769</autre>
+      </religions>
+      <ville>
+         <nom>Pago Pago</nom>
+         <logitude>-170.7</logitude>
+         <latitude>-14.28</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="WF">
+      <nom>Wallis and Futuna</nom>
+      <capitale>Mata-Utu</capitale>
+      <population annnee="2018">11558</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="99">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Mata-Utu</nom>
+         <logitude>-176.18</logitude>
+         <latitude>-13.28</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="FJI">
+      <nom>Fiji</nom>
+      <capitale>Suva</capitale>
+      <population annnee="2017">884887</population>
+      <religions>
+         <musulmans pourcentage="6.3">55 748</musulmans>
+         <cretien pourcentage="63.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="29.4">260 157</autre>
+      </religions>
+      <ville>
+         <nom>Suva</nom>
+         <logitude>178.44</logitude>
+         <latitude>-18.14</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="TO">
+      <nom>Tonga</nom>
+      <capitale>Nukualofa</capitale>
+      <population annnee="2016">100651</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="78.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="18.6">18 721</autre>
+      </religions>
+      <ville>
+         <nom>Nukualofa</nom>
+         <logitude>-175.2</logitude>
+         <latitude>-21.13</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="NIUE">
+      <nom>Niue</nom>
+      <capitale>Alofi</capitale>
+      <population annnee="2011">1611</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="80">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="12">193</autre>
+      </religions>
+      <ville>
+         <nom>Alofi</nom>
+         <logitude>-169.9</logitude>
+         <latitude>-19.05</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="COOK">
+      <nom>Cook Islands</nom>
+      <capitale>Avarua</capitale>
+      <population annnee="2016">17459</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="79.8">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="4.4">768</autre>
+      </religions>
+      <ville>
+         <nom>Avarua</nom>
+         <logitude>-159.46</logitude>
+         <latitude>-21.12</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="FPOL">
+      <nom>French Polynesia</nom>
+      <capitale>Papeete</capitale>
+      <population annnee="2017">275918</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="84">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="11.1">30 627</autre>
+      </religions>
+      <ville>
+         <nom>Papeete</nom>
+         <logitude>-149.57</logitude>
+         <latitude>-17.53</latitude>
+      </ville>
+      <ville>
+         <nom>Rikitea</nom>
+         <logitude>-134.98</logitude>
+         <latitude>-23.25</latitude>
+      </ville>
+   </pays>
+   <pays continent="australia" code="PITC">
+      <nom>Pitcairn</nom>
+      <capitale>Adamstown</capitale>
+      <population annnee="2020">50</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="100">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Adamstown</nom>
+         <logitude>-130.05</logitude>
+         <latitude>-25.04</latitude>
+      </ville>
+   </pays>
+   <pays continent="asia africa" code="ET">
+      <nom>Egypt</nom>
+      <capitale>Al Qahirah Cairo</capitale>
+      <population annnee="2017">94798827</population>
+      <religions>
+         <musulmans pourcentage="90">85 318 944</musulmans>
+         <cretien pourcentage="0.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="8.5">8 057 900</autre>
+      </religions>
+      <ville>
+         <nom>Hurghada</nom>
+         <logitude>33.81</logitude>
+         <latitude>27.26</latitude>
+      </ville>
+      <ville>
+         <nom>Marsa Matruh</nom>
+         <logitude>27.22</logitude>
+         <latitude>31.33</latitude>
+      </ville>
+      <ville>
+         <nom>Damanhur</nom>
+         <logitude>30.47</logitude>
+         <latitude>31.04</latitude>
+      </ville>
+      <ville>
+         <nom>Kafr ad Dawwar</nom>
+         <logitude>30.13</logitude>
+         <latitude>31.13</latitude>
+      </ville>
+      <ville>
+         <nom>Al Mansurah</nom>
+         <logitude>31.68</logitude>
+         <latitude>31.07</latitude>
+      </ville>
+      <ville>
+         <nom>Tanta</nom>
+         <logitude>31</logitude>
+         <latitude>30.78</latitude>
+      </ville>
+      <ville>
+         <nom>Al Mahallah al Kubra</nom>
+         <logitude>31.16</logitude>
+         <latitude>30.97</latitude>
+      </ville>
+      <ville>
+         <nom>Al Ismailiyah</nom>
+         <logitude>32.27</logitude>
+         <latitude>30.58</latitude>
+      </ville>
+      <ville>
+         <nom>Shibin al Kum</nom>
+         <logitude>31.01</logitude>
+         <latitude>30.56</latitude>
+      </ville>
+      <ville>
+         <nom>Banha</nom>
+         <logitude>31.19</logitude>
+         <latitude>30.46</latitude>
+      </ville>
+      <ville>
+         <nom>Shubra al Khimah</nom>
+         <logitude>31.24</logitude>
+         <latitude>30.13</latitude>
+      </ville>
+      <ville>
+         <nom>Az Zaqaziq</nom>
+         <logitude>31.5</logitude>
+         <latitude>30.57</latitude>
+      </ville>
+      <ville>
+         <nom>Aswan</nom>
+         <logitude>32.9</logitude>
+         <latitude>24.09</latitude>
+      </ville>
+      <ville>
+         <nom>Asyut</nom>
+         <logitude>31.17</logitude>
+         <latitude>27.18</latitude>
+      </ville>
+      <ville>
+         <nom>Bani Suwayf</nom>
+         <logitude>31.08</logitude>
+         <latitude>29.07</latitude>
+      </ville>
+      <ville>
+         <nom>Al Fayyum</nom>
+         <logitude>30.84</logitude>
+         <latitude>29.31</latitude>
+      </ville>
+      <ville>
+         <nom>Al Jizah</nom>
+         <logitude>31.22</logitude>
+         <latitude>30.02</latitude>
+      </ville>
+      <ville>
+         <nom>Al Minya</nom>
+         <logitude>30.74</logitude>
+         <latitude>28.12</latitude>
+      </ville>
+      <ville>
+         <nom>Qina</nom>
+         <logitude>32.73</logitude>
+         <latitude>26.17</latitude>
+      </ville>
+      <ville>
+         <nom>Al Uqsur</nom>
+         <logitude>32.65</logitude>
+         <latitude>25.68</latitude>
+      </ville>
+      <ville>
+         <nom>Suhaj</nom>
+         <logitude>31.7</logitude>
+         <latitude>26.55</latitude>
+      </ville>
+      <ville>
+         <nom>Bur Said</nom>
+         <logitude>32.28</logitude>
+         <latitude>31.25</latitude>
+      </ville>
+      <ville>
+         <nom>Al Iskandariyah</nom>
+         <logitude>29.92</logitude>
+         <latitude>31.2</latitude>
+      </ville>
+      <ville>
+         <nom>Al Qahirah</nom>
+         <logitude>31.23</logitude>
+         <latitude>30.05</latitude>
+      </ville>
+      <ville>
+         <nom>As Suways</nom>
+         <logitude>32.55</logitude>
+         <latitude>29.97</latitude>
+      </ville>
+      <frontiere pays="GAZA" longueur="11"/>
+      <frontiere pays="IL" longueur="255"/>
+      <frontiere pays="LAR" longueur="1150"/>
+      <frontiere pays="SUD" longueur="1273"/>
+   </pays>
+   <pays continent="africa" code="LAR">
+      <nom>Libya</nom>
+      <capitale>Tripoli</capitale>
+      <population annnee="2010">6040612</population>
+      <religions>
+         <musulmans pourcentage="97">5 859 394</musulmans>
+         <cretien pourcentage="0.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1">60 406</autre>
+      </religions>
+      <ville>
+         <nom>Tripoli</nom>
+         <logitude>13.19</logitude>
+         <latitude>32.9</latitude>
+      </ville>
+      <ville>
+         <nom>Benghazi</nom>
+         <logitude>20.07</logitude>
+         <latitude>32.12</latitude>
+      </ville>
+      <ville>
+         <nom>Misratah</nom>
+         <logitude>15.09</logitude>
+         <latitude>32.38</latitude>
+      </ville>
+      <frontiere pays="ET" longueur="1150"/>
+      <frontiere pays="DZ" longueur="982"/>
+      <frontiere pays="RN" longueur="354"/>
+      <frontiere pays="TN" longueur="459"/>
+      <frontiere pays="TCH" longueur="1055"/>
+      <frontiere pays="SUD" longueur="383"/>
+   </pays>
+   <pays continent="africa" code="TN">
+      <nom>Tunisia</nom>
+      <capitale>Tunis</capitale>
+      <population annnee="2014">10982754</population>
+      <religions>
+         <musulmans pourcentage="98">10 763 099</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1">109 828</autre>
+      </religions>
+      <ville>
+         <nom>Tunis</nom>
+         <logitude>10.18</logitude>
+         <latitude>36.8</latitude>
+      </ville>
+      <ville>
+         <nom>Sfax</nom>
+         <logitude>10.77</logitude>
+         <latitude>34.73</latitude>
+      </ville>
+      <ville>
+         <nom>Sousse</nom>
+         <logitude>10.63</logitude>
+         <latitude>35.83</latitude>
+      </ville>
+      <frontiere pays="DZ" longueur="965"/>
+      <frontiere pays="LAR" longueur="459"/>
+   </pays>
+   <pays continent="africa" code="DZ">
+      <nom>Algeria</nom>
+      <capitale>Algiers</capitale>
+      <population annnee="2010">37062820</population>
+      <religions>
+         <musulmans pourcentage="97.9">36 284 501</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="0.1">37 063</juif>
+         <autre pourcentage="1">370 628</autre>
+      </religions>
+      <ville>
+         <nom>Algiers</nom>
+         <logitude>3.22</logitude>
+         <latitude>36.77</latitude>
+      </ville>
+      <ville>
+         <nom>Annaba</nom>
+         <logitude>7.77</logitude>
+         <latitude>36.9</latitude>
+      </ville>
+      <ville>
+         <nom>Batna</nom>
+         <logitude>6.17</logitude>
+         <latitude>35.55</latitude>
+      </ville>
+      <ville>
+         <nom>Béchar</nom>
+         <logitude>-2.22</logitude>
+         <latitude>31.62</latitude>
+      </ville>
+      <ville>
+         <nom>Sidi Bel Abbës</nom>
+         <logitude>-0.64</logitude>
+         <latitude>35.19</latitude>
+      </ville>
+      <ville>
+         <nom>Skikda</nom>
+         <logitude>6.9</logitude>
+         <latitude>36.87</latitude>
+      </ville>
+      <ville>
+         <nom>Tébessa</nom>
+         <logitude>8.12</logitude>
+         <latitude>35.4</latitude>
+      </ville>
+      <ville>
+         <nom>Oran</nom>
+         <logitude>-0.63</logitude>
+         <latitude>35.7</latitude>
+      </ville>
+      <ville>
+         <nom>Constantine</nom>
+         <logitude>6.6</logitude>
+         <latitude>36.35</latitude>
+      </ville>
+      <ville>
+         <nom>Sétif</nom>
+         <logitude>5.4</logitude>
+         <latitude>36.18</latitude>
+      </ville>
+      <ville>
+         <nom>Blida</nom>
+         <logitude>2.82</logitude>
+         <latitude>36.47</latitude>
+      </ville>
+      <ville>
+         <nom>Bejaïa</nom>
+         <logitude>5.07</logitude>
+         <latitude>36.75</latitude>
+      </ville>
+      <ville>
+         <nom>Mostaganem</nom>
+         <logitude>0.08</logitude>
+         <latitude>35.93</latitude>
+      </ville>
+      <ville>
+         <nom>Ech Chelif</nom>
+         <logitude>1.3</logitude>
+         <latitude>36.2</latitude>
+      </ville>
+      <ville>
+         <nom>Tlemcen</nom>
+         <logitude>-1.32</logitude>
+         <latitude>34.88</latitude>
+      </ville>
+      <ville>
+         <nom>Tougourt</nom>
+         <logitude>6.07</logitude>
+         <latitude>33.1</latitude>
+      </ville>
+      <ville>
+         <nom>Ghardaïa</nom>
+         <logitude>3.67</logitude>
+         <latitude>32.48</latitude>
+      </ville>
+      <ville>
+         <nom>El Djelfa</nom>
+         <logitude>3.25</logitude>
+         <latitude>34.67</latitude>
+      </ville>
+      <ville>
+         <nom>Biskra</nom>
+         <logitude>5.73</logitude>
+         <latitude>34.85</latitude>
+      </ville>
+      <ville>
+         <nom>Laghouat</nom>
+         <logitude>2.88</logitude>
+         <latitude>33.8</latitude>
+      </ville>
+      <ville>
+         <nom>Tamanrasset</nom>
+         <logitude>5.53</logitude>
+         <latitude>22.79</latitude>
+      </ville>
+      <frontiere pays="LAR" longueur="982"/>
+      <frontiere pays="RMM" longueur="1376"/>
+      <frontiere pays="RIM" longueur="463"/>
+      <frontiere pays="MA" longueur="1559"/>
+      <frontiere pays="RN" longueur="956"/>
+      <frontiere pays="TN" longueur="965"/>
+      <frontiere pays="WSA" longueur="42"/>
+   </pays>
+   <pays continent="africa" code="MA">
+      <nom>Morocco</nom>
+      <capitale>Rabat</capitale>
+      <population annnee="2014">33337529</population>
+      <religions>
+         <musulmans pourcentage="98.7">32 904 141</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.1">366 713</autre>
+      </religions>
+      <frontiere pays="DZ" longueur="1559"/>
+      <frontiere pays="WSA" longueur="443"/>
+      <frontiere pays="CEU" longueur="6.3"/>
+      <frontiere pays="MEL" longueur="9.6"/>
+   </pays>
+   <pays continent="africa" code="WSA">
+      <nom>Western Sahara</nom>
+      <capitale>El Aaiun Laâyoune</capitale>
+      <population annnee="2013">554795</population>
+      <religions>
+         <musulmans pourcentage="100">554 795</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>El Aaiun</nom>
+         <logitude>-13.2</logitude>
+         <latitude>27.15</latitude>
+      </ville>
+      <frontiere pays="DZ" longueur="42"/>
+      <frontiere pays="RIM" longueur="1561"/>
+      <frontiere pays="MA" longueur="443"/>
+   </pays>
+   <pays continent="africa" code="RMM">
+      <nom>Mali</nom>
+      <capitale>Bamako</capitale>
+      <population annnee="2009">14528622</population>
+      <religions>
+         <musulmans pourcentage="93.9">13 642 376</musulmans>
+         <cretien pourcentage="3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="DZ" longueur="1376"/>
+      <frontiere pays="RIM" longueur="2237"/>
+      <frontiere pays="RN" longueur="821"/>
+      <frontiere pays="BF" longueur="1000"/>
+      <frontiere pays="CI" longueur="532"/>
+      <frontiere pays="RG" longueur="858"/>
+      <frontiere pays="SN" longueur="419"/>
+   </pays>
+   <pays continent="africa" code="RIM">
+      <nom>Mauritania</nom>
+      <capitale>Nouakchott</capitale>
+      <population annnee="2013">3537368</population>
+      <religions>
+         <musulmans pourcentage="99.9">3 533 831</musulmans>
+         <cretien pourcentage="0.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="DZ" longueur="463"/>
+      <frontiere pays="RMM" longueur="2237"/>
+      <frontiere pays="WSA" longueur="1561"/>
+      <frontiere pays="SN" longueur="813"/>
+   </pays>
+   <pays continent="africa" code="SN">
+      <nom>Senegal</nom>
+      <capitale>Dakar</capitale>
+      <population annnee="2013">13508715</population>
+      <religions>
+         <musulmans pourcentage="95.9">12 954 858</musulmans>
+         <cretien pourcentage="4.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="RMM" longueur="419"/>
+      <frontiere pays="RIM" longueur="813"/>
+      <frontiere pays="RG" longueur="330"/>
+      <frontiere pays="WAG" longueur="740"/>
+      <frontiere pays="GUB" longueur="338"/>
+   </pays>
+   <pays continent="africa" code="WAG">
+      <nom>Gambia</nom>
+      <capitale>Banjul</capitale>
+      <population annnee="2013">1882450</population>
+      <religions>
+         <musulmans pourcentage="95.7">1 801 505</musulmans>
+         <cretien pourcentage="5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Banjul</nom>
+         <logitude>-16.58</logitude>
+         <latitude>13.45</latitude>
+      </ville>
+      <ville>
+         <nom>Serekunda</nom>
+         <logitude>-16.68</logitude>
+         <latitude>13.44</latitude>
+      </ville>
+      <frontiere pays="SN" longueur="740"/>
+   </pays>
+   <pays continent="africa" code="GUB">
+      <nom>Guinea-Bissau</nom>
+      <capitale>Bissau</capitale>
+      <population annnee="2010">1586624</population>
+      <religions>
+         <musulmans pourcentage="45.1">715 567</musulmans>
+         <cretien pourcentage="24">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="14.9">236 407</autre>
+      </religions>
+      <ville>
+         <nom>Bissau</nom>
+         <logitude>-15.57</logitude>
+         <latitude>11.85</latitude>
+      </ville>
+      <frontiere pays="RG" longueur="386"/>
+      <frontiere pays="SN" longueur="338"/>
+   </pays>
+   <pays continent="africa" code="RG">
+      <nom>Guinea</nom>
+      <capitale>Conakry</capitale>
+      <population annnee="2014">10628972</population>
+      <religions>
+         <musulmans pourcentage="89.1">9 470 414</musulmans>
+         <cretien pourcentage="7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.6">170 064</autre>
+      </religions>
+      <ville>
+         <nom>Conakry</nom>
+         <logitude>-13.7</logitude>
+         <latitude>9.52</latitude>
+      </ville>
+      <ville>
+         <nom>N'Zérékoré</nom>
+         <logitude>-8.82</logitude>
+         <latitude>7.75</latitude>
+      </ville>
+      <frontiere pays="RMM" longueur="858"/>
+      <frontiere pays="CI" longueur="610"/>
+      <frontiere pays="LB" longueur="563"/>
+      <frontiere pays="SN" longueur="330"/>
+      <frontiere pays="GUB" longueur="386"/>
+      <frontiere pays="SLE" longueur="652"/>
+   </pays>
+   <pays continent="africa" code="SLE">
+      <nom>Sierra Leone</nom>
+      <capitale>Freetown</capitale>
+      <population annnee="2015">5743725</population>
+      <religions>
+         <musulmans pourcentage="78.6">4 514 568</musulmans>
+         <cretien pourcentage="21.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Freetown</nom>
+         <logitude>-13.23</logitude>
+         <latitude>8.48</latitude>
+      </ville>
+      <ville>
+         <nom>Bo</nom>
+         <logitude>-11.74</logitude>
+         <latitude>7.96</latitude>
+      </ville>
+      <ville>
+         <nom>Kenema</nom>
+         <logitude>-11.19</logitude>
+         <latitude>7.87</latitude>
+      </ville>
+      <frontiere pays="RG" longueur="652"/>
+      <frontiere pays="LB" longueur="306"/>
+   </pays>
+   <pays continent="africa" code="LB">
+      <nom>Liberia</nom>
+      <capitale>Monrovia</capitale>
+      <population annnee="2010">3957990</population>
+      <religions>
+         <musulmans pourcentage="12.2">482 875</musulmans>
+         <cretien pourcentage="83.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.5">19 790</autre>
+      </religions>
+      <ville>
+         <nom>Monrovia</nom>
+         <logitude>-10.8</logitude>
+         <latitude>6.31</latitude>
+      </ville>
+      <frontiere pays="CI" longueur="716"/>
+      <frontiere pays="RG" longueur="563"/>
+      <frontiere pays="SLE" longueur="306"/>
+   </pays>
+   <pays continent="africa" code="BF">
+      <nom>Burkina Faso</nom>
+      <capitale>Ouagadougou</capitale>
+      <population annnee="2013">17322796</population>
+      <religions>
+         <musulmans pourcentage="60.5">10 480 292</musulmans>
+         <cretien pourcentage="29.8">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="7.8">1 351 178</autre>
+      </religions>
+      <ville>
+         <nom>Ouagadougou</nom>
+         <logitude>-1.54</logitude>
+         <latitude>12.36</latitude>
+      </ville>
+      <ville>
+         <nom>Bobo Dioulasso</nom>
+         <logitude>-4.28</logitude>
+         <latitude>11.18</latitude>
+      </ville>
+      <frontiere pays="RMM" longueur="1000"/>
+      <frontiere pays="RN" longueur="628"/>
+      <frontiere pays="BEN" longueur="306"/>
+      <frontiere pays="RT" longueur="126"/>
+      <frontiere pays="CI" longueur="584"/>
+      <frontiere pays="GH" longueur="548"/>
+   </pays>
+   <pays continent="africa" code="CI">
+      <nom>Cote d'Ivoire</nom>
+      <capitale>Yamoussoukro</capitale>
+      <population annnee="2014">22671331</population>
+      <religions>
+         <musulmans pourcentage="42.9">9 726 001</musulmans>
+         <cretien pourcentage="33.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="11.9">2 697 888</autre>
+      </religions>
+      <frontiere pays="RMM" longueur="532"/>
+      <frontiere pays="BF" longueur="584"/>
+      <frontiere pays="GH" longueur="668"/>
+      <frontiere pays="RG" longueur="610"/>
+      <frontiere pays="LB" longueur="716"/>
+   </pays>
+   <pays continent="africa" code="GH">
+      <nom>Ghana</nom>
+      <capitale>Accra</capitale>
+      <population annnee="2010">24658823</population>
+      <religions>
+         <musulmans pourcentage="17.6">4 339 953</musulmans>
+         <cretien pourcentage="71.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="5.2">1 282 259</autre>
+      </religions>
+      <frontiere pays="BF" longueur="548"/>
+      <frontiere pays="RT" longueur="877"/>
+      <frontiere pays="CI" longueur="668"/>
+   </pays>
+   <pays continent="africa" code="RT">
+      <nom>Togo</nom>
+      <capitale>Lomé</capitale>
+      <population annnee="2010">6191155</population>
+      <religions>
+         <musulmans pourcentage="20">1 238 231</musulmans>
+         <cretien pourcentage="40">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="11">681 027</autre>
+      </religions>
+      <ville>
+         <nom>Lomé</nom>
+         <logitude>1.22</logitude>
+         <latitude>6.13</latitude>
+      </ville>
+      <frontiere pays="BEN" longueur="644"/>
+      <frontiere pays="BF" longueur="126"/>
+      <frontiere pays="GH" longueur="877"/>
+   </pays>
+   <pays continent="africa" code="BEN">
+      <nom>Benin</nom>
+      <capitale>Porto-Novo</capitale>
+      <population annnee="2013">9983884</population>
+      <religions>
+         <musulmans pourcentage="27.7">2 765 536</musulmans>
+         <cretien pourcentage="47.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="11.6">1 158 131</autre>
+      </religions>
+      <ville>
+         <nom>Porto-Novo</nom>
+         <logitude>2.61</logitude>
+         <latitude>6.5</latitude>
+      </ville>
+      <ville>
+         <nom>Cotonou</nom>
+         <logitude>2.43</logitude>
+         <latitude>6.37</latitude>
+      </ville>
+      <ville>
+         <nom>Abomey-Calavi</nom>
+         <logitude>2.36</logitude>
+         <latitude>6.45</latitude>
+      </ville>
+      <ville>
+         <nom>Djougou</nom>
+         <logitude>1.67</logitude>
+         <latitude>9.7</latitude>
+      </ville>
+      <frontiere pays="RN" longueur="266"/>
+      <frontiere pays="BF" longueur="306"/>
+      <frontiere pays="NGR" longueur="773"/>
+      <frontiere pays="RT" longueur="644"/>
+   </pays>
+   <pays continent="africa" code="NGR">
+      <nom>Nigeria</nom>
+      <capitale>Abuja</capitale>
+      <population annnee="2016">193392500</population>
+      <religions>
+         <musulmans pourcentage="53.5">103 464 988</musulmans>
+         <cretien pourcentage="45.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.4">2 707 495</autre>
+      </religions>
+      <frontiere pays="RN" longueur="1497"/>
+      <frontiere pays="BEN" longueur="773"/>
+      <frontiere pays="CAM" longueur="1690"/>
+      <frontiere pays="TCH" longueur="87"/>
+   </pays>
+   <pays continent="africa" code="RN">
+      <nom>Niger</nom>
+      <capitale>Niamey</capitale>
+      <population annnee="2012">17138707</population>
+      <religions>
+         <musulmans pourcentage="99.3">17 018 736</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="DZ" longueur="956"/>
+      <frontiere pays="LAR" longueur="354"/>
+      <frontiere pays="RMM" longueur="821"/>
+      <frontiere pays="BEN" longueur="266"/>
+      <frontiere pays="BF" longueur="628"/>
+      <frontiere pays="NGR" longueur="1497"/>
+      <frontiere pays="TCH" longueur="1175"/>
+   </pays>
+   <pays continent="africa" code="TCH">
+      <nom>Chad</nom>
+      <capitale>N'Djamena</capitale>
+      <population annnee="2010">11720781</population>
+      <religions>
+         <musulmans pourcentage="52.1">6 106 527</musulmans>
+         <cretien pourcentage="43.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="4">468 831</autre>
+      </religions>
+      <ville>
+         <nom>N'Djamena</nom>
+         <logitude>15.05</logitude>
+         <latitude>12.11</latitude>
+      </ville>
+      <ville>
+         <nom>Moundou</nom>
+         <logitude>16.1</logitude>
+         <latitude>8.56</latitude>
+      </ville>
+      <frontiere pays="LAR" longueur="1055"/>
+      <frontiere pays="RN" longueur="1175"/>
+      <frontiere pays="NGR" longueur="87"/>
+      <frontiere pays="CAM" longueur="1094"/>
+      <frontiere pays="RCA" longueur="1197"/>
+      <frontiere pays="SUD" longueur="1360"/>
+   </pays>
+   <pays continent="africa" code="SUD">
+      <nom>Sudan</nom>
+      <capitale>Khartoum</capitale>
+      <population annnee="2017">40782700</population>
+      <religions>
+         <musulmans pourcentage="97">39 559 219</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2">815 654</autre>
+      </religions>
+      <frontiere pays="ET" longueur="1273"/>
+      <frontiere pays="LAR" longueur="383"/>
+      <frontiere pays="RCA" longueur="175"/>
+      <frontiere pays="TCH" longueur="1360"/>
+      <frontiere pays="ER" longueur="605"/>
+      <frontiere pays="ETH" longueur="769"/>
+      <frontiere pays="SSD" longueur="2184"/>
+   </pays>
+   <pays continent="africa" code="SSD">
+      <nom>South Sudan</nom>
+      <capitale>Juba</capitale>
+      <population annnee="2008">8260490</population>
+      <religions>
+         <musulmans pourcentage="2.2">181 731</musulmans>
+         <cretien pourcentage="76">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="21">1 734 703</autre>
+      </religions>
+      <ville>
+         <nom>Juba</nom>
+         <logitude>31.6</logitude>
+         <latitude>4.85</latitude>
+      </ville>
+      <frontiere pays="CGO" longueur="639"/>
+      <frontiere pays="RCA" longueur="989"/>
+      <frontiere pays="ETH" longueur="934"/>
+      <frontiere pays="EAK" longueur="232"/>
+      <frontiere pays="EAU" longueur="435"/>
+      <frontiere pays="SUD" longueur="2184"/>
+   </pays>
+   <pays continent="africa" code="RCA">
+      <nom>Central African Republic</nom>
+      <capitale>Bangui</capitale>
+      <population annnee="2010">4349921</population>
+      <religions>
+         <musulmans pourcentage="10">434 992</musulmans>
+         <cretien pourcentage="80.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="9.6">417 592</autre>
+      </religions>
+      <ville>
+         <nom>Bangui</nom>
+         <logitude>18.58</logitude>
+         <latitude>4.37</latitude>
+      </ville>
+      <ville>
+         <nom>Bimbo</nom>
+         <logitude>18.4</logitude>
+         <latitude>4.26</latitude>
+      </ville>
+      <frontiere pays="RCB" longueur="467"/>
+      <frontiere pays="CGO" longueur="1577"/>
+      <frontiere pays="CAM" longueur="797"/>
+      <frontiere pays="TCH" longueur="1197"/>
+      <frontiere pays="SUD" longueur="175"/>
+      <frontiere pays="SSD" longueur="989"/>
+   </pays>
+   <pays continent="africa" code="CAM">
+      <nom>Cameroon</nom>
+      <capitale>Yaoundé</capitale>
+      <population annnee="2010">19406100</population>
+      <religions>
+         <musulmans pourcentage="20.9">4 055 875</musulmans>
+         <cretien pourcentage="65.2">12 652 777</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="RCB" longueur="523"/>
+      <frontiere pays="NGR" longueur="1690"/>
+      <frontiere pays="RCA" longueur="797"/>
+      <frontiere pays="TCH" longueur="1094"/>
+      <frontiere pays="GQ" longueur="189"/>
+      <frontiere pays="G" longueur="298"/>
+   </pays>
+   <pays continent="africa" code="GQ">
+      <nom>Equatorial Guinea</nom>
+      <capitale>Malabo</capitale>
+      <population annnee="2015">1222442</population>
+      <religions>
+         <musulmans pourcentage="2">24 449</musulmans>
+         <cretien pourcentage="92">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="CAM" longueur="189"/>
+      <frontiere pays="G" longueur="350"/>
+   </pays>
+   <pays continent="africa" code="G">
+      <nom>Gabon</nom>
+      <capitale>Libreville</capitale>
+      <population annnee="2013">1811079</population>
+      <religions>
+         <musulmans pourcentage="12">217 329</musulmans>
+         <cretien pourcentage="65">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Libreville</nom>
+         <logitude>9.45</logitude>
+         <latitude>0.39</latitude>
+      </ville>
+      <ville>
+         <nom>Port-Gentil</nom>
+         <logitude>8.78</logitude>
+         <latitude>-0.72</latitude>
+      </ville>
+      <ville>
+         <nom>Franceville</nom>
+         <logitude>13.58</logitude>
+         <latitude>-1.63</latitude>
+      </ville>
+      <frontiere pays="RCB" longueur="1903"/>
+      <frontiere pays="CAM" longueur="298"/>
+      <frontiere pays="GQ" longueur="350"/>
+   </pays>
+   <pays continent="africa" code="RCB">
+      <nom>Congo</nom>
+      <capitale>Brazzaville</capitale>
+      <population annnee="2010">4001831</population>
+      <religions>
+         <musulmans pourcentage="1.6">64 029</musulmans>
+         <cretien pourcentage="84.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="ANG" longueur="201"/>
+      <frontiere pays="CGO" longueur="2410"/>
+      <frontiere pays="CAM" longueur="523"/>
+      <frontiere pays="RCA" longueur="467"/>
+      <frontiere pays="G" longueur="1903"/>
+   </pays>
+   <pays continent="africa" code="CGO">
+      <nom>Congo, Dem.Rep.</nom>
+      <capitale>Kinshasa</capitale>
+      <population annnee="2015">86026000</population>
+      <religions>
+         <musulmans pourcentage="2.1">1 806 546</musulmans>
+         <cretien pourcentage="94.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="ANG" longueur="2511"/>
+      <frontiere pays="RCB" longueur="2410"/>
+      <frontiere pays="Z" longueur="1930"/>
+      <frontiere pays="BI" longueur="233"/>
+      <frontiere pays="RWA" longueur="217"/>
+      <frontiere pays="RCA" longueur="1577"/>
+      <frontiere pays="SSD" longueur="639"/>
+      <frontiere pays="EAU" longueur="765"/>
+      <frontiere pays="EAT" longueur="459"/>
+   </pays>
+   <pays continent="africa" code="ANG">
+      <nom>Angola</nom>
+      <capitale>Luanda</capitale>
+      <population annnee="2014">25789024</population>
+      <religions>
+         <musulmans pourcentage="0.4">103 156</musulmans>
+         <cretien pourcentage="79.2">NaN</cretien>
+         <juif pourcentage="0.2">51 578</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="RCB" longueur="201"/>
+      <frontiere pays="NAM" longueur="1376"/>
+      <frontiere pays="CGO" longueur="2511"/>
+      <frontiere pays="Z" longueur="1110"/>
+   </pays>
+   <pays continent="africa" code="NAM">
+      <nom>Namibia</nom>
+      <capitale>Windhoek</capitale>
+      <population annnee="2011">2113077</population>
+      <religions>
+         <musulmans pourcentage="0.5">10 565</musulmans>
+         <cretien pourcentage="87">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Windhoek</nom>
+         <logitude>17.08</logitude>
+         <latitude>-22.57</latitude>
+      </ville>
+      <ville>
+         <nom>Rundu</nom>
+         <logitude>19.75</logitude>
+         <latitude>-17.9</latitude>
+      </ville>
+      <ville>
+         <nom>Walvis Bay</nom>
+         <logitude>14.5</logitude>
+         <latitude>-22.95</latitude>
+      </ville>
+      <frontiere pays="ANG" longueur="1376"/>
+      <frontiere pays="Z" longueur="233"/>
+      <frontiere pays="RB" longueur="1360"/>
+      <frontiere pays="RSA" longueur="855"/>
+   </pays>
+   <pays continent="africa" code="RB">
+      <nom>Botswana</nom>
+      <capitale>Gaborone</capitale>
+      <population annnee="2011">2038228</population>
+      <religions>
+         <musulmans pourcentage="0.2">4 076</musulmans>
+         <cretien pourcentage="73">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.1">2 038</autre>
+      </religions>
+      <ville>
+         <nom>Gaborone</nom>
+         <logitude>25.91</logitude>
+         <latitude>-24.66</latitude>
+      </ville>
+      <ville>
+         <nom>Francistown</nom>
+         <logitude>27.51</logitude>
+         <latitude>-21.17</latitude>
+      </ville>
+      <frontiere pays="NAM" longueur="1360"/>
+      <frontiere pays="RSA" longueur="1840"/>
+      <frontiere pays="ZW" longueur="813"/>
+   </pays>
+   <pays continent="africa" code="RSA">
+      <nom>South Africa</nom>
+      <capitale>Tshwane Pretoria</capitale>
+      <population annnee="2011">51770560</population>
+      <religions>
+         <musulmans pourcentage="1.7">880 100</musulmans>
+         <cretien pourcentage="80.60000000000001">NaN</cretien>
+         <juif pourcentage="0.2">103 541</juif>
+         <autre pourcentage="1.3">673 017</autre>
+      </religions>
+      <frontiere pays="NAM" longueur="855"/>
+      <frontiere pays="RB" longueur="1840"/>
+      <frontiere pays="ZW" longueur="225"/>
+      <frontiere pays="LS" longueur="909"/>
+      <frontiere pays="MOC" longueur="491"/>
+      <frontiere pays="SD" longueur="430"/>
+   </pays>
+   <pays continent="africa" code="LS">
+      <nom>Lesotho</nom>
+      <capitale>Maseru</capitale>
+      <population annnee="2016">2007201</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Maseru</nom>
+         <logitude>27.48</logitude>
+         <latitude>-29.31</latitude>
+      </ville>
+      <frontiere pays="RSA" longueur="909"/>
+   </pays>
+   <pays continent="africa" code="SD">
+      <nom>Eswatini Swaziland</nom>
+      <capitale>Mbabane</capitale>
+      <population annnee="2010">1193148</population>
+      <religions>
+         <musulmans pourcentage="2">23 863</musulmans>
+         <cretien pourcentage="71">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.7">8 352</autre>
+      </religions>
+      <ville>
+         <nom>Mbabane</nom>
+         <logitude>31.13</logitude>
+         <latitude>-26.32</latitude>
+      </ville>
+      <frontiere pays="RSA" longueur="430"/>
+      <frontiere pays="MOC" longueur="105"/>
+   </pays>
+   <pays continent="africa" code="MOC">
+      <nom>Mozambique</nom>
+      <capitale>Maputo</capitale>
+      <population annnee="2012">23700715</population>
+      <religions>
+         <musulmans pourcentage="18.9">4 479 435</musulmans>
+         <cretien pourcentage="59.8">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="Z" longueur="419"/>
+      <frontiere pays="RSA" longueur="491"/>
+      <frontiere pays="ZW" longueur="1231"/>
+      <frontiere pays="EAT" longueur="756"/>
+      <frontiere pays="MW" longueur="1569"/>
+      <frontiere pays="SD" longueur="105"/>
+   </pays>
+   <pays continent="africa" code="ZW">
+      <nom>Zimbabwe</nom>
+      <capitale>Harare</capitale>
+      <population annnee="2012">13061239</population>
+      <religions>
+         <musulmans pourcentage="0.5">65 306</musulmans>
+         <cretien pourcentage="82.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Harare</nom>
+         <logitude>31.03</logitude>
+         <latitude>-17.86</latitude>
+      </ville>
+      <ville>
+         <nom>Bulawayo</nom>
+         <logitude>28.58</logitude>
+         <latitude>-20.17</latitude>
+      </ville>
+      <ville>
+         <nom>Chitungwiza</nom>
+         <logitude>31.05</logitude>
+         <latitude>-17.99</latitude>
+      </ville>
+      <frontiere pays="Z" longueur="797"/>
+      <frontiere pays="RB" longueur="813"/>
+      <frontiere pays="RSA" longueur="225"/>
+      <frontiere pays="MOC" longueur="1231"/>
+   </pays>
+   <pays continent="africa" code="Z">
+      <nom>Zambia</nom>
+      <capitale>Lusaka</capitale>
+      <population annnee="2010">13092666</population>
+      <religions>
+         <musulmans pourcentage="0.5">65 463</musulmans>
+         <cretien pourcentage="95.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="ANG" longueur="1110"/>
+      <frontiere pays="NAM" longueur="233"/>
+      <frontiere pays="CGO" longueur="1930"/>
+      <frontiere pays="ZW" longueur="797"/>
+      <frontiere pays="EAT" longueur="338"/>
+      <frontiere pays="MW" longueur="837"/>
+      <frontiere pays="MOC" longueur="419"/>
+   </pays>
+   <pays continent="africa" code="MW">
+      <nom>Malawi</nom>
+      <capitale>Lilongwe</capitale>
+      <population annnee="2018">17563749</population>
+      <religions>
+         <musulmans pourcentage="13.8">2 423 797</musulmans>
+         <cretien pourcentage="78">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.6">105 382</autre>
+      </religions>
+      <ville>
+         <nom>Lilongwe</nom>
+         <logitude>33.78</logitude>
+         <latitude>-13.98</latitude>
+      </ville>
+      <ville>
+         <nom>Blantyre</nom>
+         <logitude>35.01</logitude>
+         <latitude>-15.79</latitude>
+      </ville>
+      <frontiere pays="Z" longueur="837"/>
+      <frontiere pays="EAT" longueur="475"/>
+      <frontiere pays="MOC" longueur="1569"/>
+   </pays>
+   <pays continent="africa" code="EAT">
+      <nom>Tanzania</nom>
+      <capitale>Dodoma</capitale>
+      <population annnee="2012">44928923</population>
+      <religions>
+         <musulmans pourcentage="35.2">15 814 981</musulmans>
+         <cretien pourcentage="58.2">26 148 633</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2">898 578</autre>
+      </religions>
+      <frontiere pays="CGO" longueur="459"/>
+      <frontiere pays="Z" longueur="338"/>
+      <frontiere pays="BI" longueur="451"/>
+      <frontiere pays="RWA" longueur="217"/>
+      <frontiere pays="EAK" longueur="769"/>
+      <frontiere pays="EAU" longueur="396"/>
+      <frontiere pays="MW" longueur="475"/>
+      <frontiere pays="MOC" longueur="756"/>
+   </pays>
+   <pays continent="africa" code="BI">
+      <nom>Burundi</nom>
+      <capitale>Gitega</capitale>
+      <population annnee="2010">8444784</population>
+      <religions>
+         <musulmans pourcentage="3">253 344</musulmans>
+         <cretien pourcentage="91">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="5">422 239</autre>
+      </religions>
+      <ville>
+         <nom>Bujumbura</nom>
+         <logitude>29.37</logitude>
+         <latitude>-3.38</latitude>
+      </ville>
+      <ville>
+         <nom>Gitega</nom>
+         <logitude>29.93</logitude>
+         <latitude>-3.44</latitude>
+      </ville>
+      <frontiere pays="CGO" longueur="233"/>
+      <frontiere pays="RWA" longueur="290"/>
+      <frontiere pays="EAT" longueur="451"/>
+   </pays>
+   <pays continent="africa" code="RWA">
+      <nom>Rwanda</nom>
+      <capitale>Kigali</capitale>
+      <population annnee="2012">10515973</population>
+      <religions>
+         <musulmans pourcentage="2">210 319</musulmans>
+         <cretien pourcentage="93.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Kigali</nom>
+         <logitude>30.06</logitude>
+         <latitude>-1.94</latitude>
+      </ville>
+      <frontiere pays="CGO" longueur="217"/>
+      <frontiere pays="BI" longueur="290"/>
+      <frontiere pays="EAT" longueur="217"/>
+      <frontiere pays="EAU" longueur="169"/>
+   </pays>
+   <pays continent="africa" code="EAU">
+      <nom>Uganda</nom>
+      <capitale>Kampala</capitale>
+      <population annnee="2014">34634650</population>
+      <religions>
+         <musulmans pourcentage="13.7">4 744 947</musulmans>
+         <cretien pourcentage="84.4">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="CGO" longueur="765"/>
+      <frontiere pays="RWA" longueur="169"/>
+      <frontiere pays="EAT" longueur="396"/>
+      <frontiere pays="SSD" longueur="435"/>
+      <frontiere pays="EAK" longueur="933"/>
+   </pays>
+   <pays continent="africa" code="EAK">
+      <nom>Kenya</nom>
+      <capitale>Nairobi</capitale>
+      <population annnee="2010">40909194</population>
+      <religions>
+         <musulmans pourcentage="15">6 136 379</musulmans>
+         <cretien pourcentage="77.8">31 827 353</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3.5">1 431 822</autre>
+      </religions>
+      <ville>
+         <nom>Mombasa</nom>
+         <logitude>39.67</logitude>
+         <latitude>-4.05</latitude>
+      </ville>
+      <ville>
+         <nom>Malindi</nom>
+         <logitude>40.13</logitude>
+         <latitude>-3.22</latitude>
+      </ville>
+      <ville>
+         <nom>Machakos</nom>
+         <logitude>37.27</logitude>
+         <latitude>-1.52</latitude>
+      </ville>
+      <ville>
+         <nom>Nairobi</nom>
+         <logitude>36.82</logitude>
+         <latitude>-1.28</latitude>
+      </ville>
+      <ville>
+         <nom>Kisumu</nom>
+         <logitude>34.75</logitude>
+         <latitude>-0.1</latitude>
+      </ville>
+      <ville>
+         <nom>Nakuru</nom>
+         <logitude>36.07</logitude>
+         <latitude>-0.3</latitude>
+      </ville>
+      <ville>
+         <nom>Eldoret</nom>
+         <logitude>35.28</logitude>
+         <latitude>0.52</latitude>
+      </ville>
+      <frontiere pays="EAT" longueur="769"/>
+      <frontiere pays="SSD" longueur="232"/>
+      <frontiere pays="ETH" longueur="830"/>
+      <frontiere pays="SO" longueur="682"/>
+      <frontiere pays="EAU" longueur="933"/>
+   </pays>
+   <pays continent="africa" code="SO">
+      <nom>Somalia</nom>
+      <capitale>Mogadishu</capitale>
+      <population annnee="2017">11000000</population>
+      <religions>
+         <musulmans pourcentage="99.8">10 978 000</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Mogadishu</nom>
+         <logitude>45.35</logitude>
+         <latitude>2.03</latitude>
+      </ville>
+      <ville>
+         <nom>Hargeisa</nom>
+         <logitude>44.07</logitude>
+         <latitude>9.55</latitude>
+      </ville>
+      <frontiere pays="DJI" longueur="58"/>
+      <frontiere pays="ETH" longueur="1626"/>
+      <frontiere pays="EAK" longueur="682"/>
+   </pays>
+   <pays continent="africa" code="DJI">
+      <nom>Djibouti</nom>
+      <capitale>Djibouti</capitale>
+      <population annnee="2010">834036</population>
+      <religions>
+         <musulmans pourcentage="94">783 994</musulmans>
+         <cretien pourcentage="1.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3.2">26 689</autre>
+      </religions>
+      <ville>
+         <nom>Djibouti</nom>
+         <logitude>43.17</logitude>
+         <latitude>11.6</latitude>
+      </ville>
+      <frontiere pays="ER" longueur="113"/>
+      <frontiere pays="ETH" longueur="337"/>
+      <frontiere pays="SO" longueur="58"/>
+   </pays>
+   <pays continent="africa" code="ETH">
+      <nom>Ethiopia</nom>
+      <capitale>Addis Ababa</capitale>
+      <population annnee="2012">84320987</population>
+      <religions>
+         <musulmans pourcentage="33.9">28 584 815</musulmans>
+         <cretien pourcentage="19.3">NaN</cretien>
+         <juif pourcentage="0.7">590 247</juif>
+         <autre pourcentage="46.1">38 871 975</autre>
+      </religions>
+      <frontiere pays="SUD" longueur="769"/>
+      <frontiere pays="SSD" longueur="934"/>
+      <frontiere pays="DJI" longueur="337"/>
+      <frontiere pays="ER" longueur="912"/>
+      <frontiere pays="SO" longueur="1626"/>
+      <frontiere pays="EAK" longueur="830"/>
+   </pays>
+   <pays continent="africa" code="ER">
+      <nom>Eritrea</nom>
+      <capitale>Asmara</capitale>
+      <population annnee="2010">5741159</population>
+      <religions>
+         <musulmans pourcentage="48">2 755 756</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="50">2 870 580</autre>
+      </religions>
+      <ville>
+         <nom>Asmara</nom>
+         <logitude>38.92</logitude>
+         <latitude>15.32</latitude>
+      </ville>
+      <ville>
+         <nom>Massaua</nom>
+         <logitude>39.45</logitude>
+         <latitude>15.61</latitude>
+      </ville>
+      <frontiere pays="SUD" longueur="605"/>
+      <frontiere pays="DJI" longueur="113"/>
+      <frontiere pays="ETH" longueur="912"/>
+   </pays>
+   <pays continent="africa" code="CV">
+      <nom>Cape Verde</nom>
+      <capitale>Praia</capitale>
+      <population annnee="2010">491875</population>
+      <religions>
+         <musulmans pourcentage="1.8">8 854</musulmans>
+         <cretien pourcentage="81.89999999999999">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.5">7 378</autre>
+      </religions>
+      <ville>
+         <nom>Praia</nom>
+         <logitude>-23.51</logitude>
+         <latitude>14.92</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="STP">
+      <nom>Sao Tome and Principe</nom>
+      <capitale>São Tomé</capitale>
+      <population annnee="2012">187356</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="65.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="4.1">7 682</autre>
+      </religions>
+      <ville>
+         <nom>São Tomé</nom>
+         <logitude>6.68</logitude>
+         <latitude>0.34</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="SY">
+      <nom>Seychelles</nom>
+      <capitale>Victoria</capitale>
+      <population annnee="2010">90945</population>
+      <religions>
+         <musulmans pourcentage="1.6">1 455</musulmans>
+         <cretien pourcentage="86.8">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.4">2 183</autre>
+      </religions>
+      <ville>
+         <nom>Victoria</nom>
+         <logitude>55.45</logitude>
+         <latitude>-4.62</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="COM">
+      <nom>Comoros</nom>
+      <capitale>Moroni</capitale>
+      <population annnee="2010">683081</population>
+      <religions>
+         <musulmans pourcentage="98">669 419</musulmans>
+         <cretien pourcentage="1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Moroni</nom>
+         <logitude>43.26</logitude>
+         <latitude>-11.7</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="MAYO">
+      <nom>Mayotte</nom>
+      <capitale>Mamoutzou Mamoudzou</capitale>
+      <population annnee="2017">256518</population>
+      <religions>
+         <musulmans pourcentage="97">248 822</musulmans>
+         <cretien pourcentage="2.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Mamoutzou</nom>
+         <logitude>45.13</logitude>
+         <latitude>-12.46</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="RM">
+      <nom>Madagascar</nom>
+      <capitale>Antananarivo</capitale>
+      <population annnee="2013">21842167</population>
+      <religions>
+         <musulmans pourcentage="7">1 528 952</musulmans>
+         <cretien pourcentage="41">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="52">11 357 927</autre>
+      </religions>
+      <ville>
+         <nom>Antsiranana</nom>
+         <logitude>49.28</logitude>
+         <latitude>-12.3</latitude>
+      </ville>
+      <ville>
+         <nom>Antananarivo</nom>
+         <logitude>47.52</logitude>
+         <latitude>-18.93</latitude>
+      </ville>
+      <ville>
+         <nom>Antsirabe</nom>
+         <logitude>47.03</logitude>
+         <latitude>-19.87</latitude>
+      </ville>
+      <ville>
+         <nom>Fianarantsoa</nom>
+         <logitude>47.09</logitude>
+         <latitude>-21.45</latitude>
+      </ville>
+      <ville>
+         <nom>Majunga</nom>
+         <logitude>46.32</logitude>
+         <latitude>-15.72</latitude>
+      </ville>
+      <ville>
+         <nom>Tamatave</nom>
+         <logitude>49.42</logitude>
+         <latitude>-18.15</latitude>
+      </ville>
+      <ville>
+         <nom>Toliara</nom>
+         <logitude>43.67</logitude>
+         <latitude>-23.35</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="MS">
+      <nom>Mauritius</nom>
+      <capitale>Port Louis</capitale>
+      <population annnee="2011">1237091</population>
+      <religions>
+         <musulmans pourcentage="17.3">214 017</musulmans>
+         <cretien pourcentage="32.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="48.5">599 989</autre>
+      </religions>
+      <ville>
+         <nom>Port Louis</nom>
+         <logitude>57.5</logitude>
+         <latitude>-20.16</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="REUN">
+      <nom>Reunion</nom>
+      <capitale>Saint-Denis</capitale>
+      <population annnee="2011">828581</population>
+      <religions>
+         <musulmans pourcentage="3.2">26 515</musulmans>
+         <cretien pourcentage="86.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="6.7">55 515</autre>
+      </religions>
+      <ville>
+         <nom>Saint-Denis</nom>
+         <logitude>55.5</logitude>
+         <latitude>-20.9</latitude>
+      </ville>
+      <ville>
+         <nom>Saint-Paul</nom>
+         <logitude>55.27</logitude>
+         <latitude>-21.01</latitude>
+      </ville>
+   </pays>
+   <pays continent="africa" code="HELX">
+      <nom>Saint Helena</nom>
+      <capitale>Jamestown</capitale>
+      <population annnee="2019">4577</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="89.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="6.8">311</autre>
+      </religions>
+      <ville>
+         <nom>Jamestown</nom>
+         <logitude>-5.72</logitude>
+         <latitude>-15.95</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="GL">
+      <nom>Greenland</nom>
+      <capitale>Nuuk</capitale>
+      <population annnee="2013">56370</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.8">451</autre>
+      </religions>
+      <ville>
+         <nom>Nuuk</nom>
+         <logitude>-51.74</logitude>
+         <latitude>64.18</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="SPMI">
+      <nom>Saint Pierre and Miquelon</nom>
+      <capitale>Saint-Pierre</capitale>
+      <population annnee="2016">6008</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="99">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Saint-Pierre</nom>
+         <logitude>-56.18</logitude>
+         <latitude>46.78</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="BERM">
+      <nom>Bermuda</nom>
+      <capitale>Hamilton</capitale>
+      <population annnee="2016">61178</population>
+      <religions>
+         <musulmans pourcentage="1">612</musulmans>
+         <cretien pourcentage="60.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.5">918</autre>
+      </religions>
+      <ville>
+         <nom>Hamilton</nom>
+         <logitude>-64.78</logitude>
+         <latitude>32.29</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="CDN">
+      <nom>Canada</nom>
+      <capitale>Ottawa</capitale>
+      <population annnee="2016">35151728</population>
+      <religions>
+         <musulmans pourcentage="3.2">1 124 855</musulmans>
+         <cretien pourcentage="68.8">24 184 389</cretien>
+         <juif pourcentage="1">351 517</juif>
+         <autre pourcentage="4">1 406 069</autre>
+      </religions>
+      <frontiere pays="USA" longueur="8893"/>
+   </pays>
+   <pays continent="northamerica" code="USA">
+      <nom>United States</nom>
+      <capitale>Washington</capitale>
+      <population annnee="2014">318857056</population>
+      <religions>
+         <musulmans pourcentage="0.9">2 869 714</musulmans>
+         <cretien pourcentage="72.10000000000001">229 895 938</cretien>
+         <juif pourcentage="2.1">6 695 998</juif>
+         <autre pourcentage="4">12 754 282</autre>
+      </religions>
+      <frontiere pays="MEX" longueur="3326"/>
+      <frontiere pays="CDN" longueur="8893"/>
+   </pays>
+   <pays continent="northamerica" code="MEX">
+      <nom>Mexico</nom>
+      <capitale>Ciudad de México Mexico City</capitale>
+      <population annnee="2010">112336538</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="91.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.1">1 235 702</autre>
+      </religions>
+      <frontiere pays="BZ" longueur="250"/>
+      <frontiere pays="GCA" longueur="962"/>
+      <frontiere pays="USA" longueur="3326"/>
+   </pays>
+   <pays continent="northamerica" code="BZ">
+      <nom>Belize</nom>
+      <capitale>Belmopan</capitale>
+      <population annnee="2010">312971</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="71.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.7">5 321</autre>
+      </religions>
+      <ville>
+         <nom>Belmopan</nom>
+         <logitude>-88.77</logitude>
+         <latitude>17.25</latitude>
+      </ville>
+      <ville>
+         <nom>Belize City</nom>
+         <logitude>-88.19</logitude>
+         <latitude>17.5</latitude>
+      </ville>
+      <frontiere pays="GCA" longueur="266"/>
+      <frontiere pays="MEX" longueur="250"/>
+   </pays>
+   <pays continent="northamerica" code="GCA">
+      <nom>Guatemala</nom>
+      <capitale>Ciudad de Guatemala Guatemala City</capitale>
+      <population annnee="2012">15073375</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="90">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1">150 734</autre>
+      </religions>
+      <ville>
+         <nom>Ciudad de Guatemala</nom>
+         <logitude>-90.54</logitude>
+         <latitude>14.61</latitude>
+      </ville>
+      <ville>
+         <nom>Mixco</nom>
+         <logitude>-90.61</logitude>
+         <latitude>14.63</latitude>
+      </ville>
+      <ville>
+         <nom>Villa Nueva</nom>
+         <logitude>-90.59</logitude>
+         <latitude>14.53</latitude>
+      </ville>
+      <ville>
+         <nom>Cobán</nom>
+         <logitude>-90.37</logitude>
+         <latitude>15.48</latitude>
+      </ville>
+      <ville>
+         <nom>Chichicastenango</nom>
+         <logitude>-91.12</logitude>
+         <latitude>14.95</latitude>
+      </ville>
+      <frontiere pays="BZ" longueur="266"/>
+      <frontiere pays="MEX" longueur="962"/>
+      <frontiere pays="ES" longueur="203"/>
+      <frontiere pays="HN" longueur="256"/>
+   </pays>
+   <pays continent="northamerica" code="ES">
+      <nom>El Salvador</nom>
+      <capitale>San Salvador</capitale>
+      <population annnee="2013">6290420</population>
+      <religions>
+         <musulmans pourcentage="1.0">62 904</musulmans>
+         <cretien pourcentage="82.6">5 195 888</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.3">81 775</autre>
+      </religions>
+      <ville>
+         <nom>San Salvador</nom>
+         <logitude>-89.19</logitude>
+         <latitude>13.69</latitude>
+      </ville>
+      <ville>
+         <nom>Soyapango</nom>
+         <logitude>-89.15</logitude>
+         <latitude>13.73</latitude>
+      </ville>
+      <ville>
+         <nom>Mejicanos</nom>
+         <logitude>-89.22</logitude>
+         <latitude>13.73</latitude>
+      </ville>
+      <ville>
+         <nom>Ciudad Delgado</nom>
+         <logitude>-89.17</logitude>
+         <latitude>13.72</latitude>
+      </ville>
+      <ville>
+         <nom>Apopa</nom>
+         <logitude>-89.18</logitude>
+         <latitude>13.8</latitude>
+      </ville>
+      <ville>
+         <nom>Santa Ana</nom>
+         <logitude>-89.53</logitude>
+         <latitude>13.98</latitude>
+      </ville>
+      <ville>
+         <nom>Santa Tecla</nom>
+         <logitude>-89.24</logitude>
+         <latitude>13.67</latitude>
+      </ville>
+      <ville>
+         <nom>San Miguel</nom>
+         <logitude>-88.18</logitude>
+         <latitude>13.48</latitude>
+      </ville>
+      <frontiere pays="GCA" longueur="203"/>
+      <frontiere pays="HN" longueur="342"/>
+   </pays>
+   <pays continent="northamerica" code="HN">
+      <nom>Honduras</nom>
+      <capitale>Tegucigalpa</capitale>
+      <population annnee="2010">8045990</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="87.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="GCA" longueur="256"/>
+      <frontiere pays="NIC" longueur="922"/>
+      <frontiere pays="ES" longueur="342"/>
+   </pays>
+   <pays continent="northamerica" code="NIC">
+      <nom>Nicaragua</nom>
+      <capitale>Managua</capitale>
+      <population annnee="2016">6327927</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="83.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.4">151 870</autre>
+      </religions>
+      <ville>
+         <nom>Managua</nom>
+         <logitude>-86.25</logitude>
+         <latitude>12.14</latitude>
+      </ville>
+      <ville>
+         <nom>León</nom>
+         <logitude>-86.89</logitude>
+         <latitude>12.43</latitude>
+      </ville>
+      <ville>
+         <nom>Chinandega</nom>
+         <logitude>-87.15</logitude>
+         <latitude>12.62</latitude>
+      </ville>
+      <ville>
+         <nom>Masaya</nom>
+         <logitude>-86.1</logitude>
+         <latitude>11.97</latitude>
+      </ville>
+      <ville>
+         <nom>Granada</nom>
+         <logitude>-85.95</logitude>
+         <latitude>11.93</latitude>
+      </ville>
+      <ville>
+         <nom>Matagalpa</nom>
+         <logitude>-85.92</logitude>
+         <latitude>12.92</latitude>
+      </ville>
+      <ville>
+         <nom>Tipitapa</nom>
+         <logitude>-86.1</logitude>
+         <latitude>12.2</latitude>
+      </ville>
+      <ville>
+         <nom>Jinotega</nom>
+         <logitude>-86</logitude>
+         <latitude>13.17</latitude>
+      </ville>
+      <ville>
+         <nom>Estelí</nom>
+         <logitude>-86.35</logitude>
+         <latitude>13.08</latitude>
+      </ville>
+      <frontiere pays="CR" longueur="309"/>
+      <frontiere pays="HN" longueur="922"/>
+   </pays>
+   <pays continent="northamerica" code="CR">
+      <nom>Costa Rica</nom>
+      <capitale>San José</capitale>
+      <population annnee="2014">4773119</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="90.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3.2">152 740</autre>
+      </religions>
+      <frontiere pays="NIC" longueur="309"/>
+      <frontiere pays="PA" longueur="348"/>
+   </pays>
+   <pays continent="northamerica" code="PA">
+      <nom>Panama</nom>
+      <capitale>Panamá City</capitale>
+      <population annnee="2010">3405813</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="89.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="4.4">149 856</autre>
+      </religions>
+      <frontiere pays="CR" longueur="348"/>
+      <frontiere pays="CO" longueur="339"/>
+   </pays>
+   <pays continent="northamerica" code="BS">
+      <nom>Bahamas</nom>
+      <capitale>Nassau</capitale>
+      <population annnee="2010">353658</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="81.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.2000000000000002">4 244</autre>
+      </religions>
+      <ville>
+         <nom>Nassau</nom>
+         <logitude>-77.33</logitude>
+         <latitude>25.07</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="TUCA">
+      <nom>Turks and Caicos Islands</nom>
+      <capitale>Grand Turk</capitale>
+      <population annnee="2018">53700</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="84.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.8">967</autre>
+      </religions>
+      <ville>
+         <nom>Grand Turk</nom>
+         <logitude>-71.14</logitude>
+         <latitude>21.47</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="CAYM">
+      <nom>Cayman Islands</nom>
+      <capitale>George Town</capitale>
+      <population annnee="2020">61944</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="81.89999999999999">NaN</cretien>
+         <juif pourcentage="1.5">929</juif>
+         <autre pourcentage="1.9000000000000001">1 177</autre>
+      </religions>
+      <ville>
+         <nom>George Town</nom>
+         <logitude>-81.39</logitude>
+         <latitude>19.3</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="C">
+      <nom>Cuba</nom>
+      <capitale>La Habana Habana Havana</capitale>
+      <population annnee="2012">11167325</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="65">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.2">22 335</autre>
+      </religions>
+   </pays>
+   <pays continent="northamerica" code="JA">
+      <nom>Jamaica</nom>
+      <capitale>Kingston</capitale>
+      <population annnee="2011">2697983</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="67">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3">80 939</autre>
+      </religions>
+      <ville>
+         <nom>Kingston</nom>
+         <logitude>-76.8</logitude>
+         <latitude>17.98</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="RH">
+      <nom>Haiti</nom>
+      <capitale>Port-au-Prince</capitale>
+      <population annnee="2018">10788000</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="83.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.1">226 548</autre>
+      </religions>
+      <ville>
+         <nom>Port-au-Prince</nom>
+         <logitude>-72.33</logitude>
+         <latitude>18.53</latitude>
+      </ville>
+      <ville>
+         <nom>Carrefour</nom>
+         <logitude>-72.4</logitude>
+         <latitude>18.53</latitude>
+      </ville>
+      <ville>
+         <nom>Delmas</nom>
+         <logitude>-72.3</logitude>
+         <latitude>18.55</latitude>
+      </ville>
+      <ville>
+         <nom>Pétion-Ville</nom>
+         <logitude>-72.28</logitude>
+         <latitude>18.52</latitude>
+      </ville>
+      <ville>
+         <nom>Cité Soleil</nom>
+         <logitude>-72.33</logitude>
+         <latitude>18.58</latitude>
+      </ville>
+      <ville>
+         <nom>Gonaïves</nom>
+         <logitude>-72.68</logitude>
+         <latitude>19.45</latitude>
+      </ville>
+      <ville>
+         <nom>Cap-Haïtien</nom>
+         <logitude>-72.2</logitude>
+         <latitude>19.76</latitude>
+      </ville>
+      <frontiere pays="DOM" longueur="275"/>
+   </pays>
+   <pays continent="northamerica" code="DOM">
+      <nom>Dominican Republic</nom>
+      <capitale>Santo Domingo</capitale>
+      <population annnee="2010">9445281</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="80">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.5000000000000002">141 679</autre>
+      </religions>
+      <ville>
+         <nom>Santo Domingo</nom>
+         <logitude>-69.95</logitude>
+         <latitude>18.47</latitude>
+      </ville>
+      <ville>
+         <nom>Santiago</nom>
+         <logitude>-70.7</logitude>
+         <latitude>19.47</latitude>
+      </ville>
+      <ville>
+         <nom>Puerto Plata</nom>
+         <logitude>-70.7</logitude>
+         <latitude>19.8</latitude>
+      </ville>
+      <frontiere pays="RH" longueur="275"/>
+   </pays>
+   <pays continent="northamerica" code="PR">
+      <nom>Puerto Rico</nom>
+      <capitale>San Juan</capitale>
+      <population annnee="2010">3725789</population>
+      <religions>
+         <musulmans pourcentage="0.1">3 726</musulmans>
+         <cretien pourcentage="94.80000000000001">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.2000000000000002">44 709</autre>
+      </religions>
+      <ville>
+         <nom>San Juan</nom>
+         <logitude>-66.06</logitude>
+         <latitude>18.41</latitude>
+      </ville>
+      <ville>
+         <nom>Ponce</nom>
+         <logitude>-66.61</logitude>
+         <latitude>18</latitude>
+      </ville>
+      <ville>
+         <nom>Bayamón</nom>
+         <logitude>-66.16</logitude>
+         <latitude>18.38</latitude>
+      </ville>
+      <ville>
+         <nom>Carolina</nom>
+         <logitude>-65.97</logitude>
+         <latitude>18.41</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="VIRG">
+      <nom>Virgin Islands</nom>
+      <capitale>Charlotte Amalie</capitale>
+      <population annnee="2010">106405</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="92.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.4">426</autre>
+      </religions>
+      <ville>
+         <nom>Charlotte Amalie</nom>
+         <logitude>-64.9</logitude>
+         <latitude>18.3</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="BVI">
+      <nom>British Virgin Islands</nom>
+      <capitale>Road Town</capitale>
+      <population annnee="2010">28054</population>
+      <religions>
+         <musulmans pourcentage="0.9">252</musulmans>
+         <cretien pourcentage="79.10000000000001">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="5">1 403</autre>
+      </religions>
+      <ville>
+         <nom>Road Town</nom>
+         <logitude>-64.37</logitude>
+         <latitude>18.27</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="AXA">
+      <nom>Anguilla</nom>
+      <capitale>The Valley</capitale>
+      <population annnee="2011">13452</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="80">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.6">350</autre>
+      </religions>
+      <ville>
+         <nom>The Valley</nom>
+         <logitude>-63.05</logitude>
+         <latitude>18.22</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="SMAR">
+      <nom>Saint Martin</nom>
+      <capitale>Marigot</capitale>
+      <population annnee="2011">36286</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Marigot</nom>
+         <logitude>-63.1</logitude>
+         <latitude>18.1</latitude>
+      </ville>
+      <frontiere pays="SX" longueur="15"/>
+   </pays>
+   <pays continent="northamerica" code="SX">
+      <nom>Sint Maarten</nom>
+      <capitale>Philipsburg</capitale>
+      <population annnee="2017">40535</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="76.2">NaN</cretien>
+         <juif pourcentage="3.4">1 378</juif>
+         <autre pourcentage="6.9">2 797</autre>
+      </religions>
+      <ville>
+         <nom>Philipsburg</nom>
+         <logitude>-63.05</logitude>
+         <latitude>18.02</latitude>
+      </ville>
+      <frontiere pays="SMAR" longueur="15"/>
+   </pays>
+   <pays continent="northamerica" code="SBAR">
+      <nom>Saint Barthelemy</nom>
+      <capitale>Gustavia</capitale>
+      <population annnee="2012">9131</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="0">0</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Gustavia</nom>
+         <logitude>-62.85</logitude>
+         <latitude>17.9</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="KN">
+      <nom>Saint Kitts and Nevis</nom>
+      <capitale>Basseterre Basse Terre</capitale>
+      <population annnee="2011">46398</population>
+      <religions>
+         <musulmans pourcentage="0.3">139</musulmans>
+         <cretien pourcentage="81.10000000000001">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3.7">1 717</autre>
+      </religions>
+      <ville>
+         <nom>Basseterre</nom>
+         <logitude>-62.73</logitude>
+         <latitude>17.3</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="AG">
+      <nom>Antigua and Barbuda</nom>
+      <capitale>St. John's</capitale>
+      <population annnee="2011">81799</population>
+      <religions>
+         <musulmans pourcentage="0.2">164</musulmans>
+         <cretien pourcentage="76.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.4">327</autre>
+      </religions>
+      <ville>
+         <nom>St. John's</nom>
+         <logitude>-61.85</logitude>
+         <latitude>17.12</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="MNTS">
+      <nom>Montserrat</nom>
+      <capitale>Plymouth</capitale>
+      <population annnee="2011">4922</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="78.69999999999999">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.2">108</autre>
+      </religions>
+      <ville>
+         <nom>Plymouth</nom>
+         <logitude>-62.22</logitude>
+         <latitude>16.71</latitude>
+      </ville>
+      <ville>
+         <nom>Brades</nom>
+         <logitude>-62.22</logitude>
+         <latitude>16.80</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="GUAD">
+      <nom>Guadeloupe</nom>
+      <capitale>Basse-Terre</capitale>
+      <population annnee="2016">394110</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.2">8 670</autre>
+      </religions>
+      <ville>
+         <nom>Basse-Terre</nom>
+         <logitude>-61.8</logitude>
+         <latitude>16.15</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="WD">
+      <nom>Dominica</nom>
+      <capitale>Roseau</capitale>
+      <population annnee="2011">70739</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="90">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.9">2 051</autre>
+      </religions>
+      <ville>
+         <nom>Roseau</nom>
+         <logitude>-61.39</logitude>
+         <latitude>15.3</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="MART">
+      <nom>Martinique</nom>
+      <capitale>Fort-de-France</capitale>
+      <population annnee="2013">385551</population>
+      <religions>
+         <musulmans pourcentage="0.5">1 928</musulmans>
+         <cretien pourcentage="91.6">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.8">3 084</autre>
+      </religions>
+      <ville>
+         <nom>Fort-de-France</nom>
+         <logitude>-61.0</logitude>
+         <latitude>14.6</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="WL">
+      <nom>Saint Lucia</nom>
+      <capitale>Castries</capitale>
+      <population annnee="2010">165595</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="89.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3.3">5 465</autre>
+      </religions>
+      <ville>
+         <nom>Castries</nom>
+         <logitude>-60.98</logitude>
+         <latitude>14.02</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="BDS">
+      <nom>Barbados</nom>
+      <capitale>Bridgetown</capitale>
+      <population annnee="2010">277821</population>
+      <religions>
+         <musulmans pourcentage="0.7">1 945</musulmans>
+         <cretien pourcentage="70.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="3.6">10 002</autre>
+      </religions>
+      <ville>
+         <nom>Bridgetown</nom>
+         <logitude>-59.61</logitude>
+         <latitude>13.11</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="WV">
+      <nom>Saint Vincent and the Grenadines</nom>
+      <capitale>Kingstown</capitale>
+      <population annnee="2011">109991</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="81.3">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.3">2 530</autre>
+      </religions>
+      <ville>
+         <nom>Kingstown</nom>
+         <logitude>-61.22</logitude>
+         <latitude>13.16</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="WG">
+      <nom>Grenada</nom>
+      <capitale>Saint George's St. George's</capitale>
+      <population annnee="2011">103328</population>
+      <religions>
+         <musulmans pourcentage="0.3">310</musulmans>
+         <cretien pourcentage="85.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.5">2 583</autre>
+      </religions>
+      <ville>
+         <nom>Saint George's</nom>
+         <logitude>-61.75</logitude>
+         <latitude>12.05</latitude>
+      </ville>
+   </pays>
+   <pays continent="northamerica" code="TT">
+      <nom>Trinidad and Tobago</nom>
+      <capitale>Port-of-Spain</capitale>
+      <population annnee="2011">1328019</population>
+      <religions>
+         <musulmans pourcentage="5">66 401</musulmans>
+         <cretien pourcentage="53.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="21.2">281 540</autre>
+      </religions>
+      <ville>
+         <nom>Port-of-Spain</nom>
+         <logitude>-61.52</logitude>
+         <latitude>10.67</latitude>
+      </ville>
+   </pays>
+   <pays continent="southamerica" code="NLB">
+      <nom>Bonaire</nom>
+      <capitale>Kralendijk</capitale>
+      <population annnee="2019">20104</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="84">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Kralendijk</nom>
+         <logitude>-68.26</logitude>
+         <latitude>12.15</latitude>
+      </ville>
+   </pays>
+   <pays continent="southamerica" code="CUR">
+      <nom>Curacao</nom>
+      <capitale>Willemstad</capitale>
+      <population annnee="2011">150563</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="87.5">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2">3 011</autre>
+      </religions>
+      <ville>
+         <nom>Willemstad</nom>
+         <logitude>-68.9</logitude>
+         <latitude>12.1</latitude>
+      </ville>
+   </pays>
+   <pays continent="southamerica" code="ARU">
+      <nom>Aruba</nom>
+      <capitale>Oranjestad</capitale>
+      <population annnee="2010">101484</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="80.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.7">1 725</autre>
+      </religions>
+      <ville>
+         <nom>Oranjestad</nom>
+         <logitude>-70.04</logitude>
+         <latitude>12.52</latitude>
+      </ville>
+   </pays>
+   <pays continent="southamerica" code="YV">
+      <nom>Venezuela</nom>
+      <capitale>Caracas</capitale>
+      <population annnee="2011">28946101</population>
+      <religions>
+         <musulmans pourcentage="0.4">115 784</musulmans>
+         <cretien pourcentage="88">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.5">144 731</autre>
+      </religions>
+      <frontiere pays="CO" longueur="2341"/>
+      <frontiere pays="BR" longueur="2137"/>
+      <frontiere pays="GUY" longueur="789"/>
+   </pays>
+   <pays continent="southamerica" code="GUY">
+      <nom>Guyana</nom>
+      <capitale>Georgetown</capitale>
+      <population annnee="2012">747884</population>
+      <religions>
+         <musulmans pourcentage="6.8">50 856</musulmans>
+         <cretien pourcentage="41.9">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="26.1">195 198</autre>
+      </religions>
+      <ville>
+         <nom>Georgetown</nom>
+         <logitude>-58.17</logitude>
+         <latitude>6.8</latitude>
+      </ville>
+      <frontiere pays="BR" longueur="1308"/>
+      <frontiere pays="SME" longueur="836"/>
+      <frontiere pays="YV" longueur="789"/>
+   </pays>
+   <pays continent="southamerica" code="SME">
+      <nom>Suriname</nom>
+      <capitale>Paramaribo</capitale>
+      <population annnee="2012">541638</population>
+      <religions>
+         <musulmans pourcentage="13.8">74 746</musulmans>
+         <cretien pourcentage="45.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="23.5">127 285</autre>
+      </religions>
+      <ville>
+         <nom>Paramaribo</nom>
+         <logitude>-55.17</logitude>
+         <latitude>5.87</latitude>
+      </ville>
+      <frontiere pays="BR" longueur="515"/>
+      <frontiere pays="FGU" longueur="556"/>
+      <frontiere pays="GUY" longueur="836"/>
+   </pays>
+   <pays continent="southamerica" code="FGU">
+      <nom>French Guiana</nom>
+      <capitale>Cayenne</capitale>
+      <population annnee="2017">268700</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="84">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Cayenne</nom>
+         <logitude>-52.45</logitude>
+         <latitude>4.93333</latitude>
+      </ville>
+      <frontiere pays="BR" longueur="649"/>
+      <frontiere pays="SME" longueur="556"/>
+   </pays>
+   <pays continent="southamerica" code="CO">
+      <nom>Colombia</nom>
+      <capitale>Bogotá</capitale>
+      <population annnee="2014">47661787</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95.7">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.8">857 912</autre>
+      </religions>
+      <frontiere pays="PA" longueur="339"/>
+      <frontiere pays="BR" longueur="1790"/>
+      <frontiere pays="PE" longueur="1494"/>
+      <frontiere pays="YV" longueur="2341"/>
+      <frontiere pays="EC" longueur="708"/>
+   </pays>
+   <pays continent="southamerica" code="EC">
+      <nom>Ecuador</nom>
+      <capitale>Quito</capitale>
+      <population annnee="2010">14483499</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="84.4">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="2.5999999999999996">376 571</autre>
+      </religions>
+      <ville>
+         <nom>Quito</nom>
+         <logitude>-78.52</logitude>
+         <latitude>-0.23</latitude>
+      </ville>
+      <ville>
+         <nom>Guayaquil</nom>
+         <logitude>-79.88</logitude>
+         <latitude>-2.18</latitude>
+      </ville>
+      <ville>
+         <nom>Cuenca</nom>
+         <logitude>-79.02</logitude>
+         <latitude>-2.9</latitude>
+      </ville>
+      <ville>
+         <nom>Santo Domingo de los Colorados</nom>
+         <logitude>-79.17</logitude>
+         <latitude>-0.25</latitude>
+      </ville>
+      <frontiere pays="CO" longueur="708"/>
+      <frontiere pays="PE" longueur="1529"/>
+   </pays>
+   <pays continent="southamerica" code="PE">
+      <nom>Peru</nom>
+      <capitale>Lima</capitale>
+      <population annnee="2012">30135875</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="93.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1.25">376 698</autre>
+      </religions>
+      <frontiere pays="CO" longueur="1494"/>
+      <frontiere pays="BOL" longueur="1212"/>
+      <frontiere pays="BR" longueur="2659"/>
+      <frontiere pays="RCH" longueur="168"/>
+      <frontiere pays="EC" longueur="1529"/>
+   </pays>
+   <pays continent="southamerica" code="BOL">
+      <nom>Bolivia</nom>
+      <capitale>La Paz</capitale>
+      <population annnee="2012">10027262</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="93">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <frontiere pays="RA" longueur="942"/>
+      <frontiere pays="BR" longueur="3403"/>
+      <frontiere pays="RCH" longueur="942"/>
+      <frontiere pays="PY" longueur="753"/>
+      <frontiere pays="PE" longueur="1212"/>
+   </pays>
+   <pays continent="southamerica" code="RCH">
+      <nom>Chile</nom>
+      <capitale>Santiago</capitale>
+      <population annnee="2012">16341929</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="73">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="1">163 419</autre>
+      </religions>
+      <frontiere pays="RA" longueur="6691"/>
+      <frontiere pays="BOL" longueur="942"/>
+      <frontiere pays="PE" longueur="168"/>
+   </pays>
+   <pays continent="southamerica" code="RA">
+      <nom>Argentina</nom>
+      <capitale>Buenos Aires</capitale>
+      <population annnee="2014">42669500</population>
+      <religions>
+         <musulmans pourcentage="2">853 390</musulmans>
+         <cretien pourcentage="78.2">NaN</cretien>
+         <juif pourcentage="0.7">298 686</juif>
+         <autre pourcentage="2.1">896 060</autre>
+      </religions>
+      <frontiere pays="BOL" longueur="942"/>
+      <frontiere pays="BR" longueur="1263"/>
+      <frontiere pays="RCH" longueur="6691"/>
+      <frontiere pays="PY" longueur="2531"/>
+      <frontiere pays="ROU" longueur="541"/>
+   </pays>
+   <pays continent="southamerica" code="PY">
+      <nom>Paraguay</nom>
+      <capitale>Asunción</capitale>
+      <population annnee="2012">6672631</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="95.1">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.54">36 032</autre>
+      </religions>
+      <ville>
+         <nom>Asunción</nom>
+         <logitude>-57.63</logitude>
+         <latitude>-25.27</latitude>
+      </ville>
+      <ville>
+         <nom>Ciudad del Este</nom>
+         <logitude>-54.62</logitude>
+         <latitude>-25.52</latitude>
+      </ville>
+      <frontiere pays="RA" longueur="2531"/>
+      <frontiere pays="BOL" longueur="753"/>
+      <frontiere pays="BR" longueur="1371"/>
+   </pays>
+   <pays continent="southamerica" code="ROU">
+      <nom>Uruguay</nom>
+      <capitale>Montevideo</capitale>
+      <population annnee="2011">3286314</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="58.2">NaN</cretien>
+         <juif pourcentage="0.5">16 432</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Montevideo</nom>
+         <logitude>-56.18</logitude>
+         <latitude>-34.88</latitude>
+      </ville>
+      <ville>
+         <nom>Salto</nom>
+         <logitude>-57.95</logitude>
+         <latitude>-31.38</latitude>
+      </ville>
+      <frontiere pays="RA" longueur="541"/>
+      <frontiere pays="BR" longueur="1050"/>
+   </pays>
+   <pays continent="southamerica" code="BR">
+      <nom>Brazil</nom>
+      <capitale>Brasília</capitale>
+      <population annnee="2014">202768562</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="87.2">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0.8999999999999999">1 824 917</autre>
+      </religions>
+      <frontiere pays="CO" longueur="1790"/>
+      <frontiere pays="RA" longueur="1263"/>
+      <frontiere pays="BOL" longueur="3403"/>
+      <frontiere pays="PY" longueur="1371"/>
+      <frontiere pays="ROU" longueur="1050"/>
+      <frontiere pays="PE" longueur="2659"/>
+      <frontiere pays="FGU" longueur="649"/>
+      <frontiere pays="GUY" longueur="1308"/>
+      <frontiere pays="SME" longueur="515"/>
+      <frontiere pays="YV" longueur="2137"/>
+   </pays>
+   <pays continent="southamerica" code="FALK">
+      <nom>Falkland Islands</nom>
+      <capitale>Stanley</capitale>
+      <population annnee="2016">3398</population>
+      <religions>
+         <musulmans pourcentage="">0</musulmans>
+         <cretien pourcentage="57">NaN</cretien>
+         <juif pourcentage="">0</juif>
+         <autre pourcentage="0">0</autre>
+      </religions>
+      <ville>
+         <nom>Stanley</nom>
+         <logitude>-57.51</logitude>
+         <latitude>-51.42</latitude>
+      </ville>
+   </pays>
+</monde>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<xsd:element name="monde">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="pays" minOccurs="1" maxOccurs="unbounded">
+               <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="nom" type="xsd:string"/>
+                    <xsd:element name="capitale" type="xsd:string"/>
+                    <xsd:element name="population" >
+                        <xsd:complexType>
+                            <xsd:attribute name="annee" type="xsd:date" use="required"></xsd:attribute>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="religions">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="musulman" type="xsd:decimal"></xsd:element>
+                                <xsd:element name="cretien" type="xsd:decimal"></xsd:element>
+                                <xsd:element name="juif" type="xsd:decimal"></xsd:element>
+                                <xsd:element name="autre" type="xsd:decimal"></xsd:element>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="ville" minOccurs="1" maxOccurs="unbounded">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="nom" type="xsd:string"></xsd:element>
+                                <xsd:element name="longitude" type="xsd:decimal"></xsd:element>
+                                <xsd:element name="latitude" type="xsd:decimal"></xsd:element>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="frontiere" minOccurs="1" maxOccurs="unbounded">
+                        <xsd:complexType>
+                            <xsd:attribute name="pays" type="xsd:IDREF" use="required"></xsd:attribute>
+                            <xsd:attribute name="longueur" type="xsd:decimal" use="required"></xsd:attribute>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+                   <xsd:attribute name="continent" type="continentType" use="required"/>
+               </xsd:complexType> 
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:simpleType name="continentType">
+    <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Afrique"/>
+        <xsd:enumeration value="Asie" />
+        <xsd:enumeration value="Europe" />
+        <xsd:enumeration value="Amerique" />
+        <xsd:enumeration value="Australie"/>
+    </xsd:restriction>
+        
+       
+</xsd:simpleType>
+
+</xsd:schema>

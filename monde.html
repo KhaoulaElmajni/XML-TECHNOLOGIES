@@ -1,0 +1,3155 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>XSL TEST</title><style>
+                    body{
+                    font: italic 1.1em "Fira Sans", serif;
+                    }
+                    .a{
+                    color: red;
+                    }
+                    .th{
+                    color: black;
+                    background-color:#00AA00;
+                    }
+                    .th:hover,tr:hover{
+                    background-color:#AABBEE;
+                    }
+                    .even{
+                    background-color:#EEDD00;
+                    }
+                    .odd{
+                    background-color : #AAFFCC;
+                    }
+                    
+                </style><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   </head>
+   <body align="center">
+      <h1 class="a" align="center">TP XML, DTD, XSL, DOM, SVG</h1>
+      <div class="container">
+         <table border="2" cellpadding="4" class="table table-bordered" width="100%">
+            <thead class="th">
+               <tr align="center">
+                  <th>Numéro</th>
+                  <th>Pays</th>
+                  <th>Capitale</th>
+                  <th>Population</th>
+                  <th>Villes</th>
+                  <th>Muslmans</th>
+                  <th>Juifs</th>
+                  <th>Crétien</th>
+                  <th>Autres</th>
+               </tr>
+            </thead>
+            <tr class="odd" align="center">
+               <td>1</td>
+               <td>China</td>
+               <td>Beijing</td>
+               <td align="right"><span class="pop">1427647786</span></td>
+               <td><select></select></td>
+               <td>24 270 012</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">241 272 476</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>2</td>
+               <td>India</td>
+               <td>Delhi</td>
+               <td align="right"><span class="pop">1210854977</span></td>
+               <td><select></select></td>
+               <td>171 941 407</td>
+               <td>0</td>
+               <td>30 271 375</td>
+               <td align="center">1 008 642 196</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>3</td>
+               <td>United States</td>
+               <td>Washington</td>
+               <td align="right"><span class="pop">318857056</span></td>
+               <td><select></select></td>
+               <td>2 869 714</td>
+               <td>6 695 998</td>
+               <td>229 895 938</td>
+               <td align="center">12 754 282</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>4</td>
+               <td>Indonesia</td>
+               <td>Jakarta</td>
+               <td align="right"><span class="pop">252124458</span></td>
+               <td><select></select></td>
+               <td>219 348 278</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">7 563 734</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>5</td>
+               <td>Pakistan</td>
+               <td>Islamabad Islāmābād</td>
+               <td align="right"><span class="pop">207776954</span></td>
+               <td><select></select></td>
+               <td>201 543 645</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>6</td>
+               <td>Brazil</td>
+               <td>Brasília</td>
+               <td align="right"><span class="pop">202768562</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 824 917</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>7</td>
+               <td>Nigeria</td>
+               <td>Abuja</td>
+               <td align="right"><span class="pop">193392500</span></td>
+               <td><select></select></td>
+               <td>103 464 988</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 707 495</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>8</td>
+               <td>Bangladesh</td>
+               <td>Dhaka</td>
+               <td align="right"><span class="pop">149772364</span></td>
+               <td><select></select></td>
+               <td>134 046 266</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">14 228 375</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>9</td>
+               <td>Russia</td>
+               <td>Moskva Moscow</td>
+               <td align="right"><span class="pop">143666931</span></td>
+               <td><select></select></td>
+               <td>9 338 351</td>
+               <td>143 667</td>
+               <td>61 776 781</td>
+               <td align="center">718 335</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>10</td>
+               <td>Japan</td>
+               <td>Tokyo</td>
+               <td align="right"><span class="pop">127094745</span></td>
+               <td><select></select></td>
+               <td>127 095</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">49 948 235</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>11</td>
+               <td>Mexico</td>
+               <td>Ciudad de México Mexico City</td>
+               <td align="right"><span class="pop">112336538</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 235 702</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>12</td>
+               <td>Philippines</td>
+               <td>Manila</td>
+               <td align="right"><span class="pop">100981437</span></td>
+               <td><select></select></td>
+               <td>5 654 960</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 019 629</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>13</td>
+               <td>Egypt</td>
+               <td>Al Qahirah Cairo</td>
+               <td align="right"><span class="pop">94798827</span></td>
+               <td><select>
+                     <option>Hurghada</option>
+                     <option>Marsa Matruh</option>
+                     <option>Damanhur</option>
+                     <option>Kafr ad Dawwar</option>
+                     <option>Al Mansurah</option>
+                     <option>Tanta</option>
+                     <option>Al Mahallah al Kubra</option>
+                     <option>Al Ismailiyah</option>
+                     <option>Shibin al Kum</option>
+                     <option>Banha</option>
+                     <option>Shubra al Khimah</option>
+                     <option>Az Zaqaziq</option>
+                     <option>Aswan</option>
+                     <option>Asyut</option>
+                     <option>Bani Suwayf</option>
+                     <option>Al Fayyum</option>
+                     <option>Al Jizah</option>
+                     <option>Al Minya</option>
+                     <option>Qina</option>
+                     <option>Al Uqsur</option>
+                     <option>Suhaj</option>
+                     <option>Bur Said</option>
+                     <option>Al Iskandariyah</option>
+                     <option>Al Qahirah</option>
+                     <option>As Suways</option></select></td>
+               <td>85 318 944</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">8 057 900</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>14</td>
+               <td>Vietnam</td>
+               <td>Hanoi</td>
+               <td align="right"><span class="pop">88772900</span></td>
+               <td><select></select></td>
+               <td>88 773</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">56 548 337</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>15</td>
+               <td>Congo, Dem.Rep.</td>
+               <td>Kinshasa</td>
+               <td align="right"><span class="pop">86026000</span></td>
+               <td><select></select></td>
+               <td>1 806 546</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>16</td>
+               <td>Ethiopia</td>
+               <td>Addis Ababa</td>
+               <td align="right"><span class="pop">84320987</span></td>
+               <td><select></select></td>
+               <td>28 584 815</td>
+               <td>590 247</td>
+               <td>NaN</td>
+               <td align="center">38 871 975</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>17</td>
+               <td>Germany</td>
+               <td>Berlin</td>
+               <td align="right"><span class="pop">82521653</span></td>
+               <td><select></select></td>
+               <td>5 363 907</td>
+               <td>206 304</td>
+               <td>47 862 559</td>
+               <td align="center">495 130</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>18</td>
+               <td>Iran</td>
+               <td>Tehran</td>
+               <td align="right"><span class="pop">79926270</span></td>
+               <td><select></select></td>
+               <td>79 446 712</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>19</td>
+               <td>Turkey</td>
+               <td>Ankara</td>
+               <td align="right"><span class="pop">75627384</span></td>
+               <td><select></select></td>
+               <td>74 341 718</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>20</td>
+               <td>Thailand</td>
+               <td>Bangkok Khrung Thep</td>
+               <td align="right"><span class="pop">65981659</span></td>
+               <td><select>
+                     <option>Chiang Mai</option>
+                     <option>Nakhon Ratchasima</option>
+                     <option>Nakhon Sawan</option>
+                     <option>Bangkok</option>
+                     <option>Nonthaburi</option>
+                     <option>Khon Kaen</option>
+                     <option>Nakhon Si Thammarat</option>
+                     <option>Songkhla</option>
+                     <option>Samut Prakan</option>
+                     <option>Chon Buri</option>
+                     <option>Phuket</option></select></td>
+               <td>2 507 303</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">63 144 448</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>21</td>
+               <td>France</td>
+               <td>Paris</td>
+               <td align="right"><span class="pop">64300821</span></td>
+               <td><select></select></td>
+               <td>5 787 074</td>
+               <td>514 407</td>
+               <td>39 159 200</td>
+               <td align="center">578 707</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>22</td>
+               <td>United Kingdom</td>
+               <td>London</td>
+               <td align="right"><span class="pop">64105654</span></td>
+               <td><select></select></td>
+               <td>2 820 649</td>
+               <td>256 423</td>
+               <td>32 501 567</td>
+               <td align="center">1 538 536</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>23</td>
+               <td>Italy</td>
+               <td>Roma Rome</td>
+               <td align="right"><span class="pop">59433744</span></td>
+               <td><select></select></td>
+               <td>2 199 049</td>
+               <td>0</td>
+               <td>45 466 815</td>
+               <td align="center">534 904</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>24</td>
+               <td>South Africa</td>
+               <td>Tshwane Pretoria</td>
+               <td align="right"><span class="pop">51770560</span></td>
+               <td><select></select></td>
+               <td>880 100</td>
+               <td>103 541</td>
+               <td>NaN</td>
+               <td align="center">673 017</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>25</td>
+               <td>Myanmar Burma</td>
+               <td>Nay Pyi Taw Naypyitaw Naypyidaw</td>
+               <td align="right"><span class="pop">51419420</span></td>
+               <td><select></select></td>
+               <td>2 211 035</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">48 642 771</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>26</td>
+               <td>South Korea</td>
+               <td>Seoul</td>
+               <td align="right"><span class="pop">51269554</span></td>
+               <td><select>
+                     <option>Seoul</option>
+                     <option>Busan</option>
+                     <option>Daegu</option>
+                     <option>Incheon</option>
+                     <option>Gwangju</option>
+                     <option>Daejeon</option>
+                     <option>Ulsan</option>
+                     <option>Suwon</option>
+                     <option>Seongnam</option>
+                     <option>Jeonju</option>
+                     <option>Changwon</option>
+                     <option>Cheongju</option>
+                     <option>Jinju</option>
+                     <option>Mokpo</option>
+                     <option>Jeju</option>
+                     <option>Gunsan</option>
+                     <option>Chuncheon</option>
+                     <option>Yeosu</option>
+                     <option>Goyang</option>
+                     <option>Yongin</option>
+                     <option>Bucheon</option>
+                     <option>Ansan</option>
+                     <option>Anyang</option></select></td>
+               <td>51 270</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">7 946 781</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>27</td>
+               <td>Colombia</td>
+               <td>Bogotá</td>
+               <td align="right"><span class="pop">47661787</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">857 912</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>28</td>
+               <td>Spain</td>
+               <td>Madrid</td>
+               <td align="right"><span class="pop">46815916</span></td>
+               <td><select></select></td>
+               <td>1 919 453</td>
+               <td>65 542</td>
+               <td>34 409 698</td>
+               <td align="center">163 856</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>29</td>
+               <td>Ukraine</td>
+               <td>Kyïv Kiev</td>
+               <td align="right"><span class="pop">45633637</span></td>
+               <td><select></select></td>
+               <td>501 970</td>
+               <td>91 267</td>
+               <td>36 370 009</td>
+               <td align="center">91 267</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>30</td>
+               <td>Tanzania</td>
+               <td>Dodoma</td>
+               <td align="right"><span class="pop">44928923</span></td>
+               <td><select></select></td>
+               <td>15 814 981</td>
+               <td>0</td>
+               <td>26 148 633</td>
+               <td align="center">898 578</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>31</td>
+               <td>Argentina</td>
+               <td>Buenos Aires</td>
+               <td align="right"><span class="pop">42669500</span></td>
+               <td><select></select></td>
+               <td>853 390</td>
+               <td>298 686</td>
+               <td>NaN</td>
+               <td align="center">896 060</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>32</td>
+               <td>Kenya</td>
+               <td>Nairobi</td>
+               <td align="right"><span class="pop">40909194</span></td>
+               <td><select>
+                     <option>Mombasa</option>
+                     <option>Malindi</option>
+                     <option>Machakos</option>
+                     <option>Nairobi</option>
+                     <option>Kisumu</option>
+                     <option>Nakuru</option>
+                     <option>Eldoret</option></select></td>
+               <td>6 136 379</td>
+               <td>0</td>
+               <td>31 827 353</td>
+               <td align="center">1 431 822</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>33</td>
+               <td>Sudan</td>
+               <td>Khartoum</td>
+               <td align="right"><span class="pop">40782700</span></td>
+               <td><select></select></td>
+               <td>39 559 219</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">815 654</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>34</td>
+               <td>Poland</td>
+               <td>Warszawa Warsaw</td>
+               <td align="right"><span class="pop">38533789</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>33 755 599</td>
+               <td align="center">115 601</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>35</td>
+               <td>Algeria</td>
+               <td>Algiers</td>
+               <td align="right"><span class="pop">37062820</span></td>
+               <td><select>
+                     <option>Algiers</option>
+                     <option>Annaba</option>
+                     <option>Batna</option>
+                     <option>Béchar</option>
+                     <option>Sidi Bel Abbës</option>
+                     <option>Skikda</option>
+                     <option>Tébessa</option>
+                     <option>Oran</option>
+                     <option>Constantine</option>
+                     <option>Sétif</option>
+                     <option>Blida</option>
+                     <option>Bejaïa</option>
+                     <option>Mostaganem</option>
+                     <option>Ech Chelif</option>
+                     <option>Tlemcen</option>
+                     <option>Tougourt</option>
+                     <option>Ghardaïa</option>
+                     <option>El Djelfa</option>
+                     <option>Biskra</option>
+                     <option>Laghouat</option>
+                     <option>Tamanrasset</option></select></td>
+               <td>36 284 501</td>
+               <td>37 063</td>
+               <td>0</td>
+               <td align="center">370 628</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>36</td>
+               <td>Canada</td>
+               <td>Ottawa</td>
+               <td align="right"><span class="pop">35151728</span></td>
+               <td><select></select></td>
+               <td>1 124 855</td>
+               <td>351 517</td>
+               <td>24 184 389</td>
+               <td align="center">1 406 069</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>37</td>
+               <td>Uganda</td>
+               <td>Kampala</td>
+               <td align="right"><span class="pop">34634650</span></td>
+               <td><select></select></td>
+               <td>4 744 947</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>38</td>
+               <td>Morocco</td>
+               <td>Rabat</td>
+               <td align="right"><span class="pop">33337529</span></td>
+               <td><select></select></td>
+               <td>32 904 141</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">366 713</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>39</td>
+               <td>Iraq</td>
+               <td>Baghdad</td>
+               <td align="right"><span class="pop">33330512</span></td>
+               <td><select></select></td>
+               <td>32 330 597</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">799 932</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>40</td>
+               <td>Uzbekistan</td>
+               <td>Toshkent Tashkent</td>
+               <td align="right"><span class="pop">32120500</span></td>
+               <td><select></select></td>
+               <td>28 266 040</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>41</td>
+               <td>Peru</td>
+               <td>Lima</td>
+               <td align="right"><span class="pop">30135875</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">376 698</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>42</td>
+               <td>Venezuela</td>
+               <td>Caracas</td>
+               <td align="right"><span class="pop">28946101</span></td>
+               <td><select></select></td>
+               <td>115 784</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">144 731</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>43</td>
+               <td>Malaysia</td>
+               <td>Kuala Lumpur</td>
+               <td align="right"><span class="pop">27565821</span></td>
+               <td><select></select></td>
+               <td>16 897 848</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">9 730 735</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>44</td>
+               <td>Saudi Arabia</td>
+               <td>Riyadh</td>
+               <td align="right"><span class="pop">27136977</span></td>
+               <td><select></select></td>
+               <td>27 136 977</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>45</td>
+               <td>Nepal</td>
+               <td>Kathmandu</td>
+               <td align="right"><span class="pop">26494504</span></td>
+               <td><select>
+                     <option>Kathmandu</option>
+                     <option>Pokhara</option>
+                     <option>Lalitpur</option>
+                     <option>Biratnagar</option></select></td>
+               <td>1 165 758</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">24 295 460</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>46</td>
+               <td>Afghanistan</td>
+               <td>Kabul</td>
+               <td align="right"><span class="pop">26023100</span></td>
+               <td><select>
+                     <option>Kabul</option>
+                     <option>Herat</option>
+                     <option>Kandahar</option>
+                     <option>Mazar-i-Sharif</option></select></td>
+               <td>25 762 869</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>47</td>
+               <td>Angola</td>
+               <td>Luanda</td>
+               <td align="right"><span class="pop">25789024</span></td>
+               <td><select></select></td>
+               <td>103 156</td>
+               <td>51 578</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>48</td>
+               <td>Ghana</td>
+               <td>Accra</td>
+               <td align="right"><span class="pop">24658823</span></td>
+               <td><select></select></td>
+               <td>4 339 953</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 282 259</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>49</td>
+               <td>Yemen</td>
+               <td>Sanaa</td>
+               <td align="right"><span class="pop">24527000</span></td>
+               <td><select>
+                     <option>Sanaa</option>
+                     <option>Aden</option>
+                     <option>Taizz</option>
+                     <option>al Hudaydah</option></select></td>
+               <td>24 306 257</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">147 162</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>50</td>
+               <td>North Korea</td>
+               <td>Pyongyang</td>
+               <td align="right"><span class="pop">24500520</span></td>
+               <td><select>
+                     <option>Pyongyang</option>
+                     <option>Hamhung-Hungnam</option>
+                     <option>Chongjin</option>
+                     <option>Nampho</option>
+                     <option>Sunchon</option>
+                     <option>Sinuiju</option>
+                     <option>Tanchon</option>
+                     <option>Wonsan</option>
+                     <option>Tokchon</option>
+                     <option>Kanggye</option>
+                     <option>Haeju</option>
+                     <option>Anju</option>
+                     <option>Kim Chaek</option>
+                     <option>Kusong</option>
+                     <option>Huichon</option>
+                     <option>Sinpho</option>
+                     <option>Kaesong</option>
+                     <option>Kaechon</option>
+                     <option>Sariwon</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">8 746 686</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>51</td>
+               <td>Mozambique</td>
+               <td>Maputo</td>
+               <td align="right"><span class="pop">23700715</span></td>
+               <td><select></select></td>
+               <td>4 479 435</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>52</td>
+               <td>Taiwan</td>
+               <td>Taipei</td>
+               <td align="right"><span class="pop">23571227</span></td>
+               <td><select>
+                     <option>Taipei</option>
+                     <option>New Taipei</option>
+                     <option>Taoyuan</option>
+                     <option>Jhongli</option>
+                     <option>Keelung</option>
+                     <option>Hsinchu</option>
+                     <option>Taichung</option>
+                     <option>Changhua</option>
+                     <option>Hualien</option>
+                     <option>Chiayi</option>
+                     <option>Tainan</option>
+                     <option>Pingtung</option>
+                     <option>Kaohsiung</option>
+                     <option>Taitung</option></select></td>
+               <td>47 142</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">16 193 433</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>53</td>
+               <td>Australia</td>
+               <td>Canberra</td>
+               <td align="right"><span class="pop">23135281</span></td>
+               <td><select></select></td>
+               <td>601 517</td>
+               <td>92 541</td>
+               <td>11 104 935</td>
+               <td align="center">1 110 493</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>54</td>
+               <td>Cote d'Ivoire</td>
+               <td>Yamoussoukro</td>
+               <td align="right"><span class="pop">22671331</span></td>
+               <td><select></select></td>
+               <td>9 726 001</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 697 888</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>55</td>
+               <td>Madagascar</td>
+               <td>Antananarivo</td>
+               <td align="right"><span class="pop">21842167</span></td>
+               <td><select>
+                     <option>Antsiranana</option>
+                     <option>Antananarivo</option>
+                     <option>Antsirabe</option>
+                     <option>Fianarantsoa</option>
+                     <option>Majunga</option>
+                     <option>Tamatave</option>
+                     <option>Toliara</option></select></td>
+               <td>1 528 952</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">11 357 927</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>56</td>
+               <td>Sri Lanka</td>
+               <td>Sri Jayawardhanapura Sri Jayewardenepura Kotte</td>
+               <td align="right"><span class="pop">20263723</span></td>
+               <td><select>
+                     <option>Sri Jayawardhanapura</option>
+                     <option>Colombo</option></select></td>
+               <td>1 965 581</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">16 778 363</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>57</td>
+               <td>Romania</td>
+               <td>Bucureşti Bucarest Bucharest</td>
+               <td align="right"><span class="pop">20121641</span></td>
+               <td><select></select></td>
+               <td>60 365</td>
+               <td>0</td>
+               <td>19 638 722</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>58</td>
+               <td>Cameroon</td>
+               <td>Yaoundé</td>
+               <td align="right"><span class="pop">19406100</span></td>
+               <td><select></select></td>
+               <td>4 055 875</td>
+               <td>0</td>
+               <td>12 652 777</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>59</td>
+               <td>Malawi</td>
+               <td>Lilongwe</td>
+               <td align="right"><span class="pop">17563749</span></td>
+               <td><select>
+                     <option>Lilongwe</option>
+                     <option>Blantyre</option></select></td>
+               <td>2 423 797</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">105 382</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>60</td>
+               <td>Burkina Faso</td>
+               <td>Ouagadougou</td>
+               <td align="right"><span class="pop">17322796</span></td>
+               <td><select>
+                     <option>Ouagadougou</option>
+                     <option>Bobo Dioulasso</option></select></td>
+               <td>10 480 292</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 351 178</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>61</td>
+               <td>Kazakhstan</td>
+               <td>Nur-Sultan Astana Aqmola Zelinograd Akmolinsk</td>
+               <td align="right"><span class="pop">17165239</span></td>
+               <td><select></select></td>
+               <td>12 049 998</td>
+               <td>0</td>
+               <td>4 462 961</td>
+               <td align="center">17 165</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>62</td>
+               <td>Niger</td>
+               <td>Niamey</td>
+               <td align="right"><span class="pop">17138707</span></td>
+               <td><select></select></td>
+               <td>17 018 736</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>63</td>
+               <td>Syria</td>
+               <td>Dimashq Damascus Damaskus</td>
+               <td align="right"><span class="pop">17070135</span></td>
+               <td><select></select></td>
+               <td>14 851 017</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">512 104</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>64</td>
+               <td>Netherlands</td>
+               <td>Amsterdam</td>
+               <td align="right"><span class="pop">16843181</span></td>
+               <td><select></select></td>
+               <td>859 002</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">387 393</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>65</td>
+               <td>Chile</td>
+               <td>Santiago</td>
+               <td align="right"><span class="pop">16341929</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">163 419</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>66</td>
+               <td>Cambodia</td>
+               <td>Phnom Penh</td>
+               <td align="right"><span class="pop">15288489</span></td>
+               <td><select>
+                     <option>Phnom Penh</option>
+                     <option>Battambang</option>
+                     <option>Siem Reap</option></select></td>
+               <td>244 616</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">14 095 987</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>67</td>
+               <td>Guatemala</td>
+               <td>Ciudad de Guatemala Guatemala City</td>
+               <td align="right"><span class="pop">15073375</span></td>
+               <td><select>
+                     <option>Ciudad de Guatemala</option>
+                     <option>Mixco</option>
+                     <option>Villa Nueva</option>
+                     <option>Cobán</option>
+                     <option>Chichicastenango</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">150 734</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>68</td>
+               <td>Mali</td>
+               <td>Bamako</td>
+               <td align="right"><span class="pop">14528622</span></td>
+               <td><select></select></td>
+               <td>13 642 376</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>69</td>
+               <td>Ecuador</td>
+               <td>Quito</td>
+               <td align="right"><span class="pop">14483499</span></td>
+               <td><select>
+                     <option>Quito</option>
+                     <option>Guayaquil</option>
+                     <option>Cuenca</option>
+                     <option>Santo Domingo de los Colorados</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">376 571</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>70</td>
+               <td>Senegal</td>
+               <td>Dakar</td>
+               <td align="right"><span class="pop">13508715</span></td>
+               <td><select></select></td>
+               <td>12 954 858</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>71</td>
+               <td>Zambia</td>
+               <td>Lusaka</td>
+               <td align="right"><span class="pop">13092666</span></td>
+               <td><select></select></td>
+               <td>65 463</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>72</td>
+               <td>Zimbabwe</td>
+               <td>Harare</td>
+               <td align="right"><span class="pop">13061239</span></td>
+               <td><select>
+                     <option>Harare</option>
+                     <option>Bulawayo</option>
+                     <option>Chitungwiza</option></select></td>
+               <td>65 306</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>73</td>
+               <td>Chad</td>
+               <td>N'Djamena</td>
+               <td align="right"><span class="pop">11720781</span></td>
+               <td><select>
+                     <option>N'Djamena</option>
+                     <option>Moundou</option></select></td>
+               <td>6 106 527</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">468 831</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>74</td>
+               <td>Cuba</td>
+               <td>La Habana Habana Havana</td>
+               <td align="right"><span class="pop">11167325</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">22 335</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>75</td>
+               <td>Belgium</td>
+               <td>Bruxelles Brussel Brussels</td>
+               <td align="right"><span class="pop">11099554</span></td>
+               <td><select></select></td>
+               <td>754 770</td>
+               <td>44 398</td>
+               <td>6 282 348</td>
+               <td align="center">33 299</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>76</td>
+               <td>Somalia</td>
+               <td>Mogadishu</td>
+               <td align="right"><span class="pop">11000000</span></td>
+               <td><select>
+                     <option>Mogadishu</option>
+                     <option>Hargeisa</option></select></td>
+               <td>10 978 000</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>77</td>
+               <td>Tunisia</td>
+               <td>Tunis</td>
+               <td align="right"><span class="pop">10982754</span></td>
+               <td><select>
+                     <option>Tunis</option>
+                     <option>Sfax</option>
+                     <option>Sousse</option></select></td>
+               <td>10 763 099</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">109 828</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>78</td>
+               <td>Greece</td>
+               <td>Athina Athens</td>
+               <td align="right"><span class="pop">10816286</span></td>
+               <td><select></select></td>
+               <td>216 326</td>
+               <td>0</td>
+               <td>10 091 595</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>79</td>
+               <td>Haiti</td>
+               <td>Port-au-Prince</td>
+               <td align="right"><span class="pop">10788000</span></td>
+               <td><select>
+                     <option>Port-au-Prince</option>
+                     <option>Carrefour</option>
+                     <option>Delmas</option>
+                     <option>Pétion-Ville</option>
+                     <option>Cité Soleil</option>
+                     <option>Gonaïves</option>
+                     <option>Cap-Haïtien</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">226 548</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>80</td>
+               <td>Guinea</td>
+               <td>Conakry</td>
+               <td align="right"><span class="pop">10628972</span></td>
+               <td><select>
+                     <option>Conakry</option>
+                     <option>N'Zérékoré</option></select></td>
+               <td>9 470 414</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">170 064</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>81</td>
+               <td>Czech Republic Czechia</td>
+               <td>Praha Prague</td>
+               <td align="right"><span class="pop">10562214</span></td>
+               <td><select></select></td>
+               <td>21 124</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>82</td>
+               <td>Portugal</td>
+               <td>Lisboa</td>
+               <td align="right"><span class="pop">10561614</span></td>
+               <td><select></select></td>
+               <td>63 370</td>
+               <td>0</td>
+               <td>8 977 371</td>
+               <td align="center">84 493</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>83</td>
+               <td>Rwanda</td>
+               <td>Kigali</td>
+               <td align="right"><span class="pop">10515973</span></td>
+               <td><select>
+                     <option>Kigali</option></select></td>
+               <td>210 319</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>84</td>
+               <td>Bolivia</td>
+               <td>La Paz</td>
+               <td align="right"><span class="pop">10027262</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>85</td>
+               <td>Benin</td>
+               <td>Porto-Novo</td>
+               <td align="right"><span class="pop">9983884</span></td>
+               <td><select>
+                     <option>Porto-Novo</option>
+                     <option>Cotonou</option>
+                     <option>Abomey-Calavi</option>
+                     <option>Djougou</option></select></td>
+               <td>2 765 536</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 158 131</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>86</td>
+               <td>Hungary</td>
+               <td>Budapest</td>
+               <td align="right"><span class="pop">9937628</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>5 257 006</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>87</td>
+               <td>Sweden</td>
+               <td>Stockholm</td>
+               <td align="right"><span class="pop">9555893</span></td>
+               <td><select></select></td>
+               <td>774 027</td>
+               <td>0</td>
+               <td>6 450 228</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>88</td>
+               <td>Belarus</td>
+               <td>Minsk</td>
+               <td align="right"><span class="pop">9460692</span></td>
+               <td><select></select></td>
+               <td>18 921</td>
+               <td>0</td>
+               <td>5 288 526</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>89</td>
+               <td>Dominican Republic</td>
+               <td>Santo Domingo</td>
+               <td align="right"><span class="pop">9445281</span></td>
+               <td><select>
+                     <option>Santo Domingo</option>
+                     <option>Santiago</option>
+                     <option>Puerto Plata</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">141 679</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>90</td>
+               <td>Azerbaijan</td>
+               <td>Baku</td>
+               <td align="right"><span class="pop">9356500</span></td>
+               <td><select>
+                     <option>Baku</option>
+                     <option>Ganja</option>
+                     <option>Sumgayit</option></select></td>
+               <td>9 066 448</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>91</td>
+               <td>Jordan</td>
+               <td>Amman</td>
+               <td align="right"><span class="pop">9131712</span></td>
+               <td><select>
+                     <option>Amman</option>
+                     <option>Zarqa</option>
+                     <option>Irbid</option></select></td>
+               <td>8 876 024</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">91 317</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>92</td>
+               <td>United Arab Emirates</td>
+               <td>Abu Dhabi</td>
+               <td align="right"><span class="pop">9121167</span></td>
+               <td><select>
+                     <option>Abu Dhabi</option>
+                     <option>Al Ain</option>
+                     <option>Dubai</option>
+                     <option>Al Sharjah</option></select></td>
+               <td>6 932 087</td>
+               <td>0</td>
+               <td>1 094 540</td>
+               <td align="center">839 147</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>93</td>
+               <td>Austria</td>
+               <td>Wien Vienna</td>
+               <td align="right"><span class="pop">8499759</span></td>
+               <td><select></select></td>
+               <td>679 981</td>
+               <td>0</td>
+               <td>5 490 844</td>
+               <td align="center">25 499</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>94</td>
+               <td>Burundi</td>
+               <td>Gitega</td>
+               <td align="right"><span class="pop">8444784</span></td>
+               <td><select>
+                     <option>Bujumbura</option>
+                     <option>Gitega</option></select></td>
+               <td>253 344</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">422 239</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>95</td>
+               <td>South Sudan</td>
+               <td>Juba</td>
+               <td align="right"><span class="pop">8260490</span></td>
+               <td><select>
+                     <option>Juba</option></select></td>
+               <td>181 731</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 734 703</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>96</td>
+               <td>Tajikistan</td>
+               <td>Dushanbe</td>
+               <td align="right"><span class="pop">8161100</span></td>
+               <td><select></select></td>
+               <td>7 997 878</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>97</td>
+               <td>Switzerland</td>
+               <td>Bern</td>
+               <td align="right"><span class="pop">8139631</span></td>
+               <td><select></select></td>
+               <td>415 121</td>
+               <td>16 279</td>
+               <td>5 429 135</td>
+               <td align="center">89 536</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>98</td>
+               <td>Honduras</td>
+               <td>Tegucigalpa</td>
+               <td align="right"><span class="pop">8045990</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>99</td>
+               <td>Israel</td>
+               <td>Yerushalayim Jerusalem</td>
+               <td align="right"><span class="pop">7420368</span></td>
+               <td><select></select></td>
+               <td>1 320 826</td>
+               <td>5 513 333</td>
+               <td>0</td>
+               <td align="center">259 713</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>100</td>
+               <td>Bulgaria</td>
+               <td>Sofia</td>
+               <td align="right"><span class="pop">7351234</span></td>
+               <td><select>
+                     <option>Sofia</option>
+                     <option>Plovdiv</option>
+                     <option>Varna</option>
+                     <option>Burgas</option>
+                     <option>Ruse</option>
+                     <option>Stara Zagora</option></select></td>
+               <td>573 396</td>
+               <td>58 810</td>
+               <td>4 484 253</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>101</td>
+               <td>Hong Kong</td>
+               <td>Hong Kong</td>
+               <td align="right"><span class="pop">7336585</span></td>
+               <td><select>
+                     <option>Hong Kong</option></select></td>
+               <td>308 137</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 164 293</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>102</td>
+               <td>Papua New Guinea</td>
+               <td>Port Moresby</td>
+               <td align="right"><span class="pop">7275324</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">21 826</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>103</td>
+               <td>Serbia</td>
+               <td>Beograd Belgrade</td>
+               <td align="right"><span class="pop">7120666</span></td>
+               <td><select>
+                     <option>Beograd</option>
+                     <option>Novi Sad</option>
+                     <option>Niš</option></select></td>
+               <td>213 620</td>
+               <td>0</td>
+               <td>6 472 686</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>104</td>
+               <td>Paraguay</td>
+               <td>Asunción</td>
+               <td align="right"><span class="pop">6672631</span></td>
+               <td><select>
+                     <option>Asunción</option>
+                     <option>Ciudad del Este</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">36 032</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>105</td>
+               <td>Turkmenistan</td>
+               <td>Ashgabat</td>
+               <td align="right"><span class="pop">6550000</span></td>
+               <td><select></select></td>
+               <td>5 960 500</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>106</td>
+               <td>Laos</td>
+               <td>Vientiane Viangchan</td>
+               <td align="right"><span class="pop">6514432</span></td>
+               <td><select>
+                     <option>Vientiane</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">6 377 629</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>107</td>
+               <td>Nicaragua</td>
+               <td>Managua</td>
+               <td align="right"><span class="pop">6327927</span></td>
+               <td><select>
+                     <option>Managua</option>
+                     <option>León</option>
+                     <option>Chinandega</option>
+                     <option>Masaya</option>
+                     <option>Granada</option>
+                     <option>Matagalpa</option>
+                     <option>Tipitapa</option>
+                     <option>Jinotega</option>
+                     <option>Estelí</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">151 870</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>108</td>
+               <td>El Salvador</td>
+               <td>San Salvador</td>
+               <td align="right"><span class="pop">6290420</span></td>
+               <td><select>
+                     <option>San Salvador</option>
+                     <option>Soyapango</option>
+                     <option>Mejicanos</option>
+                     <option>Ciudad Delgado</option>
+                     <option>Apopa</option>
+                     <option>Santa Ana</option>
+                     <option>Santa Tecla</option>
+                     <option>San Miguel</option></select></td>
+               <td>62 904</td>
+               <td>0</td>
+               <td>5 195 888</td>
+               <td align="center">81 775</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>109</td>
+               <td>Kyrgyzstan</td>
+               <td>Bishkek</td>
+               <td align="right"><span class="pop">6256700</span></td>
+               <td><select>
+                     <option>Bishkek</option>
+                     <option>Osh</option></select></td>
+               <td>5 480 869</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>110</td>
+               <td>Togo</td>
+               <td>Lomé</td>
+               <td align="right"><span class="pop">6191155</span></td>
+               <td><select>
+                     <option>Lomé</option></select></td>
+               <td>1 238 231</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">681 027</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>111</td>
+               <td>Libya</td>
+               <td>Tripoli</td>
+               <td align="right"><span class="pop">6040612</span></td>
+               <td><select>
+                     <option>Tripoli</option>
+                     <option>Benghazi</option>
+                     <option>Misratah</option></select></td>
+               <td>5 859 394</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">60 406</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>112</td>
+               <td>Sierra Leone</td>
+               <td>Freetown</td>
+               <td align="right"><span class="pop">5743725</span></td>
+               <td><select>
+                     <option>Freetown</option>
+                     <option>Bo</option>
+                     <option>Kenema</option></select></td>
+               <td>4 514 568</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>113</td>
+               <td>Eritrea</td>
+               <td>Asmara</td>
+               <td align="right"><span class="pop">5741159</span></td>
+               <td><select>
+                     <option>Asmara</option>
+                     <option>Massaua</option></select></td>
+               <td>2 755 756</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">2 870 580</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>114</td>
+               <td>Denmark</td>
+               <td>Copenhagen København Kopenhagen</td>
+               <td align="right"><span class="pop">5678348</span></td>
+               <td><select></select></td>
+               <td>312 309</td>
+               <td>0</td>
+               <td>4 412 077</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>115</td>
+               <td>Finland</td>
+               <td>Helsinki</td>
+               <td align="right"><span class="pop">5513130</span></td>
+               <td><select></select></td>
+               <td>148 855</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>116</td>
+               <td>Slovakia</td>
+               <td>Bratislava</td>
+               <td align="right"><span class="pop">5397036</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>4 080 159</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>117</td>
+               <td>Singapore</td>
+               <td>Singapore</td>
+               <td align="right"><span class="pop">5076700</span></td>
+               <td><select>
+                     <option>Singapore</option></select></td>
+               <td>710 738</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">3 401 389</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>118</td>
+               <td>Norway</td>
+               <td>Oslo</td>
+               <td align="right"><span class="pop">5051275</span></td>
+               <td><select></select></td>
+               <td>161 641</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>119</td>
+               <td>Oman</td>
+               <td>Muscat Maskat</td>
+               <td align="right"><span class="pop">4992364</span></td>
+               <td><select>
+                     <option>Muscat</option>
+                     <option>As Seeb</option></select></td>
+               <td>4 288 441</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">639 023</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>120</td>
+               <td>Costa Rica</td>
+               <td>San José</td>
+               <td align="right"><span class="pop">4773119</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">152 740</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>121</td>
+               <td>Ireland</td>
+               <td>Dublin</td>
+               <td align="right"><span class="pop">4588252</span></td>
+               <td><select>
+                     <option>Dublin</option>
+                     <option>Cork</option>
+                     <option>Galway</option>
+                     <option>Limerick</option></select></td>
+               <td>59 647</td>
+               <td>0</td>
+               <td>3 844 955</td>
+               <td align="center">13 765</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>122</td>
+               <td>Central African Republic</td>
+               <td>Bangui</td>
+               <td align="right"><span class="pop">4349921</span></td>
+               <td><select>
+                     <option>Bangui</option>
+                     <option>Bimbo</option></select></td>
+               <td>434 992</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">417 592</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>123</td>
+               <td>Lebanon</td>
+               <td>Bayrūt Beirut</td>
+               <td align="right"><span class="pop">4341092</span></td>
+               <td><select>
+                     <option>Bayrūt</option></select></td>
+               <td>2 426 670</td>
+               <td>0</td>
+               <td>1 632 250</td>
+               <td align="center">247 442</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>124</td>
+               <td>Croatia</td>
+               <td>Zagreb</td>
+               <td align="right"><span class="pop">4290612</span></td>
+               <td><select>
+                     <option>Zagreb</option>
+                     <option>Split</option>
+                     <option>Rijeka</option>
+                     <option>Osijek</option>
+                     <option>Zadar</option></select></td>
+               <td>64 359</td>
+               <td>0</td>
+               <td>3 904 457</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>125</td>
+               <td>New Zealand</td>
+               <td>Wellington</td>
+               <td align="right"><span class="pop">4242048</span></td>
+               <td><select>
+                     <option>Wellington</option>
+                     <option>Auckland</option>
+                     <option>Hamilton</option>
+                     <option>Christchurch</option>
+                     <option>Dunedin</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">123 019</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>126</td>
+               <td>Georgia</td>
+               <td>Tbilisi</td>
+               <td align="right"><span class="pop">4010000</span></td>
+               <td><select>
+                     <option>Tbilisi</option>
+                     <option>Kutaisi</option>
+                     <option>Batumi</option></select></td>
+               <td>429 070</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">12 030</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>127</td>
+               <td>Congo</td>
+               <td>Brazzaville</td>
+               <td align="right"><span class="pop">4001831</span></td>
+               <td><select></select></td>
+               <td>64 029</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>128</td>
+               <td>Liberia</td>
+               <td>Monrovia</td>
+               <td align="right"><span class="pop">3957990</span></td>
+               <td><select>
+                     <option>Monrovia</option></select></td>
+               <td>482 875</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">19 790</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>129</td>
+               <td>Bosnia and Herzegovina</td>
+               <td>Sarajevo</td>
+               <td align="right"><span class="pop">3791622</span></td>
+               <td><select></select></td>
+               <td>1 922 352</td>
+               <td>0</td>
+               <td>1 892 020</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>130</td>
+               <td>Puerto Rico</td>
+               <td>San Juan</td>
+               <td align="right"><span class="pop">3725789</span></td>
+               <td><select>
+                     <option>San Juan</option>
+                     <option>Ponce</option>
+                     <option>Bayamón</option>
+                     <option>Carolina</option></select></td>
+               <td>3 726</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">44 709</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>131</td>
+               <td>Mauritania</td>
+               <td>Nouakchott</td>
+               <td align="right"><span class="pop">3537368</span></td>
+               <td><select></select></td>
+               <td>3 533 831</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>132</td>
+               <td>Moldova</td>
+               <td>Chişinău</td>
+               <td align="right"><span class="pop">3473900</span></td>
+               <td><select>
+                     <option>Chişinău</option>
+                     <option>Tiraspol</option>
+                     <option>Bălţi</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>3 319 312</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>133</td>
+               <td>Panama</td>
+               <td>Panamá City</td>
+               <td align="right"><span class="pop">3405813</span></td>
+               <td><select></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">149 856</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>134</td>
+               <td>Uruguay</td>
+               <td>Montevideo</td>
+               <td align="right"><span class="pop">3286314</span></td>
+               <td><select>
+                     <option>Montevideo</option>
+                     <option>Salto</option></select></td>
+               <td>0</td>
+               <td>16 432</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>135</td>
+               <td>Armenia</td>
+               <td>Yerevan</td>
+               <td align="right"><span class="pop">3026879</span></td>
+               <td><select>
+                     <option>Yerevan</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>2 848 293</td>
+               <td align="center">36 323</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>136</td>
+               <td>Kuwait</td>
+               <td>Al Kuwayt Kuwait City Kuwait</td>
+               <td align="right"><span class="pop">2991580</span></td>
+               <td><select>
+                     <option>Al Kuwayt</option></select></td>
+               <td>2 224 539</td>
+               <td>0</td>
+               <td>373 948</td>
+               <td align="center">239 326</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>137</td>
+               <td>Lithuania</td>
+               <td>Vilnius</td>
+               <td align="right"><span class="pop">2979310</span></td>
+               <td><select>
+                     <option>Vilnius</option>
+                     <option>Kaunas</option>
+                     <option>Klaipeda</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>2 469 847</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>138</td>
+               <td>West Bank</td>
+               <td>Ramallah</td>
+               <td align="right"><span class="pop">2881687</span></td>
+               <td><select>
+                     <option>Ramallah</option>
+                     <option>Nablus</option>
+                     <option>Al Khalil</option></select></td>
+               <td>2 362 983</td>
+               <td>374 619</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>139</td>
+               <td>Albania</td>
+               <td>Tirana Tirane</td>
+               <td align="right"><span class="pop">2821977</span></td>
+               <td><select>
+                     <option>Tirana</option>
+                     <option>Shkodër</option>
+                     <option>Durrës</option>
+                     <option>Vlorë</option>
+                     <option>Elbasan</option>
+                     <option>Korçë</option></select></td>
+               <td>1 659 322</td>
+               <td>0</td>
+               <td>476 914</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>140</td>
+               <td>Mongolia</td>
+               <td>Ulaanbaatar Ulan Bator</td>
+               <td align="right"><span class="pop">2754685</span></td>
+               <td><select>
+                     <option>Ulaanbaatar</option></select></td>
+               <td>82 641</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 473 756</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>141</td>
+               <td>Jamaica</td>
+               <td>Kingston</td>
+               <td align="right"><span class="pop">2697983</span></td>
+               <td><select>
+                     <option>Kingston</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">80 939</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>142</td>
+               <td>Qatar</td>
+               <td>Doha</td>
+               <td align="right"><span class="pop">2404776</span></td>
+               <td><select>
+                     <option>Doha</option>
+                     <option>Al Rayyan</option></select></td>
+               <td>1 628 033</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">406 407</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>143</td>
+               <td>Latvia</td>
+               <td>Rīga</td>
+               <td align="right"><span class="pop">2201196</span></td>
+               <td><select>
+                     <option>Rīga</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>1 646 494</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>144</td>
+               <td>Namibia</td>
+               <td>Windhoek</td>
+               <td align="right"><span class="pop">2113077</span></td>
+               <td><select>
+                     <option>Windhoek</option>
+                     <option>Rundu</option>
+                     <option>Walvis Bay</option></select></td>
+               <td>10 565</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>145</td>
+               <td>North Macedonia</td>
+               <td>Skopje</td>
+               <td align="right"><span class="pop">2059794</span></td>
+               <td><select>
+                     <option>Skopje</option>
+                     <option>Kumanovo</option></select></td>
+               <td>685 911</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>146</td>
+               <td>Slovenia</td>
+               <td>Ljubljana</td>
+               <td align="right"><span class="pop">2058821</span></td>
+               <td><select>
+                     <option>Ljubljana</option>
+                     <option>Maribor</option></select></td>
+               <td>49 412</td>
+               <td>0</td>
+               <td>1 253 822</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>147</td>
+               <td>Botswana</td>
+               <td>Gaborone</td>
+               <td align="right"><span class="pop">2038228</span></td>
+               <td><select>
+                     <option>Gaborone</option>
+                     <option>Francistown</option></select></td>
+               <td>4 076</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 038</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>148</td>
+               <td>Lesotho</td>
+               <td>Maseru</td>
+               <td align="right"><span class="pop">2007201</span></td>
+               <td><select>
+                     <option>Maseru</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>149</td>
+               <td>Gaza Strip</td>
+               <td></td>
+               <td align="right"><span class="pop">1899291</span></td>
+               <td><select>
+                     <option>Gaza</option></select></td>
+               <td>1 895 492</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>150</td>
+               <td>Gambia</td>
+               <td>Banjul</td>
+               <td align="right"><span class="pop">1882450</span></td>
+               <td><select>
+                     <option>Banjul</option>
+                     <option>Serekunda</option></select></td>
+               <td>1 801 505</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>151</td>
+               <td>Gabon</td>
+               <td>Libreville</td>
+               <td align="right"><span class="pop">1811079</span></td>
+               <td><select>
+                     <option>Libreville</option>
+                     <option>Port-Gentil</option>
+                     <option>Franceville</option></select></td>
+               <td>217 329</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>152</td>
+               <td>Kosovo</td>
+               <td>Prishtine Pristina</td>
+               <td align="right"><span class="pop">1733872</span></td>
+               <td><select>
+                     <option>Prishtine</option></select></td>
+               <td>1 657 582</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>153</td>
+               <td>Guinea-Bissau</td>
+               <td>Bissau</td>
+               <td align="right"><span class="pop">1586624</span></td>
+               <td><select>
+                     <option>Bissau</option></select></td>
+               <td>715 567</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">236 407</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>154</td>
+               <td>Trinidad and Tobago</td>
+               <td>Port-of-Spain</td>
+               <td align="right"><span class="pop">1328019</span></td>
+               <td><select>
+                     <option>Port-of-Spain</option></select></td>
+               <td>66 401</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">281 540</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>155</td>
+               <td>Estonia</td>
+               <td>Tallinn</td>
+               <td align="right"><span class="pop">1294455</span></td>
+               <td><select>
+                     <option>Tallinn</option>
+                     <option>Tartu</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>355 976</td>
+               <td align="center">5 178</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>156</td>
+               <td>Mauritius</td>
+               <td>Port Louis</td>
+               <td align="right"><span class="pop">1237091</span></td>
+               <td><select>
+                     <option>Port Louis</option></select></td>
+               <td>214 017</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">599 989</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>157</td>
+               <td>Bahrain</td>
+               <td>Al Manāmah Manama</td>
+               <td align="right"><span class="pop">1234571</span></td>
+               <td><select>
+                     <option>Al Manāmah</option></select></td>
+               <td>867 903</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">151 852</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>158</td>
+               <td>Equatorial Guinea</td>
+               <td>Malabo</td>
+               <td align="right"><span class="pop">1222442</span></td>
+               <td><select></select></td>
+               <td>24 449</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>159</td>
+               <td>Eswatini Swaziland</td>
+               <td>Mbabane</td>
+               <td align="right"><span class="pop">1193148</span></td>
+               <td><select>
+                     <option>Mbabane</option></select></td>
+               <td>23 863</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">8 352</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>160</td>
+               <td>Cyprus</td>
+               <td>Lefkosia Nicosia</td>
+               <td align="right"><span class="pop">1133803</span></td>
+               <td><select>
+                     <option>Lefkosia</option>
+                     <option>Larnaka</option>
+                     <option>Lemesos</option></select></td>
+               <td>286 852</td>
+               <td>0</td>
+               <td>845 817</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>161</td>
+               <td>Timor-Leste</td>
+               <td>Dili</td>
+               <td align="right"><span class="pop">1066582</span></td>
+               <td><select>
+                     <option>Dili</option></select></td>
+               <td>10 666</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>162</td>
+               <td>Fiji</td>
+               <td>Suva</td>
+               <td align="right"><span class="pop">884887</span></td>
+               <td><select>
+                     <option>Suva</option></select></td>
+               <td>55 748</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">260 157</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>163</td>
+               <td>Djibouti</td>
+               <td>Djibouti</td>
+               <td align="right"><span class="pop">834036</span></td>
+               <td><select>
+                     <option>Djibouti</option></select></td>
+               <td>783 994</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">26 689</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>164</td>
+               <td>Reunion</td>
+               <td>Saint-Denis</td>
+               <td align="right"><span class="pop">828581</span></td>
+               <td><select>
+                     <option>Saint-Denis</option>
+                     <option>Saint-Paul</option></select></td>
+               <td>26 515</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">55 515</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>165</td>
+               <td>Guyana</td>
+               <td>Georgetown</td>
+               <td align="right"><span class="pop">747884</span></td>
+               <td><select>
+                     <option>Georgetown</option></select></td>
+               <td>50 856</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">195 198</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>166</td>
+               <td>Bhutan</td>
+               <td>Thimphu</td>
+               <td align="right"><span class="pop">727145</span></td>
+               <td><select>
+                     <option>Thimphu</option></select></td>
+               <td>7 271</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">711 875</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>167</td>
+               <td>Comoros</td>
+               <td>Moroni</td>
+               <td align="right"><span class="pop">683081</span></td>
+               <td><select>
+                     <option>Moroni</option></select></td>
+               <td>669 419</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>168</td>
+               <td>Macao</td>
+               <td>Macao</td>
+               <td align="right"><span class="pop">650834</span></td>
+               <td><select>
+                     <option>Macao</option>
+                     <option>Taipa-Coloane</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">109 340</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>169</td>
+               <td>Montenegro</td>
+               <td>Podgorica</td>
+               <td align="right"><span class="pop">620029</span></td>
+               <td><select>
+                     <option>Podgorica</option></select></td>
+               <td>118 426</td>
+               <td>0</td>
+               <td>468 742</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>170</td>
+               <td>Western Sahara</td>
+               <td>El Aaiun Laâyoune</td>
+               <td align="right"><span class="pop">554795</span></td>
+               <td><select>
+                     <option>El Aaiun</option></select></td>
+               <td>554 795</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>171</td>
+               <td>Suriname</td>
+               <td>Paramaribo</td>
+               <td align="right"><span class="pop">541638</span></td>
+               <td><select>
+                     <option>Paramaribo</option></select></td>
+               <td>74 746</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">127 285</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>172</td>
+               <td>Luxembourg</td>
+               <td>Luxembourg</td>
+               <td align="right"><span class="pop">524853</span></td>
+               <td><select>
+                     <option>Luxembourg</option></select></td>
+               <td>12 072</td>
+               <td>3 149</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>173</td>
+               <td>Solomon Islands</td>
+               <td>Honiara</td>
+               <td align="right"><span class="pop">515870</span></td>
+               <td><select>
+                     <option>Honiara</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>174</td>
+               <td>Cape Verde</td>
+               <td>Praia</td>
+               <td align="right"><span class="pop">491875</span></td>
+               <td><select>
+                     <option>Praia</option></select></td>
+               <td>8 854</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">7 378</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>175</td>
+               <td>Malta</td>
+               <td>Valletta</td>
+               <td align="right"><span class="pop">475800</span></td>
+               <td><select>
+                     <option>Valletta</option>
+                     <option>Victoria</option></select></td>
+               <td>4 758</td>
+               <td>0</td>
+               <td>462 002</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>176</td>
+               <td>Maldives</td>
+               <td>Male</td>
+               <td align="right"><span class="pop">402071</span></td>
+               <td><select>
+                     <option>Male</option></select></td>
+               <td>394 030</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>177</td>
+               <td>Guadeloupe</td>
+               <td>Basse-Terre</td>
+               <td align="right"><span class="pop">394110</span></td>
+               <td><select>
+                     <option>Basse-Terre</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">8 670</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>178</td>
+               <td>Brunei</td>
+               <td>Bandar Seri Begawan</td>
+               <td align="right"><span class="pop">393372</span></td>
+               <td><select>
+                     <option>Bandar Seri Begawan</option></select></td>
+               <td>263 559</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">90 476</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>179</td>
+               <td>Martinique</td>
+               <td>Fort-de-France</td>
+               <td align="right"><span class="pop">385551</span></td>
+               <td><select>
+                     <option>Fort-de-France</option></select></td>
+               <td>1 928</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">3 084</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>180</td>
+               <td>Bahamas</td>
+               <td>Nassau</td>
+               <td align="right"><span class="pop">353658</span></td>
+               <td><select>
+                     <option>Nassau</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">4 244</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>181</td>
+               <td>Iceland</td>
+               <td>Reykjavik</td>
+               <td align="right"><span class="pop">332529</span></td>
+               <td><select>
+                     <option>Reykjavik</option>
+                     <option>Keflavik</option>
+                     <option>Hafnarfjordur</option>
+                     <option>Akureyri</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>182</td>
+               <td>Belize</td>
+               <td>Belmopan</td>
+               <td align="right"><span class="pop">312971</span></td>
+               <td><select>
+                     <option>Belmopan</option>
+                     <option>Belize City</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">5 321</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>183</td>
+               <td>Barbados</td>
+               <td>Bridgetown</td>
+               <td align="right"><span class="pop">277821</span></td>
+               <td><select>
+                     <option>Bridgetown</option></select></td>
+               <td>1 945</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">10 002</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>184</td>
+               <td>French Polynesia</td>
+               <td>Papeete</td>
+               <td align="right"><span class="pop">275918</span></td>
+               <td><select>
+                     <option>Papeete</option>
+                     <option>Rikitea</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">30 627</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>185</td>
+               <td>New Caledonia</td>
+               <td>Noumea</td>
+               <td align="right"><span class="pop">271407</span></td>
+               <td><select>
+                     <option>Noumea</option></select></td>
+               <td>7 057</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>186</td>
+               <td>French Guiana</td>
+               <td>Cayenne</td>
+               <td align="right"><span class="pop">268700</span></td>
+               <td><select>
+                     <option>Cayenne</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>187</td>
+               <td>Mayotte</td>
+               <td>Mamoutzou Mamoudzou</td>
+               <td align="right"><span class="pop">256518</span></td>
+               <td><select>
+                     <option>Mamoutzou</option></select></td>
+               <td>248 822</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>188</td>
+               <td>Vanuatu</td>
+               <td>Port Vila</td>
+               <td align="right"><span class="pop">236299</span></td>
+               <td><select>
+                     <option>Port Vila</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>189</td>
+               <td>Samoa</td>
+               <td>Apia</td>
+               <td align="right"><span class="pop">194320</span></td>
+               <td><select>
+                     <option>Apia</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">35 949</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>190</td>
+               <td>Sao Tome and Principe</td>
+               <td>São Tomé</td>
+               <td align="right"><span class="pop">187356</span></td>
+               <td><select>
+                     <option>São Tomé</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">7 682</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>191</td>
+               <td>Saint Lucia</td>
+               <td>Castries</td>
+               <td align="right"><span class="pop">165595</span></td>
+               <td><select>
+                     <option>Castries</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">5 465</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>192</td>
+               <td>Guam</td>
+               <td>Hagåtña Agana</td>
+               <td align="right"><span class="pop">159358</span></td>
+               <td><select>
+                     <option>Hagåtña</option>
+                     <option>Dededo</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 753</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>193</td>
+               <td>Curacao</td>
+               <td>Willemstad</td>
+               <td align="right"><span class="pop">150563</span></td>
+               <td><select>
+                     <option>Willemstad</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">3 011</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>194</td>
+               <td>Kiribati</td>
+               <td>Tarawa</td>
+               <td align="right"><span class="pop">110136</span></td>
+               <td><select>
+                     <option>Tarawa</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">8 150</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>195</td>
+               <td>Saint Vincent and the Grenadines</td>
+               <td>Kingstown</td>
+               <td align="right"><span class="pop">109991</span></td>
+               <td><select>
+                     <option>Kingstown</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 530</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>196</td>
+               <td>Virgin Islands</td>
+               <td>Charlotte Amalie</td>
+               <td align="right"><span class="pop">106405</span></td>
+               <td><select>
+                     <option>Charlotte Amalie</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">426</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>197</td>
+               <td>Grenada</td>
+               <td>Saint George's St. George's</td>
+               <td align="right"><span class="pop">103328</span></td>
+               <td><select>
+                     <option>Saint George's</option></select></td>
+               <td>310</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 583</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>198</td>
+               <td>Micronesia</td>
+               <td>Palikir</td>
+               <td align="right"><span class="pop">102843</span></td>
+               <td><select>
+                     <option>Palikir</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 543</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>199</td>
+               <td>Aruba</td>
+               <td>Oranjestad</td>
+               <td align="right"><span class="pop">101484</span></td>
+               <td><select>
+                     <option>Oranjestad</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 725</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>200</td>
+               <td>Tonga</td>
+               <td>Nukualofa</td>
+               <td align="right"><span class="pop">100651</span></td>
+               <td><select>
+                     <option>Nukualofa</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">18 721</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>201</td>
+               <td>Jersey</td>
+               <td>Saint Helier</td>
+               <td align="right"><span class="pop">97857</span></td>
+               <td><select>
+                     <option>Saint Helier</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>202</td>
+               <td>Seychelles</td>
+               <td>Victoria</td>
+               <td align="right"><span class="pop">90945</span></td>
+               <td><select>
+                     <option>Victoria</option></select></td>
+               <td>1 455</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 183</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>203</td>
+               <td>Isle of Man</td>
+               <td>Douglas</td>
+               <td align="right"><span class="pop">84497</span></td>
+               <td><select>
+                     <option>Douglas</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>204</td>
+               <td>Ceuta</td>
+               <td>Ceuta</td>
+               <td align="right"><span class="pop">82376</span></td>
+               <td><select>
+                     <option>Ceuta</option></select></td>
+               <td>23 065</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>205</td>
+               <td>Antigua and Barbuda</td>
+               <td>St. John's</td>
+               <td align="right"><span class="pop">81799</span></td>
+               <td><select>
+                     <option>St. John's</option></select></td>
+               <td>164</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">327</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>206</td>
+               <td>Melilla</td>
+               <td>Melilla</td>
+               <td align="right"><span class="pop">78476</span></td>
+               <td><select>
+                     <option>Melilla</option></select></td>
+               <td>39 238</td>
+               <td>785</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>207</td>
+               <td>Andorra</td>
+               <td>Andorra la Vella</td>
+               <td align="right"><span class="pop">78115</span></td>
+               <td><select>
+                     <option>Andorra la Vella</option></select></td>
+               <td>2 343</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>208</td>
+               <td>Dominica</td>
+               <td>Roseau</td>
+               <td align="right"><span class="pop">70739</span></td>
+               <td><select>
+                     <option>Roseau</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">2 051</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>209</td>
+               <td>Guernsey</td>
+               <td>Saint Peter Port</td>
+               <td align="right"><span class="pop">64540</span></td>
+               <td><select>
+                     <option>Saint Peter Port</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>210</td>
+               <td>Cayman Islands</td>
+               <td>George Town</td>
+               <td align="right"><span class="pop">61944</span></td>
+               <td><select>
+                     <option>George Town</option></select></td>
+               <td>0</td>
+               <td>929</td>
+               <td>NaN</td>
+               <td align="center">1 177</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>211</td>
+               <td>Bermuda</td>
+               <td>Hamilton</td>
+               <td align="right"><span class="pop">61178</span></td>
+               <td><select>
+                     <option>Hamilton</option></select></td>
+               <td>612</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">918</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>212</td>
+               <td>Greenland</td>
+               <td>Nuuk</td>
+               <td align="right"><span class="pop">56370</span></td>
+               <td><select>
+                     <option>Nuuk</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">451</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>213</td>
+               <td>American Samoa</td>
+               <td>Pago Pago</td>
+               <td align="right"><span class="pop">55519</span></td>
+               <td><select>
+                     <option>Pago Pago</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">12 769</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>214</td>
+               <td>Northern Mariana Islands</td>
+               <td>Saipan</td>
+               <td align="right"><span class="pop">53883</span></td>
+               <td><select>
+                     <option>Saipan</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">5 712</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>215</td>
+               <td>Turks and Caicos Islands</td>
+               <td>Grand Turk</td>
+               <td align="right"><span class="pop">53700</span></td>
+               <td><select>
+                     <option>Grand Turk</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">967</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>216</td>
+               <td>Marshall Islands</td>
+               <td>Majuro</td>
+               <td align="right"><span class="pop">53158</span></td>
+               <td><select>
+                     <option>Majuro</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">6 273</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>217</td>
+               <td>Faroe Islands</td>
+               <td>Tórshavn</td>
+               <td align="right"><span class="pop">48346</span></td>
+               <td><select>
+                     <option>Tórshavn</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">97</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>218</td>
+               <td>Saint Kitts and Nevis</td>
+               <td>Basseterre Basse Terre</td>
+               <td align="right"><span class="pop">46398</span></td>
+               <td><select>
+                     <option>Basseterre</option></select></td>
+               <td>139</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 717</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>219</td>
+               <td>Sint Maarten</td>
+               <td>Philipsburg</td>
+               <td align="right"><span class="pop">40535</span></td>
+               <td><select>
+                     <option>Philipsburg</option></select></td>
+               <td>0</td>
+               <td>1 378</td>
+               <td>NaN</td>
+               <td align="center">2 797</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>220</td>
+               <td>Monaco</td>
+               <td>Monaco Monaco-Ville</td>
+               <td align="right"><span class="pop">36845</span></td>
+               <td><select>
+                     <option>Monaco</option></select></td>
+               <td>332</td>
+               <td>921</td>
+               <td>30 250</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>221</td>
+               <td>Saint Martin</td>
+               <td>Marigot</td>
+               <td align="right"><span class="pop">36286</span></td>
+               <td><select>
+                     <option>Marigot</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>222</td>
+               <td>Liechtenstein</td>
+               <td>Vaduz</td>
+               <td align="right"><span class="pop">36149</span></td>
+               <td><select>
+                     <option>Vaduz</option></select></td>
+               <td>1 952</td>
+               <td>0</td>
+               <td>30 908</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>223</td>
+               <td>Gibraltar</td>
+               <td>Gibraltar</td>
+               <td align="right"><span class="pop">32577</span></td>
+               <td><select>
+                     <option>Gibraltar</option></select></td>
+               <td>1 173</td>
+               <td>782</td>
+               <td>NaN</td>
+               <td align="center">652</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>224</td>
+               <td>San Marino</td>
+               <td>San Marino</td>
+               <td align="right"><span class="pop">32440</span></td>
+               <td><select>
+                     <option>San Marino</option></select></td>
+               <td>0</td>
+               <td>32</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>225</td>
+               <td>British Virgin Islands</td>
+               <td>Road Town</td>
+               <td align="right"><span class="pop">28054</span></td>
+               <td><select>
+                     <option>Road Town</option></select></td>
+               <td>252</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">1 403</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>226</td>
+               <td>Bonaire</td>
+               <td>Kralendijk</td>
+               <td align="right"><span class="pop">20104</span></td>
+               <td><select>
+                     <option>Kralendijk</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>227</td>
+               <td>Palau</td>
+               <td>Ngerulmud</td>
+               <td align="right"><span class="pop">17501</span></td>
+               <td><select>
+                     <option>Koror</option>
+                     <option>Ngerulmud</option></select></td>
+               <td>525</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">455</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>228</td>
+               <td>Cook Islands</td>
+               <td>Avarua</td>
+               <td align="right"><span class="pop">17459</span></td>
+               <td><select>
+                     <option>Avarua</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">768</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>229</td>
+               <td>Anguilla</td>
+               <td>The Valley</td>
+               <td align="right"><span class="pop">13452</span></td>
+               <td><select>
+                     <option>The Valley</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">350</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>230</td>
+               <td>Wallis and Futuna</td>
+               <td>Mata-Utu</td>
+               <td align="right"><span class="pop">11558</span></td>
+               <td><select>
+                     <option>Mata-Utu</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>231</td>
+               <td>Tuvalu</td>
+               <td>Funafuti</td>
+               <td align="right"><span class="pop">11192</span></td>
+               <td><select>
+                     <option>Funafuti</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">481</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>232</td>
+               <td>Nauru</td>
+               <td>Yaren</td>
+               <td align="right"><span class="pop">10025</span></td>
+               <td><select>
+                     <option>Yaren</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>233</td>
+               <td>Saint Barthelemy</td>
+               <td>Gustavia</td>
+               <td align="right"><span class="pop">9131</span></td>
+               <td><select>
+                     <option>Gustavia</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>0</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>234</td>
+               <td>Saint Pierre and Miquelon</td>
+               <td>Saint-Pierre</td>
+               <td align="right"><span class="pop">6008</span></td>
+               <td><select>
+                     <option>Saint-Pierre</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>235</td>
+               <td>Montserrat</td>
+               <td>Plymouth</td>
+               <td align="right"><span class="pop">4922</span></td>
+               <td><select>
+                     <option>Plymouth</option>
+                     <option>Brades</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">108</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>236</td>
+               <td>Saint Helena</td>
+               <td>Jamestown</td>
+               <td align="right"><span class="pop">4577</span></td>
+               <td><select>
+                     <option>Jamestown</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">311</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>237</td>
+               <td>Falkland Islands</td>
+               <td>Stanley</td>
+               <td align="right"><span class="pop">3398</span></td>
+               <td><select>
+                     <option>Stanley</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>238</td>
+               <td>Svalbard</td>
+               <td>Longyearbyen</td>
+               <td align="right"><span class="pop">2667</span></td>
+               <td><select>
+                     <option>Longyearbyen</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>239</td>
+               <td>Christmas Island</td>
+               <td>Flying Fish Cove</td>
+               <td align="right"><span class="pop">1843</span></td>
+               <td><select>
+                     <option>Flying Fish Cove</option></select></td>
+               <td>358</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">337</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>240</td>
+               <td>Norfolk Island</td>
+               <td>Kingston</td>
+               <td align="right"><span class="pop">1748</span></td>
+               <td><select>
+                     <option>Kingston</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>241</td>
+               <td>Niue</td>
+               <td>Alofi</td>
+               <td align="right"><span class="pop">1611</span></td>
+               <td><select>
+                     <option>Alofi</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">193</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>242</td>
+               <td>Tokelau</td>
+               <td>Fakaofo</td>
+               <td align="right"><span class="pop">1499</span></td>
+               <td><select>
+                     <option>Fakaofo</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>243</td>
+               <td>Vatican City</td>
+               <td>Vatican City</td>
+               <td align="right"><span class="pop">826</span></td>
+               <td><select>
+                     <option>Vatican City</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="even" align="center">
+               <td>244</td>
+               <td>Cocos Islands</td>
+               <td>West Island</td>
+               <td align="right"><span class="pop">544</span></td>
+               <td><select>
+                     <option>West Island</option></select></td>
+               <td>408</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+            <tr class="odd" align="center">
+               <td>245</td>
+               <td>Pitcairn</td>
+               <td>Adamstown</td>
+               <td align="right"><span class="pop">50</span></td>
+               <td><select>
+                     <option>Adamstown</option></select></td>
+               <td>0</td>
+               <td>0</td>
+               <td>NaN</td>
+               <td align="center">0</td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>
